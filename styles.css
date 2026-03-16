@@ -1161,81 +1161,81 @@ body {
   letter-spacing: 0.05rem;
 }
 
-/* line 38, ../../../Portfolio/scss/_banner.scss */
-.banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title {
-  transition: font-size 0.05s linear;
-  font-size: 0.8rem;
-  font-weight: 400;
-  margin-bottom: -0.1rem;
-}
-
-/* line 45, ../../../Portfolio/scss/_banner.scss */
-.banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name {
-  transition: font-size 0.05s linear;
-  font-size: 1.75rem;
-  font-weight: 500;
-}
-
-/* line 51, ../../../Portfolio/scss/_banner.scss */
-.banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession {
-  transition: font-size 0.05s linear;
-  padding-top: 0.25rem;
-  font-size: 0.75rem;
-  font-weight: 300;
-  border-top: 0.05rem solid;
+@media (max-width: 575.999px) {
+  /* line 40, ../../../Portfolio/scss/_banner.scss */
+  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title {
+    transition: font-size 0.05s linear;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: -0.1rem;
+  }
+  /* line 47, ../../../Portfolio/scss/_banner.scss */
+  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name {
+    transition: font-size 0.05s linear;
+    font-size: 2.625rem;
+    font-weight: 500;
+  }
+  /* line 53, ../../../Portfolio/scss/_banner.scss */
+  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession {
+    transition: font-size 0.05s linear;
+    padding-top: 0.25rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    border-top: 0.05rem solid;
+  }
 }
 
 @media (min-width: 576px) {
-  /* line 61, ../../../Portfolio/scss/_banner.scss */
+  /* line 64, ../../../Portfolio/scss/_banner.scss */
   .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title {
     font-size: 1.6rem;
   }
-  /* line 65, ../../../Portfolio/scss/_banner.scss */
+  /* line 68, ../../../Portfolio/scss/_banner.scss */
   .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name {
     font-size: 3.5rem;
   }
-  /* line 69, ../../../Portfolio/scss/_banner.scss */
+  /* line 72, ../../../Portfolio/scss/_banner.scss */
   .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession {
     font-size: 1.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 76, ../../../Portfolio/scss/_banner.scss */
+  /* line 79, ../../../Portfolio/scss/_banner.scss */
   .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title {
     font-size: 2.8rem;
   }
-  /* line 80, ../../../Portfolio/scss/_banner.scss */
+  /* line 83, ../../../Portfolio/scss/_banner.scss */
   .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name {
     font-size: 6.125rem;
   }
-  /* line 84, ../../../Portfolio/scss/_banner.scss */
+  /* line 87, ../../../Portfolio/scss/_banner.scss */
   .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession {
     font-size: 2.625rem;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 91, ../../../Portfolio/scss/_banner.scss */
+  /* line 94, ../../../Portfolio/scss/_banner.scss */
   .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title {
     font-size: 4.2rem;
   }
-  /* line 95, ../../../Portfolio/scss/_banner.scss */
+  /* line 98, ../../../Portfolio/scss/_banner.scss */
   .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name {
     font-size: 9.1875rem;
   }
-  /* line 99, ../../../Portfolio/scss/_banner.scss */
+  /* line 102, ../../../Portfolio/scss/_banner.scss */
   .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession {
     font-size: 3.938rem;
   }
 }
 
-/* line 106, ../../../Portfolio/scss/_banner.scss */
+/* line 109, ../../../Portfolio/scss/_banner.scss */
 .banner-top .banner-v-wrapper .banner-h-wrapper #page-turner-1 {
   display: none;
 }
 
-/* line 109, ../../../Portfolio/scss/_banner.scss */
+/* line 112, ../../../Portfolio/scss/_banner.scss */
 .banner-top .banner-v-wrapper .banner-h-wrapper #page-turner-1 a {
   position: static;
   display: block;
@@ -1243,7 +1243,7 @@ body {
   text-align: center;
 }
 
-/* line 117, ../../../Portfolio/scss/_banner.scss */
+/* line 120, ../../../Portfolio/scss/_banner.scss */
 .banner-top .banner-v-wrapper .banner-h-wrapper #page-turner-1 a img {
   width: 2.5rem;
   text-decoration: none;
@@ -3816,13 +3816,6 @@ body {
   border-radius: 0.5rem;
   border: 0.09rem solid #71452e;
   font-size: 1.5rem;
-}
-
-@media (min-width: 576px) {
-  /* line 49, ../../../Portfolio/scss/_contactform.scss */
-  .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections {
-    grid-template-columns: calc(45% - 2.5rem), calc(45% - 2.5rem);
-  }
 }
 
 /* line 1, ../../../Portfolio/scss/_coding.scss */

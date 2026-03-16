@@ -1,6 +1,6 @@
 .banner-top {
 
-.banner-v-wrapper {                                             // Set-up container and adjust fonts and padding of title with smooth transitions in size and position
+    .banner-v-wrapper {                                             // Set-up container and adjust fonts and padding of title with smooth transitions in size and position
         display: flex;
         flex-direction: row;
         padding-left: 0;
@@ -35,25 +35,28 @@
                 text-align: center;
                 letter-spacing: 0.05rem;
 
-                .banner-title {
-                    transition: font-size 0.05s linear;
-                    font-size: 0.8rem;
-                    font-weight: 400;
-                    margin-bottom: -0.1rem;
-                }
+                @media (max-width: 575.999px) {
 
-                .banner-name {
-                    transition: font-size 0.05s linear;
-                    font-size: 1.75rem;
-                    font-weight: 500;
-                }
+                    .banner-title {
+                        transition: font-size 0.05s linear;
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                        margin-bottom: -0.1rem;
+                    }
 
-                .banner-profession {
-                    transition: font-size 0.05s linear;
-                    padding-top: 0.25rem;
-                    font-size: 0.75rem;
-                    font-weight: 300;
-                    border-top: 0.05rem solid;
+                    .banner-name {
+                        transition: font-size 0.05s linear;
+                        font-size: 2.625rem;
+                        font-weight: 500;
+                    }
+
+                    .banner-profession {
+                        transition: font-size 0.05s linear;
+                        padding-top: 0.25rem;
+                        font-size: 1.125rem;
+                        font-weight: 300;
+                        border-top: 0.05rem solid;
+                    }
                 }
 
                 @media (min-width: 576px) {                     // Scale banner title
