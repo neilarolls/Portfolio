@@ -14,7 +14,7 @@
             flex-direction: column;
             align-items: center;
 
-            @media (min-width: 576px) {
+            @media (min-width: 576px) {                         // Add padding for menu size pops
                 width: calc(100% - 150px);
                 padding-left: 150px;
             }
@@ -48,7 +48,7 @@
             
             .cform-sections {
                 display: grid;
-                grid-template-columns: calc(95% - 2.5rem);
+                grid-template-columns: calc(95% - 2.5rem);      // Single column for lowest widths
                 justify-content: center;
 
                 > * {                                     // set defaults
@@ -133,7 +133,7 @@
                         vertical-align: bottom;
                     }
 
-                    :nth-child(5) {
+                    :nth-child(5) {                                                 // Initial message area - starts visible
                         
                             resize: none;
                             height: 8.15rem;
@@ -157,7 +157,7 @@
                         
                     }
 
-                    :nth-child(6) {
+                    :nth-child(6) {                                                 // Alt message area - starts hidden
                         
                             display: none;
                             height: 4.25rem;
@@ -180,7 +180,7 @@
                         
                     }
 
-                    .cform-button {
+                    .cform-button {                                             // Submit button
                         width: 8rem;
                         height: 3rem;
                         background-color: white;
@@ -191,43 +191,9 @@
                 }
 
                 @media (min-width: 576px) {
-                    
+                    grid-template-columns: calc(45% - 2.5rem), calc(45% - 2.5rem);
                 }
 
-                // @media (min-width: 768px) {
-                //     #cform-form {
-                //         display: flex;
-                //         flex-direction: column;
-                //         align-items: flex-start;
-                //         height: 100%;
-                //         width: 50%;
-
-                //         .cform-message-squat {
-                //             display: block;
-                //         }
-
-                //         .cform-message {                            
-                //             display: none;
-                //         }
-
-                //     }
-                // }
-
-                // @media (min-width: 992px) {
-                //     padding-left: 120px;
-                //     width: 800px;
-
-                //     .cform-content-left #cform-form {
-                //         width: 45%;
-                //     }
-
-                //     .cform-button {
-                //         position: relative;
-                //         left: 0px;
-                //         top: 0px;
-                //     }
-
-                // }
             }
         }
     }
