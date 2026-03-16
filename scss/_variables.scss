@@ -1,0 +1,58 @@
+// General
+$next-prev-opacity: 35%;
+
+// Banner
+$banner-border-color: #141423;
+
+// Burger Menu variables
+
+$burger-v-offset: calc(100vh / 6);      // Distance from top of viewport to first item.
+$burger-height-factor: 8;            // Adjusts the height of the menu boxes relative to the spacing, higher values give smaller boxes.
+                                        // Decreasing this value below the gap factor will cause the menu boxes to overlap.
+$burger-spacing-factor: 8;            // Decrease this value to increase the gap between menu boxes. Should be less than the height factor.
+$Menu-width: 150px;                     // Menu box width.
+$burger-button-position: "right";        // "left" and "right" are currently the only valid values [no quotes].
+$bm-box-radius: 0.4rem;
+$bm-btn-radius: 0.4rem;
+$bm-side-gap: 0px;                      // Sets the gap, if desired, to the left hand edge of the screen.
+$bm-menu-mode: "block";
+
+    // colours
+
+$bm-main-background: #c77b23ee;
+$bm-bg-emphasise: #d28824ee;
+$bm-text-main: #dcd1c3;
+$bm-text-initials: #ffe0af;
+$bm-item-border: #44444444;
+$bm-highlight: #e39d4c88;
+$bm-shadow: #70461988;
+$bm-mid-shadow: #b2703988;
+$bm-btn-border: #d6d3c1e6;
+$bm-btn-glow: #ffffff88;
+
+// Projects Page
+
+$prj-card-width: 244px;
+$prj-card-height: 200.08px;
+$prj-card-height-ratio: calc(#{$prj-card-height} / #{$prj-card-width});
+$prj-card-index: 1;
+$prj-font-family: "roboto";
+$prj-font-size-title: 1.125rem;
+$prj-font-size-link: 1rem;
+
+    // colours
+
+$prj-card-bg: #f4f4ff;
+$prj-card-text: #222255ff;
+$prj-card-border: #d3d3d3;
+$prj-page-bg: rgb(14, 14, 23);
+
+// Form
+
+    // colours
+
+$form-bg-colour-1: #ffff91aa;
+$form-bg-colour-2: #ffbf5eaa;
+$form-bg-colour-3: #ff5e5eaa;
+$form-text-colour: #222244;
+$form-input-border-colour: #71452e;

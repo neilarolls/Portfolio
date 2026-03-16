@@ -1,0 +1,657 @@
+.burger-top {
+
+    .burger-button {
+        position: fixed;
+        left: 0;
+        top: 0;
+        // background-color: transparent;
+        padding: 0;
+        border: 0;
+
+        .burger-bar {                                           // Set up Burger Button
+            transition: (box-shadow, border) 0.3s linear; 
+            position: fixed;
+            width: 3.75rem;
+            height: 2.75rem;
+            #{$burger-button-position}: 0.1rem;
+            top: 0.1rem;
+            background-color: transparent;
+            border: 0.125rem solid #{$bm-btn-border};
+            border-radius: #{$bm-btn-radius};
+
+            div {
+                transition: (box-shadow, border) 0.3s linear;
+                position: fixed;
+                width: 2.5rem;
+                #{$burger-button-position}: 0.62rem;            // Change button to 'left' or 'right' in _variables.scss
+                top: 0.625rem;
+                background-color: transparent;
+                border: 0.225rem solid #{$bm-btn-border};
+            }
+
+            .burger-bar-middle {
+                top: 1.375rem;
+            }
+
+            .burger-bar-bottom {
+                top: 2.125rem;
+            }
+        }
+
+        @media (min-width: 576px) {                             // Hide button when menu is on display
+
+            .burger-bar {
+                display: none;
+            }
+        }
+
+        .burger-bar:hover {                                     // Glows when hovered over
+
+            @media (max-width: 575.999px) {
+                box-shadow: 0 0 1rem #{$bm-btn-glow}, inset 0 0 0.5rem #{$bm-btn-glow};
+                border-color: rgb(255, 253, 236);
+
+                div {
+                    box-shadow: 0 0 0.5rem #{$bm-btn-glow}, inset 0 0 0.5rem #{$bm-btn-glow};
+                    border-color: rgb(255, 253, 236);
+                }
+            }
+        }
+
+        .burger-menu-top {
+
+            .burger-menu-wrapper {
+
+                > div {                                             // set menu item defaults
+                    position: fixed;
+                    background-color: #{$bm-main-background};
+                    border-radius: #{$bm-box-radius};
+
+                    @media (max-width: 1199.99px) {
+                        width: 150px;
+                    }
+
+                    @media (min-width: 1200px) {
+                        width: 300px;
+                    }
+                }
+
+                a {                                                 // set menu item defaults
+                    display: #{$bm-menu-mode};
+                    z-index: 2;
+                    font-family: "roboto", sans-serif;
+                    font-weight: 350;
+                    font-size: 1.25rem;
+                    position: fixed;
+                    height: min-content;
+                    text-align: center;
+                    color:#{$bm-text-main};
+                    text-decoration: none;
+                }
+
+                // Specify heights, positions and responsive behaviours.
+                // Variable functions described in _variables.scss file
+
+
+                :nth-child(1) {                                                                 // My Initials
+                    
+                    // display: none;
+                    height: calc((100vh / #{$burger-height-factor}) * 2);
+                    top: 0;
+
+                    .menu-initials {
+
+                        a {
+                            width: 150px;
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
+                            }
+
+                            display: #{$bm-menu-mode};
+                            top: calc(100vh / #{$burger-height-factor} - 1.725rem);
+                            z-index: 2;
+                            font-family: "roboto", sans-serif;
+                            font-weight: 700;
+                            font-size: 2.8rem;
+                            height: 3.2rem;
+                            border-top: 0.1875rem solid #{$bm-highlight};
+                            border-bottom: 0.1875rem solid #{$bm-shadow};
+                            color:#{$bm-text-initials};
+                            background-color: #{$bm-bg-emphasise};
+                            text-decoration: none;
+                            color:#{$bm-text-initials};
+                        }
+
+                        @media (min-height: 360px) {
+
+                            a {
+                            font-size: 4.6rem;
+                            height: 5.2rem;
+                            top: calc(100vh / #{$burger-height-factor} - 2.7875rem);
+                            }
+                        }
+
+                        @media (min-height: 720px) {
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
+
+                                a {
+                                    font-size: 9rem;
+                                    height: 9.8rem;
+                                    width: 300px;
+                                }
+                            }
+
+                            a {
+                                font-size: 6.4rem;
+                                height: 7rem;
+                                top: calc(100vh / #{$burger-height-factor} - 3.685rem);
+                                padding-bottom: 0.25rem;
+
+                                @media (min-width: 1200px) {
+                                    font-size: 9rem;
+                                    height: 9.8rem;
+                                    top: calc(100vh / #{$burger-height-factor} - 5.085rem);
+                                    width: 300px;
+                                }
+                            }
+                        }
+
+                        @media (min-height: 1080px) {
+
+                            @media (min-width: 1200px) {
+
+                                a {
+                                    font-size: 12rem;
+                                    height: 13rem;
+                                    top: calc(100vh / #{$burger-height-factor} - 6.685rem);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                :nth-child(2) {                                                                 // About Me
+                    // transition: left 0.1s linear;
+                    top: calc((100vh / #{$burger-height-factor}) * 2);
+                    height: calc(100vh / #{$burger-height-factor});
+
+                    a {
+                        display: #{$bm-menu-mode};
+                        width: #{$Menu-width};
+                        top: calc(((100vh / #{$burger-height-factor}) * 2.5) - 0.7187rem);
+                        height: min-content;
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+                        }
+                    }
+
+                    &:hover {
+
+                        a {
+                            color: white;
+                        }
+                    }
+
+
+                    @media (min-height: 360px) {
+
+                        a {
+                            font-size: 1.8rem;
+                            height: 2.2rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 2.5) - 1.1rem);
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
+                            }
+                        }
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+                        }
+                    }
+
+                    @media (min-height: 720px) {
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+
+                            a {
+                                font-size: 2.4rem;
+                                height: 2.8rem;
+                                width: 300px;
+                            }
+                        }
+
+                        a {
+                            font-size: 2.35rem;
+                            height: 2.8rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 2.5) - 2.7rem);
+
+                            @media (min-width: 1200px) {
+                                top: calc(((100vh / #{$burger-height-factor}) * 2.5) - 1.4rem);
+                                width: 300px;
+                            }
+                        }
+                    }
+                }
+
+                :nth-child(3) {                                                                 // My Portfolio
+                    // transition: left 0.1s linear;
+                    top: calc((100vh / #{$burger-height-factor}) * 3);
+                    height: calc(100vh / #{$burger-height-factor});
+
+                    a {
+                        display: #{$bm-menu-mode};
+                        width: #{$Menu-width};
+                        top: calc(((100vh / #{$burger-height-factor}) * 3.5) - 0.7187rem);
+                        height: min-content;
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+                        }
+                    }
+
+                    &:hover {
+
+                        a {
+                            color: white;
+                        }
+                    }
+
+
+                    @media (min-height: 360px) {
+
+                        a {
+                            font-size: 1.65rem;
+                            height: 2.2rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 3.5) - 1.05rem);
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
+                            }
+                        }
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+                        }
+                    }
+
+                    @media (min-height: 720px) {
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+
+                            a {
+                                font-size: 2.4rem;
+                                height: 2.8rem;
+                                width: 300px;
+                            }
+                        }
+
+                        a {
+                            font-size: 2.25rem;
+                            height: 2.8rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 3.5) - 2.55rem);
+
+                            @media (min-width: 1200px) {
+                                top: calc(((100vh / #{$burger-height-factor}) * 3.5) - 1.4rem);
+                                width: 300px;
+                            }
+                        }
+                    }
+                }
+
+                :nth-child(4) {                                                                 // Code Examples
+                    // transition: left 0.1s linear;
+                    top: calc((100vh / #{$burger-height-factor}) * 4);
+                    height: calc(100vh / #{$burger-height-factor});
+
+                    a {
+                        display: #{$bm-menu-mode};
+                        width: #{$Menu-width};
+                        top: calc(((100vh / #{$burger-height-factor}) * 4.5) - 0.7187rem);
+                        height: min-content;
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+                        }
+                    }
+
+                    &:hover {
+
+                        a {
+                            color: white;
+                        }
+                    }
+
+
+                    @media (min-height: 360px) {
+
+                        a {
+                            font-size: 1.65rem;
+                            height: 2.2rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 4.5) - 2rem);
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
+                                top: calc(((100vh / #{$burger-height-factor}) * 4.5) - 1rem);
+                            }
+                        }
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+                        }
+                    }
+
+                    @media (min-height: 720px) {
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+
+                            a {
+                                font-size: 2.4rem;
+                                height: 2.8rem;
+                                width: 300px;
+                            }
+                        }
+
+                        a {
+                            font-size: 2.05rem;
+                            height: 2.8rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 4.5) - 2.55rem);
+
+                            @media (min-width: 1200px) {
+                                top: calc(((100vh / #{$burger-height-factor}) * 4.5) - 1.4rem);
+                                width: 300px;
+                            }
+                        }
+                    }
+                }
+
+                :nth-child(5) {                                                                 // SCS Scheme
+                    // transition: left 0.1s linear;
+                    top: calc((100vh / #{$burger-height-factor}) * 5);
+                    height: calc(100vh / #{$burger-height-factor});
+
+                    a {
+                        display: #{$bm-menu-mode};
+                        width: #{$Menu-width};
+                        top: calc(((100vh / #{$burger-height-factor}) * 5.5) - 0.7187rem);
+                        height: min-content;
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+                        }
+                    }
+
+                    &:hover {
+
+                        a {
+                            color: white;
+                        }
+                    }
+
+
+                    @media (min-height: 360px) {
+
+                        a {
+                            font-size: 1.55rem;
+                            height: 2.2rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 5.5) - 1rem);
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
+                                // top: calc(((100vh / #{$burger-height-factor}) * 5.5) - 1rem);
+                            }
+                        }
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+                        }
+                    }
+
+                    @media (min-height: 720px) {
+
+                        @media (min-width: 1200px) {
+                            width: 300px;
+
+                            a {
+                                font-size: 2.4rem;
+                                height: 2.8rem;
+                                width: 300px;
+                            }
+                        }
+
+                        a {
+                            font-size: 2.25rem;
+                            height: 2.8rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 5.5) - 2.5rem);
+
+                            @media (min-width: 1200px) {
+                                top: calc(((100vh / #{$burger-height-factor}) * 5.5) - 1.4rem);
+                                width: 300px;
+                            }
+                        }
+                    }
+                }
+
+                :nth-child(6) {                                                                 // Contact Me
+                    
+                    // display: none;
+                    height: calc((100vh / #{$burger-height-factor}) * 2);
+                    top: calc(((100vh / #{$burger-height-factor}) * 6));
+
+                    :first-child {                                                                  // Contact Me text defaults and responsive behaviour
+                        width: #{$Menu-width};
+
+                        :first-child {
+                            position: fixed;
+                            display: block;
+                            width: #{$Menu-width};
+                            top: calc(((100vh / #{$burger-height-factor}) * 6.5) - 0.9rem);
+                            font-family: "roboto", sans-serif;
+                            font-size: 1.25rem;
+                            font-weight: 350;
+                            height: fit-content;
+                            text-align: center;
+                            color: #{$bm-text-main};
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
+                            }
+                        }
+                    }
+
+                    @media (min-height: 360px) {
+
+                        :first-child {
+                            :first-child {
+                                font-size: 1.6rem;
+
+                                @media (min-width: 1200px) {
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+
+                    @media (min-height: 720px) {
+
+                        :first-child {
+                            :first-child {
+                                font-size: 2.1rem;
+                                top: calc(((100vh / #{$burger-height-factor}) * 6.5) - 1.9rem);
+
+                                @media (min-width: 1200px) {
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+
+                    @media (min-height: 1080px) {
+
+                        :first-child {
+                            :first-child {
+                                font-size: 2.5rem;
+                                top: calc(((100vh / #{$burger-height-factor}) * 6.25) - 1.25rem);
+
+                                @media (min-width: 1200px) {
+                                    width: 300px;
+                                }
+                            }
+                        }
+                    }
+
+                    :nth-child(2) {                                                             // Contact Me Email Icon defaults and responsive behaviour
+                        display: block;
+                        position: fixed;
+
+                        :first-child {
+                            display: block;
+                            position: fixed;
+                            width: 2rem;
+                            height: 2rem;
+                            left: calc(50px - 1rem);
+                            top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+
+                            @media (min-width: 1200px) {
+                                left: calc(100px - 0.65rem);
+                            }
+                        }
+
+                        @media (min-height: 360px) {
+
+                        :first-child {
+                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.2rem);
+                                width: 3rem;
+                                height: 3rem;
+                                left: calc(50px - 1.85rem);
+
+                                @media (min-width: 1200px) {
+                                    left: calc(100px - 1.85rem);
+                                }
+                            }
+                        }
+
+                        @media (min-height: 720px) {
+
+                        :first-child  {
+                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.6rem);
+                                width: 3.5rem;
+                                height: 3.5rem;
+                                left: calc(50px - 2.3rem);
+
+                                @media (min-width: 1200px) {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 2.5rem);
+                                    width: 5rem;
+                                    height: 5rem;
+                                    left: calc(100px - 3rem);
+                                }
+                            }
+                        }
+
+                        @media (min-height: 1080px) {
+
+                        :first-child  {
+                                top: calc(((100vh / #{$burger-height-factor}) * 6.725));
+                                width: 5rem;
+                                height: 5rem;
+                                left: calc(75px - 2.5rem);
+
+                                @media (min-width: 1200px) {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 6.475));
+                                    left: calc(150px - 3.5rem);
+                                    width: 7rem;
+                                    height: 7rem;
+                                }
+                            }
+                        }
+
+                        
+                        :nth-child(2) {                                                         // Contact SMS Icon defaults and responsive behaviour
+                            display: block;
+                            position: fixed;
+                            width: 2rem;
+                            height: 2rem;
+                            left: calc(100px - 1rem);
+                            top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+
+                            @media (min-width: 1200px) {
+                                left: calc(200px - 1.35rem);
+                            }
+                        }
+
+                        @media (min-height: 360px) {
+
+                            :nth-child(2) {
+                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.2rem);
+                                width: 3rem;
+                                height: 3rem;
+                                left: calc(100px - 1rem);
+
+                                @media (min-width: 1200px) {
+                                    left: calc(200px - 1.15rem);
+                                }
+                            }
+                        }
+
+                        @media (min-height: 720px) {
+
+                            :nth-child(2) {
+                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.6rem);
+                                width: 3.5rem;
+                                height: 3.5rem;
+                                left: calc(100px - 0.75rem);
+
+                                @media (min-width: 1200px) {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 2.5rem);
+                                    width: 5rem;
+                                    height: 5rem;
+                                    left: calc(200px - 2rem);
+                                }
+                            }
+                        }
+
+                        @media (min-height: 1080px) {
+
+                            :nth-child(2) {
+                                top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 4.5rem);
+                                width: 5rem;
+                                height: 5rem;
+                                left: calc(75px - 2.5rem);
+
+                                @media (min-width: 1200px) {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 3.5rem);
+                                    left: calc(150px - 3.5rem);
+                                    width: 7rem;
+                                    height: 7rem;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &:hover {                                                                               // Currently pops menu up on hover. Needs js to make it a toggle
+
+            .burger-menu-wrapper {
+                display: block;
+            }
+        }
+
+        @media (max-width: 575.999px) {                                                         // Hides menu under 576px width
+
+            .burger-menu-wrapper {
+                    display: none;
+            }
+        }
+
+    }
+}

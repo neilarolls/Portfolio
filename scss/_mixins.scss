@@ -1,0 +1,64 @@
+@mixin project-card($card-index, $card-width, $card-height, $card-border, $card-bg, $card-text, $font-family, $font-size-title, $font-size-link) {
+
+    :nth-child(#{$card-index}) {
+        width: #{$card-width};
+        padding: 0;
+        margin: 0;
+
+        .prj-card-data {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: #{$card-width};
+            height: #{$card-height};
+            font-family: #{$font-family}, sans-serif;
+            border: 0.1rem solid #{$card-border};
+            background-color: #{$card-bg};
+            color: #{$card-text};
+            border-radius: 0.2rem;
+            padding: 0;
+
+            img {
+                width: #{$card-width};
+                padding: 0;
+                height: calc(#{$card-height} * 0.82);
+                border-bottom: 0.05rem solid #{$card-text};
+
+            }
+
+            .prj-card-text {
+                padding: 0;
+                height: calc(#{$card-height} * 0.18);
+                width: #{$card-width};
+                display: flex;
+                flex-direction: row;
+
+                div {
+                    width: 50%;
+                    height: 100%;
+                    padding: 0;
+                    font-weight: 600;
+                    font-size: #{$font-size-title};
+                    display: block;
+                    color: #{$card-text};
+                    border-right: 0.1rem solid #{$card-text};
+                    align-content: center;
+                }
+
+                a {
+                    width: 50%;
+                    height: 100%;
+                    padding: 0;
+                    font-weight: 350;
+                    font-size: #{$font-size-link};
+                    display: block;
+                    top: 0rem;
+                    text-decoration: none;
+                    color: #{$card-text};
+                    align-content: center;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,129 @@
+.banner-top {
+
+.banner-v-wrapper {                                             // Set-up container and adjust fonts and padding of title with smooth transitions in size and position
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        transition: padding-left 0.05s linear;
+
+        @media (min-width: 576px) {
+            transition: padding-left 0.05s linear;
+            padding-left: 150px;
+        }
+
+        @media (min-width: 1200px) {
+            transition: padding-left 0.05s linear;            
+            padding-left: 300px;
+        }
+
+        align-items: center;
+        height: 100vh;
+        background-image: url(../img/background-pexels-felix-mittermeier-956981.jpg);
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 1rem 1rem #10102088;
+
+        .banner-h-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+
+            .banner-text {                                      // Set up defaults and transitions
+                font-family: "roboto", sans-serif;
+                margin: 0; 
+                color: white;
+                text-align: center;
+                letter-spacing: 0.05rem;
+
+                .banner-title {
+                    transition: font-size 0.05s linear;
+                    font-size: 0.8rem;
+                    font-weight: 400;
+                    margin-bottom: -0.1rem;
+                }
+
+                .banner-name {
+                    transition: font-size 0.05s linear;
+                    font-size: 1.75rem;
+                    font-weight: 500;
+                }
+
+                .banner-profession {
+                    transition: font-size 0.05s linear;
+                    padding-top: 0.25rem;
+                    font-size: 0.75rem;
+                    font-weight: 300;
+                    border-top: 0.05rem solid;
+                }
+
+                @media (min-width: 576px) {                     // Scale banner title
+
+                    .banner-title {
+                        font-size: 1.6rem;
+                    }
+
+                    .banner-name {
+                        font-size: 3.5rem;
+                    }
+                    
+                    .banner-profession {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                @media (min-width: 768px) {
+
+                    .banner-title {
+                        font-size: 2.8rem;
+                    }
+
+                    .banner-name {
+                        font-size: 6.125rem;
+                    }
+
+                    .banner-profession {
+                        font-size: 2.625rem;
+                    }
+                }
+
+                @media (min-width: 992px) {
+
+                    .banner-title {
+                        font-size: 4.2rem;
+                    }
+
+                    .banner-name {
+                        font-size: 9.1875rem;
+                    }
+
+                    .banner-profession {
+                        font-size: 3.938rem;
+                    }
+                }
+
+            }
+
+            #page-turner-1 {
+                display: none;
+
+                a {
+                    position: static;
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    
+                    
+
+                    img {
+                        width: 2.5rem;
+                        text-decoration: none;
+                        opacity: #{$next-prev-opacity};
+                    }
+
+                }
+
+            }
+        }
+
+    }
+}
