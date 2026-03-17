@@ -236,11 +236,14 @@
 
                                 :nth-child(2) {
                                     font-size: 1.25rem;
+                                    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
                                 }
 
                             }
 
                             :nth-child(5) {
+                                height: 8.5rem;
+
                                 textarea {
                                     height: 7.9rem;
                                 }
@@ -291,12 +294,14 @@
                             :nth-child(n) {
 
                                 :nth-child(2) {
+                                    padding: 0.375rem 0.875rem 0.375rem 0.875rem;
                                     font-size: 1.4rem;
                                 }
 
                             }
 
                             :nth-child(5) {
+                                height: 8.8rem;
                                 textarea {
                                     height: 7.9rem;
                                 }
