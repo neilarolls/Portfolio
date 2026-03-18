@@ -33,6 +33,10 @@
                 display: flex;
                 flex-direction: row;
 
+                a:hover {
+                        background-color: #e7e7ff;                    
+                }
+
                 div {
                     width: 50%;
                     height: 100%;

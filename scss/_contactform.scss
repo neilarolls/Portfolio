@@ -187,10 +187,14 @@
                     .cform-button {                                             // Submit button
                         width: 8rem;
                         height: 3rem;
-                        background-color: white;
+                        background-color: #{$bm-btn-glow};
                         border-radius: 0.5rem;
                         border: 0.09rem solid #{$form-input-border-colour};
                         font-size: 1.5rem;
+                    }
+
+                    :hover {
+                        background-color: white;
                     }
                 }
 
@@ -346,27 +350,46 @@
                     #cform-form {
 
                         gap: 2.5rem;
-                        padding-top: 5rem;;
+                        padding-top: 5rem;
 
-                            :nth-child(n) {
+                        :nth-child(n) {
 
-                                :nth-child(2) {
-                                    font-size: 1.4rem;
-                                }
-
+                            :nth-child(2) {
+                                font-size: 1.4rem;
                             }
 
-                            :nth-child(5) {
-                                textarea {
-                                    height: 7.9rem;
-                                }
+                        }
+
+                        :nth-child(5) {
+                            textarea {
+                                height: 7.9rem;
                             }
+                        }
 
-
-                        
                     }
+
                 }
 
+            }
+
+            
+            #page-turner-backtotop {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 10fr 1fr 10fr;
+                grid-template-rows: 70% 30%;
+
+                #prev-page-link-1 {
+                        grid-column-start: 2;
+                        grid-column-end: 3;
+                        grid-row-start: 2;
+                        grid-row-end: 3;
+                
+                    img {
+                        width: 2.5rem;
+
+                    }
+                }
             }
         }
     }

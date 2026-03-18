@@ -14,6 +14,7 @@
         .scs-h-wrapper {
         height: fit-content;
         justify-items: center;
+        padding-top: 1.5rem;
 
             .scs-sections {
                 display: grid;
@@ -32,6 +33,10 @@
                         font-size: 1.25rem;
                         padding-bottom: 1rem;
                         padding-top: 1rem;
+                    }
+
+                    .scs-text {                        
+                        padding-top: 0.5rem;
                     }
 
                     color: #{$prj-card-text};
@@ -78,8 +83,8 @@
                     }
 
                     ul {                        
-                        list-style-type:disc;
-                        padding-left: 1.25rem;
+                        list-style-type: disc;
+                        padding-left: 1.75rem;
                     }
 
                     color: #{$banner-border-color};
@@ -160,7 +165,7 @@
 
                     .scs-netmatters {
                         align-self: center;
-                        margin-left: 1.55rem;
+                        justify-self: start;
                         grid-column-start: 2;
                         grid-column-end: 3;
                         grid-row-start: 1;
@@ -168,7 +173,7 @@
                     }
 
                     .scs-treehouse {
-                        align-self: center;
+                        align-self: end;
                         justify-self: end;
                         grid-column-start: 1;
                         grid-column-end: 2;
@@ -176,6 +181,7 @@
                         grid-row-end: 2;
                     }
                 }
+
                 @media (min-width: 1200px) {
                     padding-left: 300px;
                     padding-right: 50px;
@@ -183,9 +189,22 @@
                 }
 
                 @media (min-height: 1080px) {
-                    row-gap: 12.5rem;
+                    row-gap: 6rem;
+
+                    @media (min-width: 992px) {
+                        .scs-netmatters {
+                            margin-left: 3rem;
+                        }
+                    }
                 }
 
+                @media (min-width: 1560px) {
+                    .scs-treehouse {
+                        max-width: 100%;
+                        width: 28rem;
+                        height: 17rem;
+                    }
+                }
             }
         }
     }
