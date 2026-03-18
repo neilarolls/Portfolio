@@ -47,22 +47,6 @@
                     }
                 }
 
-                .coding-button-wrapper {
-                    padding-top: 1.25rem;
-                    text-align: center;
-
-                    a {
-                        width: 8rem;
-                        height: 2.5rem;
-                        background-color: white;
-                        border-radius: 0.5rem;
-                        border: 0.09rem solid #{$form-input-border-colour};
-                        font-size: 1.75rem;
-                        padding-top: 0.5rem;
-                        text-decoration: none;                        
-                        color: #{$prj-card-text};
-                    }
-                }
             }
         }
     }

@@ -4183,25 +4183,6 @@ body {
   color: #222255ff;
 }
 
-/* line 50, ../../../Portfolio/scss/_coding.scss */
-.coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc .coding-button-wrapper {
-  padding-top: 1.25rem;
-  text-align: center;
-}
-
-/* line 54, ../../../Portfolio/scss/_coding.scss */
-.coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc .coding-button-wrapper a {
-  width: 8rem;
-  height: 2.5rem;
-  background-color: white;
-  border-radius: 0.5rem;
-  border: 0.09rem solid #71452e;
-  font-size: 1.75rem;
-  padding-top: 0.5rem;
-  text-decoration: none;
-  color: #222255ff;
-}
-
 /* line 1, ../../../Portfolio/scss/_scs.scss */
 .scs-top {
   width: 100vw;
