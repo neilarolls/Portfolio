@@ -235,6 +235,10 @@
 
                         #aboutme-break {
                             display: block;
+
+                            @media (min-width: 1200px) {
+                                display: none;
+                            }
                         }
 
                         a {
@@ -244,7 +248,8 @@
 
                             @media (min-width: 1200px) {
                                 top: calc(((100vh / #{$burger-height-factor}) * 2.5) - 1.4rem);
-                                width: 300px;
+                                width: 300px;                                
+
                             }
                         }
                     }

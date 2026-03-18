@@ -629,7 +629,17 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(2) #aboutme-break {
     display: block;
   }
-  /* line 240, ../../../Portfolio/scss/_burger.scss */
+}
+
+@media (min-height: 720px) and (min-width: 1200px) {
+  /* line 236, ../../../Portfolio/scss/_burger.scss */
+  .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(2) #aboutme-break {
+    display: none;
+  }
+}
+
+@media (min-height: 720px) {
+  /* line 244, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(2) a {
     font-size: 2rem;
     height: 2.8rem;
@@ -638,20 +648,20 @@ body {
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 240, ../../../Portfolio/scss/_burger.scss */
+  /* line 244, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(2) a {
     top: calc(((100vh / 8) * 2.5) - 1.4rem);
     width: 300px;
   }
 }
 
-/* line 253, ../../../Portfolio/scss/_burger.scss */
+/* line 258, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) {
   top: calc((100vh / 8) * 3);
   height: calc(100vh / 8);
 }
 
-/* line 258, ../../../Portfolio/scss/_burger.scss */
+/* line 263, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
   display: block;
   width: 150px;
@@ -660,19 +670,19 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 258, ../../../Portfolio/scss/_burger.scss */
+  /* line 263, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
     width: 300px;
   }
 }
 
-/* line 271, ../../../Portfolio/scss/_burger.scss */
+/* line 276, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3):hover a {
   color: white;
 }
 
 @media (min-height: 360px) {
-  /* line 279, ../../../Portfolio/scss/_burger.scss */
+  /* line 284, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
     font-size: 1.5rem;
     height: 2.2rem;
@@ -681,7 +691,7 @@ body {
 }
 
 @media (min-height: 360px) and (min-width: 1200px) {
-  /* line 279, ../../../Portfolio/scss/_burger.scss */
+  /* line 284, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
     font-size: 1.7rem;
     width: 300px;
@@ -689,18 +699,18 @@ body {
 }
 
 @media (min-height: 360px) and (min-width: 1200px) {
-  /* line 253, ../../../Portfolio/scss/_burger.scss */
+  /* line 258, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) {
     width: 300px;
   }
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 253, ../../../Portfolio/scss/_burger.scss */
+  /* line 258, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) {
     width: 300px;
   }
-  /* line 300, ../../../Portfolio/scss/_burger.scss */
+  /* line 305, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
     font-size: 2.4rem;
     height: 2.8rem;
@@ -709,7 +719,7 @@ body {
 }
 
 @media (min-height: 720px) {
-  /* line 307, ../../../Portfolio/scss/_burger.scss */
+  /* line 312, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
     font-size: 2rem;
     height: 2.8rem;
@@ -718,20 +728,20 @@ body {
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 307, ../../../Portfolio/scss/_burger.scss */
+  /* line 312, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
     top: calc(((100vh / 8) * 3.5) - 1.4rem);
     width: 300px;
   }
 }
 
-/* line 320, ../../../Portfolio/scss/_burger.scss */
+/* line 325, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) {
   top: calc((100vh / 8) * 4);
   height: calc(100vh / 8);
 }
 
-/* line 325, ../../../Portfolio/scss/_burger.scss */
+/* line 330, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
   display: block;
   width: 150px;
@@ -740,19 +750,19 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 325, ../../../Portfolio/scss/_burger.scss */
+  /* line 330, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
     width: 300px;
   }
 }
 
-/* line 338, ../../../Portfolio/scss/_burger.scss */
+/* line 343, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4):hover a {
   color: white;
 }
 
 @media (min-height: 360px) {
-  /* line 346, ../../../Portfolio/scss/_burger.scss */
+  /* line 351, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
     font-size: 1.5rem;
     height: 2.2rem;
@@ -761,7 +771,7 @@ body {
 }
 
 @media (min-height: 360px) and (min-width: 1200px) {
-  /* line 346, ../../../Portfolio/scss/_burger.scss */
+  /* line 351, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
     width: 300px;
     top: calc(((100vh / 8) * 4.5) - 1rem);
@@ -770,18 +780,18 @@ body {
 }
 
 @media (min-height: 360px) and (min-width: 1200px) {
-  /* line 320, ../../../Portfolio/scss/_burger.scss */
+  /* line 325, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) {
     width: 300px;
   }
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 320, ../../../Portfolio/scss/_burger.scss */
+  /* line 325, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) {
     width: 300px;
   }
-  /* line 368, ../../../Portfolio/scss/_burger.scss */
+  /* line 373, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
     font-size: 2.4rem;
     height: 2.8rem;
@@ -790,7 +800,7 @@ body {
 }
 
 @media (min-height: 720px) {
-  /* line 375, ../../../Portfolio/scss/_burger.scss */
+  /* line 380, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
     font-size: 2rem;
     height: 2.8rem;
@@ -799,20 +809,20 @@ body {
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 375, ../../../Portfolio/scss/_burger.scss */
+  /* line 380, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
     top: calc(((100vh / 8) * 4.5) - 1.4rem);
     width: 300px;
   }
 }
 
-/* line 388, ../../../Portfolio/scss/_burger.scss */
+/* line 393, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) {
   top: calc((100vh / 8) * 5);
   height: calc(100vh / 8);
 }
 
-/* line 393, ../../../Portfolio/scss/_burger.scss */
+/* line 398, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
   display: block;
   width: 150px;
@@ -821,19 +831,19 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 393, ../../../Portfolio/scss/_burger.scss */
+  /* line 398, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
     width: 300px;
   }
 }
 
-/* line 406, ../../../Portfolio/scss/_burger.scss */
+/* line 411, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5):hover a {
   color: white;
 }
 
 @media (min-height: 360px) {
-  /* line 414, ../../../Portfolio/scss/_burger.scss */
+  /* line 419, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
     font-size: 1.5rem;
     height: 2.2rem;
@@ -842,7 +852,7 @@ body {
 }
 
 @media (min-height: 360px) and (min-width: 1200px) {
-  /* line 414, ../../../Portfolio/scss/_burger.scss */
+  /* line 419, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
     width: 300px;
     font-size: 1.7rem;
@@ -850,18 +860,18 @@ body {
 }
 
 @media (min-height: 360px) and (min-width: 1200px) {
-  /* line 388, ../../../Portfolio/scss/_burger.scss */
+  /* line 393, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) {
     width: 300px;
   }
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 388, ../../../Portfolio/scss/_burger.scss */
+  /* line 393, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) {
     width: 300px;
   }
-  /* line 436, ../../../Portfolio/scss/_burger.scss */
+  /* line 441, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
     font-size: 2.4rem;
     height: 2.8rem;
@@ -870,7 +880,7 @@ body {
 }
 
 @media (min-height: 720px) {
-  /* line 443, ../../../Portfolio/scss/_burger.scss */
+  /* line 448, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
     font-size: 2rem;
     height: 2.8rem;
@@ -879,25 +889,25 @@ body {
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 443, ../../../Portfolio/scss/_burger.scss */
+  /* line 448, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
     top: calc(((100vh / 8) * 5.5) - 1.4rem);
     width: 300px;
   }
 }
 
-/* line 456, ../../../Portfolio/scss/_burger.scss */
+/* line 461, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) {
   height: calc((100vh / 8) * 2);
   top: calc(((100vh / 8) * 6));
 }
 
-/* line 462, ../../../Portfolio/scss/_burger.scss */
+/* line 467, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child {
   width: 150px;
 }
 
-/* line 465, ../../../Portfolio/scss/_burger.scss */
+/* line 470, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
   position: fixed;
   display: block;
@@ -912,28 +922,28 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 465, ../../../Portfolio/scss/_burger.scss */
+  /* line 470, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
     width: 300px;
   }
 }
 
 @media (min-height: 360px) {
-  /* line 486, ../../../Portfolio/scss/_burger.scss */
+  /* line 491, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
     font-size: 1.6rem;
   }
 }
 
 @media (min-height: 360px) and (min-width: 1200px) {
-  /* line 486, ../../../Portfolio/scss/_burger.scss */
+  /* line 491, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
     width: 300px;
   }
 }
 
 @media (min-height: 720px) {
-  /* line 499, ../../../Portfolio/scss/_burger.scss */
+  /* line 504, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
     font-size: 2.1rem;
     top: calc(((100vh / 8) * 6.5) - 1.9rem);
@@ -941,14 +951,14 @@ body {
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 499, ../../../Portfolio/scss/_burger.scss */
+  /* line 504, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
     width: 300px;
   }
 }
 
 @media (min-height: 1080px) {
-  /* line 513, ../../../Portfolio/scss/_burger.scss */
+  /* line 518, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
     font-size: 2.3rem;
     top: calc(((100vh / 8) * 6.25) - 1.25rem);
@@ -956,19 +966,19 @@ body {
 }
 
 @media (min-height: 1080px) and (min-width: 1200px) {
-  /* line 513, ../../../Portfolio/scss/_burger.scss */
+  /* line 518, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
     width: 300px;
   }
 }
 
-/* line 524, ../../../Portfolio/scss/_burger.scss */
+/* line 529, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) {
   display: block;
   position: fixed;
 }
 
-/* line 528, ../../../Portfolio/scss/_burger.scss */
+/* line 533, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
   display: block;
   position: fixed;
@@ -979,14 +989,14 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 528, ../../../Portfolio/scss/_burger.scss */
+  /* line 533, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
     left: calc(100px - 0.65rem);
   }
 }
 
 @media (min-height: 360px) {
-  /* line 543, ../../../Portfolio/scss/_burger.scss */
+  /* line 548, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
     top: calc(((100vh / 8) * 7.25) - 1.2rem);
     width: 3rem;
@@ -996,14 +1006,14 @@ body {
 }
 
 @media (min-height: 360px) and (min-width: 1200px) {
-  /* line 543, ../../../Portfolio/scss/_burger.scss */
+  /* line 548, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
     left: calc(100px - 1.85rem);
   }
 }
 
 @media (min-height: 720px) {
-  /* line 557, ../../../Portfolio/scss/_burger.scss */
+  /* line 562, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
     top: calc(((100vh / 8) * 7.25) - 1.6rem);
     width: 3.5rem;
@@ -1013,7 +1023,7 @@ body {
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 557, ../../../Portfolio/scss/_burger.scss */
+  /* line 562, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
     top: calc(((100vh / 8) * 7.25) - 2.5rem);
     width: 5rem;
@@ -1023,7 +1033,7 @@ body {
 }
 
 @media (min-height: 1080px) {
-  /* line 574, ../../../Portfolio/scss/_burger.scss */
+  /* line 579, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
     top: calc(((100vh / 8) * 6.725));
     width: 5rem;
@@ -1033,7 +1043,7 @@ body {
 }
 
 @media (min-height: 1080px) and (min-width: 1200px) {
-  /* line 574, ../../../Portfolio/scss/_burger.scss */
+  /* line 579, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
     top: calc(((100vh / 8) * 6.475));
     left: calc(150px - 3.5rem);
@@ -1042,7 +1052,7 @@ body {
   }
 }
 
-/* line 590, ../../../Portfolio/scss/_burger.scss */
+/* line 595, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
   display: block;
   position: fixed;
@@ -1053,14 +1063,14 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 590, ../../../Portfolio/scss/_burger.scss */
+  /* line 595, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
     left: calc(200px - 1.35rem);
   }
 }
 
 @media (min-height: 360px) {
-  /* line 605, ../../../Portfolio/scss/_burger.scss */
+  /* line 610, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
     top: calc(((100vh / 8) * 7.25) - 1.2rem);
     width: 3rem;
@@ -1070,14 +1080,14 @@ body {
 }
 
 @media (min-height: 360px) and (min-width: 1200px) {
-  /* line 605, ../../../Portfolio/scss/_burger.scss */
+  /* line 610, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
     left: calc(200px - 1.15rem);
   }
 }
 
 @media (min-height: 720px) {
-  /* line 619, ../../../Portfolio/scss/_burger.scss */
+  /* line 624, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
     top: calc(((100vh / 8) * 7.25) - 1.6rem);
     width: 3.5rem;
@@ -1087,7 +1097,7 @@ body {
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
-  /* line 619, ../../../Portfolio/scss/_burger.scss */
+  /* line 624, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
     top: calc(((100vh / 8) * 7.25) - 2.5rem);
     width: 5rem;
@@ -1097,7 +1107,7 @@ body {
 }
 
 @media (min-height: 1080px) {
-  /* line 636, ../../../Portfolio/scss/_burger.scss */
+  /* line 641, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
     top: calc(((100vh / 8) * 6.8) + 4.5rem);
     width: 5rem;
@@ -1107,7 +1117,7 @@ body {
 }
 
 @media (min-height: 1080px) and (min-width: 1200px) {
-  /* line 636, ../../../Portfolio/scss/_burger.scss */
+  /* line 641, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
     top: calc(((100vh / 8) * 6.8) + 3.5rem);
     left: calc(150px - 3.5rem);
@@ -1116,13 +1126,13 @@ body {
   }
 }
 
-/* line 658, ../../../Portfolio/scss/_burger.scss */
+/* line 663, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button:hover .burger-menu-wrapper {
   display: block;
 }
 
 @media (max-width: 575.999px) {
-  /* line 665, ../../../Portfolio/scss/_burger.scss */
+  /* line 670, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-wrapper {
     display: none;
   }
