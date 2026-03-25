@@ -376,16 +376,6 @@ body {
   min-width: 280px;
 }
 
-/* line 7, ../../../Portfolio/scss/_base.scss */
-.bm-on {
-  display: block;
-}
-
-/* line 11, ../../../Portfolio/scss/_base.scss */
-.bm-off {
-  display: none;
-}
-
 /* line 3, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button {
   position: fixed;
