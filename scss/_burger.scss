@@ -23,18 +23,18 @@
                 transition: (box-shadow, border) 0.3s linear;
                 position: fixed;
                 width: 2.5rem;
-                #{$burger-button-position}: 0.62rem;            // Change button to 'left' or 'right' in _variables.scss
-                top: 0.625rem;
+                #{$burger-button-position}: 0.55rem;            // Change button to 'left' or 'right' in _variables.scss
+                top: 0.55rem;
                 background-color: transparent;
                 border: 0.225rem solid #{$bm-btn-border};
             }
 
             .burger-bar-middle {
-                top: 1.375rem;
+                top: 1.3rem;
             }
 
             .burger-bar-bottom {
-                top: 2.125rem;
+                top: 2.05rem;
             }
         }
 
@@ -658,19 +658,19 @@
             }
         }
 
-        &:hover {                                                                               // Currently pops menu up on hover. Needs js to make it a toggle
+        // &:hover {                                                                               // Currently pops menu up on hover. Needs js to make it a toggle
 
-            .burger-menu-wrapper {
-                display: block;
-            }
-        }
+        //     .burger-menu-wrapper {
+        //         display: block;
+        //     }
+        // }
 
-        @media (max-width: 575.999px) {                                                         // Hides menu under 576px width
+        // @media (max-width: 575.999px) {                                                         // Hides menu under 576px width
 
-            .burger-menu-wrapper {
-                    display: none;
-            }
-        }
+        //     .burger-menu-wrapper {
+        //             display: none;
+        //     }
+        // }
 
     }
 }
