@@ -4,7 +4,7 @@ let sound = new Audio('sound/751085__smallconfusion__mechanical-plastic-click-07
 sound.load();                                                                             // Pre-load the sound (CLICK)
 
 function updateMenuDisplay() {                                                            // Equivalent to @media call to display menu at 576px or greater width
-  if (window.innerWidth > 576) {
+  if (window.innerWidth >= 576) {
     menu.style.display = 'block';
   } else {
     menu.style.display = 'none';
