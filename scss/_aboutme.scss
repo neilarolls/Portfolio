@@ -5,6 +5,7 @@
     background-color: #{$prj-page-bg};
     font-family: "roboto", sans-serif;
     background-image: url(../img/pexels-francesco-ungaro-998641.jpg);
+    overflow: clip;
 
     .aboutme-v-wrapper {
         .aboutme-h-wrapper {

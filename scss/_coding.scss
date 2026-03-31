@@ -3,6 +3,7 @@
     height: 150vh;
     background: linear-gradient(to top left, #{$form-bg-colour-3}, #{$form-bg-colour-2} 50%, #{$form-bg-colour-1} 100%);
     font-family: "roboto", sans-serif;
+    overflow: hidden;
 
     .coding-v-wrapper {
         .coding-h-wrapper {

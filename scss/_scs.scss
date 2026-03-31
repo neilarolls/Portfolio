@@ -7,14 +7,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/earth.png), radial-gradient(circle, #ffffff33 71%, transparent 77%, transparent 100%), url(../img/background-pexels-felix-mittermeier-956981.jpg);
+    overflow-x: clip;
 
     .scs-v-wrapper {
         height: fit-content;
 
         .scs-h-wrapper {
-        height: fit-content;
-        justify-items: center;
-        padding-top: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            justify-items: center;
+            align-items: center;
+            padding-top: 1.5rem;
 
             .scs-sections {
                 display: grid;
@@ -135,7 +139,7 @@
                 }
 
                 @media (min-width: 992px) {
-                    grid-template-columns: 50% 45%;
+                    grid-template-columns: 48% 42%;
                     column-gap: 2rem;
                     padding-left: 200px;
                     padding-right: 50px;

@@ -374,6 +374,7 @@ template {
 /* line 1, ../../../Portfolio/scss/_base.scss */
 body {
   min-width: 280px;
+  overflow-x: clip;
 }
 
 /* line 3, ../../../Portfolio/scss/_burger.scss */
@@ -4129,9 +4130,10 @@ body {
   height: 150vh;
   background: linear-gradient(to top left, #ff5e5eaa, #ffbf5eaa 50%, #ffff91aa 100%);
   font-family: "roboto", sans-serif;
+  overflow: hidden;
 }
 
-/* line 9, ../../../Portfolio/scss/_coding.scss */
+/* line 10, ../../../Portfolio/scss/_coding.scss */
 .coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc {
   display: flex;
   flex-direction: column;
@@ -4139,17 +4141,17 @@ body {
 }
 
 @media (min-width: 576px) {
-  /* line 9, ../../../Portfolio/scss/_coding.scss */
+  /* line 10, ../../../Portfolio/scss/_coding.scss */
   .coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc {
     padding-left: 150px;
   }
-  /* line 17, ../../../Portfolio/scss/_coding.scss */
+  /* line 18, ../../../Portfolio/scss/_coding.scss */
   .coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc .coding-headline-wrapper {
     padding-top: 2rem;
   }
 }
 
-/* line 22, ../../../Portfolio/scss/_coding.scss */
+/* line 23, ../../../Portfolio/scss/_coding.scss */
 .coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc .coding-headline-wrapper {
   text-align: center;
   width: 80%;
@@ -4157,14 +4159,14 @@ body {
   margin: 0 auto;
 }
 
-/* line 28, ../../../Portfolio/scss/_coding.scss */
+/* line 29, ../../../Portfolio/scss/_coding.scss */
 .coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc .coding-headline-wrapper #coding-uc-headline {
   height: fit-content;
   background-color: transparent;
   color: #222255ff;
 }
 
-/* line 35, ../../../Portfolio/scss/_coding.scss */
+/* line 36, ../../../Portfolio/scss/_coding.scss */
 .coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc .coding-details-wrapper {
   font-size: 1.25rem;
   text-align: center;
@@ -4174,7 +4176,7 @@ body {
   font-weight: 450;
 }
 
-/* line 43, ../../../Portfolio/scss/_coding.scss */
+/* line 44, ../../../Portfolio/scss/_coding.scss */
 .coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc .coding-details-wrapper #coding-uc-details {
   height: fit-content;
   background-color: transparent;
@@ -4191,21 +4193,25 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../img/earth.png), radial-gradient(circle, #ffffff33 71%, transparent 77%, transparent 100%), url(../img/background-pexels-felix-mittermeier-956981.jpg);
+  overflow-x: clip;
 }
 
-/* line 11, ../../../Portfolio/scss/_scs.scss */
+/* line 12, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper {
   height: fit-content;
 }
 
-/* line 14, ../../../Portfolio/scss/_scs.scss */
+/* line 15, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper {
+  display: flex;
+  flex-direction: column;
   height: fit-content;
   justify-items: center;
+  align-items: center;
   padding-top: 1.5rem;
 }
 
-/* line 19, ../../../Portfolio/scss/_scs.scss */
+/* line 23, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections {
   display: grid;
   grid-template-rows: auto;
@@ -4216,7 +4222,7 @@ body {
   padding-bottom: 1rem;
 }
 
-/* line 28, ../../../Portfolio/scss/_scs.scss */
+/* line 32, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-scsintro {
   height: fit-content;
   max-width: 330px;
@@ -4231,19 +4237,19 @@ body {
   justify-self: center;
 }
 
-/* line 32, ../../../Portfolio/scss/_scs.scss */
+/* line 36, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-scsintro :first-child {
   font-size: 1.25rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
 
-/* line 38, ../../../Portfolio/scss/_scs.scss */
+/* line 42, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-scsintro .scs-text {
   padding-top: 0.5rem;
 }
 
-/* line 53, ../../../Portfolio/scss/_scs.scss */
+/* line 57, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-treehouse {
   max-width: 350px;
   color: #fffadb;
@@ -4257,14 +4263,14 @@ body {
   justify-self: center;
 }
 
-/* line 56, ../../../Portfolio/scss/_scs.scss */
+/* line 60, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-treehouse :first-child {
   font-size: 1.25rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
 
-/* line 73, ../../../Portfolio/scss/_scs.scss */
+/* line 77, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-netmatters {
   height: fit-content;
   max-width: 330px;
@@ -4281,114 +4287,114 @@ body {
   transition: justify-self 0.5s linear;
 }
 
-/* line 77, ../../../Portfolio/scss/_scs.scss */
+/* line 81, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-netmatters :first-child {
   padding-top: 0.5rem;
 }
 
-/* line 80, ../../../Portfolio/scss/_scs.scss */
+/* line 84, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-netmatters :first-child strong {
   font-size: 1.25rem;
 }
 
-/* line 85, ../../../Portfolio/scss/_scs.scss */
+/* line 89, ../../../Portfolio/scss/_scs.scss */
 .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-netmatters ul {
   list-style-type: disc;
   padding-left: 1.75rem;
 }
 
 @media (min-width: 576px) {
-  /* line 19, ../../../Portfolio/scss/_scs.scss */
+  /* line 23, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections {
     padding-left: 150px;
     width: calc(100vw - 150px - 1rem);
   }
-  /* line 109, ../../../Portfolio/scss/_scs.scss */
+  /* line 113, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(1) .scs-title strong {
     font-size: 1.4rem;
   }
-  /* line 113, ../../../Portfolio/scss/_scs.scss */
+  /* line 117, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(1) .scs-text {
     font-size: 1.12rem;
   }
-  /* line 109, ../../../Portfolio/scss/_scs.scss */
+  /* line 113, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(2) .scs-title strong {
     font-size: 1.4rem;
   }
-  /* line 113, ../../../Portfolio/scss/_scs.scss */
+  /* line 117, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(2) .scs-text {
     font-size: 1.12rem;
   }
-  /* line 109, ../../../Portfolio/scss/_scs.scss */
+  /* line 113, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(3) .scs-title strong {
     font-size: 1.4rem;
   }
-  /* line 113, ../../../Portfolio/scss/_scs.scss */
+  /* line 117, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(3) .scs-text {
     font-size: 1.12rem;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 125, ../../../Portfolio/scss/_scs.scss */
+  /* line 129, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(1) .scs-title strong {
     font-size: 1.568rem;
   }
-  /* line 129, ../../../Portfolio/scss/_scs.scss */
+  /* line 133, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(1) .scs-text {
     font-size: 1.254rem;
   }
-  /* line 125, ../../../Portfolio/scss/_scs.scss */
+  /* line 129, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(2) .scs-title strong {
     font-size: 1.568rem;
   }
-  /* line 129, ../../../Portfolio/scss/_scs.scss */
+  /* line 133, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(2) .scs-text {
     font-size: 1.254rem;
   }
-  /* line 125, ../../../Portfolio/scss/_scs.scss */
+  /* line 129, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(3) .scs-title strong {
     font-size: 1.568rem;
   }
-  /* line 129, ../../../Portfolio/scss/_scs.scss */
+  /* line 133, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(3) .scs-text {
     font-size: 1.254rem;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 19, ../../../Portfolio/scss/_scs.scss */
+  /* line 23, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections {
-    grid-template-columns: 50% 45%;
+    grid-template-columns: 48% 42%;
     column-gap: 2rem;
     padding-left: 200px;
     padding-right: 50px;
   }
-  /* line 146, ../../../Portfolio/scss/_scs.scss */
+  /* line 150, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(1) :nth-child(1) strong {
     font-size: 1.764rem;
   }
-  /* line 151, ../../../Portfolio/scss/_scs.scss */
+  /* line 155, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(1) .scs-text {
     font-size: 1.41rem;
   }
-  /* line 146, ../../../Portfolio/scss/_scs.scss */
+  /* line 150, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(2) :nth-child(1) strong {
     font-size: 1.764rem;
   }
-  /* line 151, ../../../Portfolio/scss/_scs.scss */
+  /* line 155, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(2) .scs-text {
     font-size: 1.41rem;
   }
-  /* line 146, ../../../Portfolio/scss/_scs.scss */
+  /* line 150, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(3) :nth-child(1) strong {
     font-size: 1.764rem;
   }
-  /* line 151, ../../../Portfolio/scss/_scs.scss */
+  /* line 155, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections :nth-child(3) .scs-text {
     font-size: 1.41rem;
   }
-  /* line 157, ../../../Portfolio/scss/_scs.scss */
+  /* line 161, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-scsintro {
     align-self: center;
     justify-self: end;
@@ -4397,7 +4403,7 @@ body {
     grid-row-start: 2;
     grid-row-end: 3;
   }
-  /* line 166, ../../../Portfolio/scss/_scs.scss */
+  /* line 170, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-netmatters {
     align-self: center;
     justify-self: start;
@@ -4406,7 +4412,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
   }
-  /* line 175, ../../../Portfolio/scss/_scs.scss */
+  /* line 179, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-treehouse {
     align-self: end;
     justify-self: end;
@@ -4418,7 +4424,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 19, ../../../Portfolio/scss/_scs.scss */
+  /* line 23, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections {
     padding-left: 300px;
     padding-right: 50px;
@@ -4427,21 +4433,21 @@ body {
 }
 
 @media (min-height: 1080px) {
-  /* line 19, ../../../Portfolio/scss/_scs.scss */
+  /* line 23, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections {
     row-gap: 6rem;
   }
 }
 
 @media (min-height: 1080px) and (min-width: 992px) {
-  /* line 195, ../../../Portfolio/scss/_scs.scss */
+  /* line 199, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-netmatters {
     margin-left: 3rem;
   }
 }
 
 @media (min-width: 1560px) {
-  /* line 202, ../../../Portfolio/scss/_scs.scss */
+  /* line 206, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections .scs-treehouse {
     max-width: 100%;
     width: 28rem;
@@ -4457,9 +4463,10 @@ body {
   background-color: #0e0e17;
   font-family: "roboto", sans-serif;
   background-image: url(../img/pexels-francesco-ungaro-998641.jpg);
+  overflow: clip;
 }
 
-/* line 14, ../../../Portfolio/scss/_aboutme.scss */
+/* line 15, ../../../Portfolio/scss/_aboutme.scss */
 .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections {
   display: grid;
   height: fit-content;
@@ -4467,7 +4474,7 @@ body {
   grid-template-rows: 0.75fr 1fr 5fr 0.2fr;
 }
 
-/* line 20, ../../../Portfolio/scss/_aboutme.scss */
+/* line 21, ../../../Portfolio/scss/_aboutme.scss */
 .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-title {
   color: #e6e6ef;
   width: fit-content;
@@ -4479,7 +4486,7 @@ body {
   justify-self: center;
 }
 
-/* line 31, ../../../Portfolio/scss/_aboutme.scss */
+/* line 32, ../../../Portfolio/scss/_aboutme.scss */
 .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
   color: #e6e6ef;
   width: 75%;
@@ -4495,22 +4502,22 @@ body {
 }
 
 @media (min-width: 576px) {
-  /* line 14, ../../../Portfolio/scss/_aboutme.scss */
+  /* line 15, ../../../Portfolio/scss/_aboutme.scss */
   .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections {
     padding-left: 150px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 14, ../../../Portfolio/scss/_aboutme.scss */
+  /* line 15, ../../../Portfolio/scss/_aboutme.scss */
   .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections {
     padding-left: 300px;
   }
-  /* line 52, ../../../Portfolio/scss/_aboutme.scss */
+  /* line 53, ../../../Portfolio/scss/_aboutme.scss */
   .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-title {
     font-size: 4rem;
   }
-  /* line 56, ../../../Portfolio/scss/_aboutme.scss */
+  /* line 57, ../../../Portfolio/scss/_aboutme.scss */
   .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
     font-size: 2rem;
   }
