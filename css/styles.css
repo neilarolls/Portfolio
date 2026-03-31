@@ -1382,7 +1382,7 @@ body {
     height: 100%;
     padding: 0;
     font-weight: 600;
-    font-size: 1.125rem;
+    font-size: 0.95rem;
     display: block;
     color: #222255ff;
     border-right: 0.1rem solid #222255ff;
@@ -2156,7 +2156,7 @@ body {
     height: 100%;
     padding: 0;
     font-weight: 600;
-    font-size: 1.625rem;
+    font-size: 1.4rem;
     display: block;
     color: #222255ff;
     border-right: 0.1rem solid #222255ff;
@@ -2543,7 +2543,7 @@ body {
     height: 100%;
     padding: 0;
     font-weight: 600;
-    font-size: 1.625rem;
+    font-size: 1.45rem;
     display: block;
     color: #222255ff;
     border-right: 0.1rem solid #222255ff;
@@ -2930,7 +2930,7 @@ body {
     height: 100%;
     padding: 0;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.65rem;
     display: block;
     color: #222255ff;
     border-right: 0.1rem solid #222255ff;
@@ -3317,7 +3317,7 @@ body {
     height: 100%;
     padding: 0;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     display: block;
     color: #222255ff;
     border-right: 0.1rem solid #222255ff;
@@ -3658,23 +3658,23 @@ body {
   }
 }
 
-/* line 116, ../../../Portfolio/scss/_projects.scss */
+/* line 126, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(n) {
   padding: 1.25rem 0.625rem 0 0.625rem;
 }
 
-/* line 120, ../../../Portfolio/scss/_projects.scss */
+/* line 130, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) {
   justify-self: end;
 }
 
-/* line 124, ../../../Portfolio/scss/_projects.scss */
+/* line 134, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) {
   justify-self: start;
 }
 
 @media (min-width: 576px) {
-  /* line 130, ../../../Portfolio/scss/_projects.scss */
+  /* line 140, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(n) {
     padding: 1.25rem 2.5rem 0 2.5rem;
   }
@@ -3686,21 +3686,21 @@ body {
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(3, 66.6667%);
   }
-  /* line 139, ../../../Portfolio/scss/_projects.scss */
+  /* line 149, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) {
     align-self: end;
   }
 }
 
 @media (min-width: 768px) and (min-width: 832px) {
-  /* line 145, ../../../Portfolio/scss/_projects.scss */
+  /* line 155, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) {
     align-self: center;
   }
 }
 
 @media (min-width: 768px) and (min-width: 992px) {
-  /* line 153, ../../../Portfolio/scss/_projects.scss */
+  /* line 163, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) {
     align-self: start;
   }
@@ -3711,21 +3711,21 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
     grid-template-rows: repeat(3, 49.5%);
   }
-  /* line 165, ../../../Portfolio/scss/_projects.scss */
+  /* line 175, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) {
     align-self: end;
   }
 }
 
 @media (min-width: 992px) and (min-width: 832px) {
-  /* line 171, ../../../Portfolio/scss/_projects.scss */
+  /* line 181, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) {
     align-self: center;
   }
 }
 
 @media (min-width: 992px) and (min-width: 896px) {
-  /* line 179, ../../../Portfolio/scss/_projects.scss */
+  /* line 189, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) {
     align-self: start;
   }
@@ -3743,15 +3743,15 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
     grid-template-rows: repeat(3, 36%);
   }
-  /* line 196, ../../../Portfolio/scss/_projects.scss */
+  /* line 206, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) {
     justify-self: end;
   }
-  /* line 200, ../../../Portfolio/scss/_projects.scss */
+  /* line 210, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3), .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) {
     justify-self: start;
   }
-  /* line 205, ../../../Portfolio/scss/_projects.scss */
+  /* line 215, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(n) {
     align-self: center;
   }
@@ -4152,7 +4152,7 @@ body {
 /* line 22, ../../../Portfolio/scss/_coding.scss */
 .coding-top .coding-v-wrapper .coding-h-wrapper .coding-uc .coding-headline-wrapper {
   text-align: center;
-  width: 90%;
+  width: 80%;
   padding-top: 4rem;
   margin: 0 auto;
 }
