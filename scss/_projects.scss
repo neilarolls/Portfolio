@@ -123,7 +123,7 @@
                 grid-template-rows: repeat(6, 1fr);
 
 
-                :nth-child(n) {
+                :nth-child(n) {                                        // Initial state 
                     padding: 1.25rem 0.625rem 0 0.625rem;
                 }
 

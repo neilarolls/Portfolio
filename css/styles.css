@@ -482,7 +482,7 @@ body {
 
 /* line 102, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(1) {
-  height: calc((100vh / 8) * 2);
+  height: calc((100vh / 7.95) * 2);
   top: 0;
 }
 
@@ -490,7 +490,7 @@ body {
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(1) .menu-initials a {
   width: 150px;
   display: block;
-  top: calc(100vh / 8 - 1.725rem);
+  top: calc(100vh / 7.95 - 1.725rem);
   z-index: 2;
   font-family: "roboto", sans-serif;
   font-weight: 700;
@@ -516,7 +516,7 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(1) .menu-initials a {
     font-size: 4.6rem;
     height: 5.2rem;
-    top: calc(100vh / 8 - 2.7875rem);
+    top: calc(100vh / 7.95 - 2.7875rem);
   }
 }
 
@@ -538,7 +538,7 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(1) .menu-initials a {
     font-size: 6.4rem;
     height: 7rem;
-    top: calc(100vh / 8 - 3.685rem);
+    top: calc(100vh / 7.95 - 3.685rem);
     padding-bottom: 0.25rem;
   }
 }
@@ -548,7 +548,7 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(1) .menu-initials a {
     font-size: 9rem;
     height: 9.8rem;
-    top: calc(100vh / 8 - 5.085rem);
+    top: calc(100vh / 7.95 - 5.085rem);
     width: 300px;
   }
 }
@@ -558,21 +558,21 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(1) .menu-initials a {
     font-size: 12rem;
     height: 13rem;
-    top: calc(100vh / 8 - 6.685rem);
+    top: calc(100vh / 7.95 - 6.685rem);
   }
 }
 
 /* line 182, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(2) {
-  top: calc((100vh / 8) * 2);
-  height: calc(100vh / 8);
+  top: calc((100vh / 7.95) * 2);
+  height: calc(100vh / 7.95);
 }
 
 /* line 187, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(2) a {
   display: block;
   width: 150px;
-  top: calc(((100vh / 8) * 2.5) - 0.7187rem);
+  top: calc(((100vh / 7.95) * 2.5) - 0.7187rem);
   height: min-content;
 }
 
@@ -593,7 +593,7 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(2) a {
     font-size: 1.5rem;
     height: 2.2rem;
-    top: calc(((100vh / 8) * 2.5) - 1.1rem);
+    top: calc(((100vh / 7.95) * 2.5) - 1.1rem);
   }
 }
 
@@ -644,29 +644,29 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(2) a {
     font-size: 2rem;
     height: 2.8rem;
-    top: calc(((100vh / 8) * 2.5) - 2.3rem);
+    top: calc(((100vh / 7.95) * 2.5) - 2.3rem);
   }
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
   /* line 244, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(2) a {
-    top: calc(((100vh / 8) * 2.5) - 1.4rem);
+    top: calc(((100vh / 7.95) * 2.5) - 1.4rem);
     width: 300px;
   }
 }
 
 /* line 258, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) {
-  top: calc((100vh / 8) * 3);
-  height: calc(100vh / 8);
+  top: calc((100vh / 7.95) * 3);
+  height: calc(100vh / 7.95);
 }
 
 /* line 263, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
   display: block;
   width: 150px;
-  top: calc(((100vh / 8) * 3.5) - 0.7187rem);
+  top: calc(((100vh / 7.95) * 3.5) - 0.7187rem);
   height: min-content;
 }
 
@@ -687,7 +687,7 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
     font-size: 1.5rem;
     height: 2.2rem;
-    top: calc(((100vh / 8) * 3.5) - 1.05rem);
+    top: calc(((100vh / 7.95) * 3.5) - 1.05rem);
   }
 }
 
@@ -724,29 +724,29 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
     font-size: 2rem;
     height: 2.8rem;
-    top: calc(((100vh / 8) * 3.5) - 2.55rem);
+    top: calc(((100vh / 7.95) * 3.5) - 2.55rem);
   }
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
   /* line 312, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(3) a {
-    top: calc(((100vh / 8) * 3.5) - 1.4rem);
+    top: calc(((100vh / 7.95) * 3.5) - 1.4rem);
     width: 300px;
   }
 }
 
 /* line 325, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) {
-  top: calc((100vh / 8) * 4);
-  height: calc(100vh / 8);
+  top: calc((100vh / 7.95) * 4);
+  height: calc(100vh / 7.95);
 }
 
 /* line 330, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
   display: block;
   width: 150px;
-  top: calc(((100vh / 8) * 4.5) - 0.7187rem);
+  top: calc(((100vh / 7.95) * 4.5) - 0.7187rem);
   height: min-content;
 }
 
@@ -767,7 +767,7 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
     font-size: 1.5rem;
     height: 2.2rem;
-    top: calc(((100vh / 8) * 4.5) - 2rem);
+    top: calc(((100vh / 7.95) * 4.5) - 2rem);
   }
 }
 
@@ -775,7 +775,7 @@ body {
   /* line 351, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
     width: 300px;
-    top: calc(((100vh / 8) * 4.5) - 1rem);
+    top: calc(((100vh / 7.95) * 4.5) - 1rem);
     font-size: 1.7rem;
   }
 }
@@ -805,29 +805,29 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
     font-size: 2rem;
     height: 2.8rem;
-    top: calc(((100vh / 8) * 4.5) - 2.55rem);
+    top: calc(((100vh / 7.95) * 4.5) - 2.55rem);
   }
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
   /* line 380, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(4) a {
-    top: calc(((100vh / 8) * 4.5) - 1.4rem);
+    top: calc(((100vh / 7.95) * 4.5) - 1.4rem);
     width: 300px;
   }
 }
 
 /* line 393, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) {
-  top: calc((100vh / 8) * 5);
-  height: calc(100vh / 8);
+  top: calc((100vh / 7.95) * 5);
+  height: calc(100vh / 7.95);
 }
 
 /* line 398, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
   display: block;
   width: 150px;
-  top: calc(((100vh / 8) * 5.5) - 0.7187rem);
+  top: calc(((100vh / 7.95) * 5.5) - 0.7187rem);
   height: min-content;
 }
 
@@ -848,7 +848,7 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
     font-size: 1.5rem;
     height: 2.2rem;
-    top: calc(((100vh / 8) * 5.5) - 1rem);
+    top: calc(((100vh / 7.95) * 5.5) - 1rem);
   }
 }
 
@@ -885,22 +885,22 @@ body {
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
     font-size: 2rem;
     height: 2.8rem;
-    top: calc(((100vh / 8) * 5.5) - 2.5rem);
+    top: calc(((100vh / 7.95) * 5.5) - 2.5rem);
   }
 }
 
 @media (min-height: 720px) and (min-width: 1200px) {
   /* line 448, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(5) a {
-    top: calc(((100vh / 8) * 5.5) - 1.4rem);
+    top: calc(((100vh / 7.95) * 5.5) - 1.4rem);
     width: 300px;
   }
 }
 
 /* line 461, ../../../Portfolio/scss/_burger.scss */
 .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) {
-  height: calc((100vh / 8) * 2);
-  top: calc(((100vh / 8) * 6));
+  height: calc((100vh / 7.95) * 2);
+  top: calc(((100vh / 7.95) * 6));
 }
 
 /* line 467, ../../../Portfolio/scss/_burger.scss */
@@ -913,7 +913,7 @@ body {
   position: fixed;
   display: block;
   width: 150px;
-  top: calc(((100vh / 8) * 6.5) - 0.9rem);
+  top: calc(((100vh / 7.95) * 6.5) - 0.9rem);
   font-family: "roboto", sans-serif;
   font-size: 1.25rem;
   font-weight: 350;
@@ -947,7 +947,7 @@ body {
   /* line 504, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
     font-size: 2.1rem;
-    top: calc(((100vh / 8) * 6.5) - 1.9rem);
+    top: calc(((100vh / 7.95) * 6.5) - 1.9rem);
   }
 }
 
@@ -962,7 +962,7 @@ body {
   /* line 518, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :first-child :first-child {
     font-size: 2.3rem;
-    top: calc(((100vh / 8) * 6.25) - 1.25rem);
+    top: calc(((100vh / 7.95) * 6.25) - 1.25rem);
   }
 }
 
@@ -986,7 +986,7 @@ body {
   width: 2rem;
   height: 2rem;
   left: calc(50px - 1rem);
-  top: calc(((100vh / 8) * 7.25) - 0.85rem);
+  top: calc(((100vh / 7.95) * 7.25) - 0.85rem);
 }
 
 @media (min-width: 1200px) {
@@ -999,7 +999,7 @@ body {
 @media (min-height: 360px) {
   /* line 548, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
-    top: calc(((100vh / 8) * 7.25) - 1.2rem);
+    top: calc(((100vh / 7.95) * 7.25) - 1.2rem);
     width: 3rem;
     height: 3rem;
     left: calc(50px - 1.85rem);
@@ -1016,7 +1016,7 @@ body {
 @media (min-height: 720px) {
   /* line 562, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
-    top: calc(((100vh / 8) * 7.25) - 1.6rem);
+    top: calc(((100vh / 7.95) * 7.25) - 1.6rem);
     width: 3.5rem;
     height: 3.5rem;
     left: calc(50px - 2.3rem);
@@ -1026,7 +1026,7 @@ body {
 @media (min-height: 720px) and (min-width: 1200px) {
   /* line 562, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
-    top: calc(((100vh / 8) * 7.25) - 2.5rem);
+    top: calc(((100vh / 7.95) * 7.25) - 2.5rem);
     width: 5rem;
     height: 5rem;
     left: calc(100px - 3rem);
@@ -1036,7 +1036,7 @@ body {
 @media (min-height: 1080px) {
   /* line 579, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
-    top: calc(((100vh / 8) * 6.725));
+    top: calc(((100vh / 7.95) * 6.725));
     width: 5rem;
     height: 5rem;
     left: calc(75px - 2.5rem);
@@ -1046,7 +1046,7 @@ body {
 @media (min-height: 1080px) and (min-width: 1200px) {
   /* line 579, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :first-child {
-    top: calc(((100vh / 8) * 6.475));
+    top: calc(((100vh / 7.95) * 6.475));
     left: calc(150px - 3.5rem);
     width: 7rem;
     height: 7rem;
@@ -1060,7 +1060,7 @@ body {
   width: 2rem;
   height: 2rem;
   left: calc(100px - 1rem);
-  top: calc(((100vh / 8) * 7.25) - 0.85rem);
+  top: calc(((100vh / 7.95) * 7.25) - 0.85rem);
 }
 
 @media (min-width: 1200px) {
@@ -1073,7 +1073,7 @@ body {
 @media (min-height: 360px) {
   /* line 610, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
-    top: calc(((100vh / 8) * 7.25) - 1.2rem);
+    top: calc(((100vh / 7.95) * 7.25) - 1.2rem);
     width: 3rem;
     height: 3rem;
     left: calc(100px - 1rem);
@@ -1090,7 +1090,7 @@ body {
 @media (min-height: 720px) {
   /* line 624, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
-    top: calc(((100vh / 8) * 7.25) - 1.6rem);
+    top: calc(((100vh / 7.95) * 7.25) - 1.6rem);
     width: 3.5rem;
     height: 3.5rem;
     left: calc(100px - 0.75rem);
@@ -1100,7 +1100,7 @@ body {
 @media (min-height: 720px) and (min-width: 1200px) {
   /* line 624, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
-    top: calc(((100vh / 8) * 7.25) - 2.5rem);
+    top: calc(((100vh / 7.95) * 7.25) - 2.5rem);
     width: 5rem;
     height: 5rem;
     left: calc(200px - 2rem);
@@ -1110,7 +1110,7 @@ body {
 @media (min-height: 1080px) {
   /* line 641, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
-    top: calc(((100vh / 8) * 6.8) + 4.5rem);
+    top: calc(((100vh / 7.95) * 6.8) + 4.5rem);
     width: 5rem;
     height: 5rem;
     left: calc(75px - 2.5rem);
@@ -1120,7 +1120,7 @@ body {
 @media (min-height: 1080px) and (min-width: 1200px) {
   /* line 641, ../../../Portfolio/scss/_burger.scss */
   .burger-top .burger-button .burger-menu-top .burger-menu-wrapper :nth-child(6) :nth-child(2) :nth-child(2) {
-    top: calc(((100vh / 8) * 6.8) + 3.5rem);
+    top: calc(((100vh / 7.95) * 6.8) + 3.5rem);
     left: calc(150px - 3.5rem);
     width: 7rem;
     height: 7rem;
@@ -1359,13 +1359,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
     width: 244px;
     padding: 0;
     height: calc(200.08px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(200.08px * 0.18);
@@ -1373,11 +1387,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1389,7 +1403,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -1423,13 +1437,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
     width: 244px;
     padding: 0;
     height: calc(200.08px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(200.08px * 0.18);
@@ -1437,11 +1465,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1453,7 +1481,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -1487,13 +1515,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
     width: 244px;
     padding: 0;
     height: calc(200.08px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(200.08px * 0.18);
@@ -1501,11 +1543,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1517,7 +1559,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -1551,13 +1593,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
     width: 244px;
     padding: 0;
     height: calc(200.08px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(200.08px * 0.18);
@@ -1565,11 +1621,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1581,7 +1637,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -1615,13 +1671,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
     width: 244px;
     padding: 0;
     height: calc(200.08px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(200.08px * 0.18);
@@ -1629,11 +1699,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1645,7 +1715,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -1679,13 +1749,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
     width: 244px;
     padding: 0;
     height: calc(200.08px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(200.08px * 0.18);
@@ -1693,11 +1777,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1709,7 +1793,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -1746,13 +1830,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
     width: 300px;
     padding: 0;
     height: calc(246px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(246px * 0.18);
@@ -1760,11 +1858,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1776,7 +1874,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -1810,13 +1908,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
     width: 300px;
     padding: 0;
     height: calc(246px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(246px * 0.18);
@@ -1824,11 +1936,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1840,7 +1952,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -1874,13 +1986,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
     width: 300px;
     padding: 0;
     height: calc(246px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(246px * 0.18);
@@ -1888,11 +2014,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1904,7 +2030,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -1938,13 +2064,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
     width: 300px;
     padding: 0;
     height: calc(246px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(246px * 0.18);
@@ -1952,11 +2092,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -1968,7 +2108,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2002,13 +2142,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
     width: 300px;
     padding: 0;
     height: calc(246px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(246px * 0.18);
@@ -2016,11 +2170,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2032,7 +2186,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2066,13 +2220,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
     width: 300px;
     padding: 0;
     height: calc(246px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(246px * 0.18);
@@ -2080,11 +2248,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2096,7 +2264,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2133,13 +2301,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2147,11 +2329,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2163,7 +2345,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2197,13 +2379,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2211,11 +2407,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2227,7 +2423,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2261,13 +2457,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2275,11 +2485,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2291,7 +2501,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2325,13 +2535,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2339,11 +2563,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2355,7 +2579,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2389,13 +2613,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2403,11 +2641,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2419,7 +2657,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2453,13 +2691,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2467,11 +2719,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2483,7 +2735,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2520,13 +2772,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2534,11 +2800,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2550,7 +2816,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2584,13 +2850,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2598,11 +2878,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2614,7 +2894,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2648,13 +2928,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2662,11 +2956,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2678,7 +2972,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2712,13 +3006,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2726,11 +3034,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2742,7 +3050,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2776,13 +3084,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2790,11 +3112,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2806,7 +3128,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2840,13 +3162,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
     width: 384px;
     padding: 0;
     height: calc(315px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(315px * 0.18);
@@ -2854,11 +3190,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2870,7 +3206,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2907,13 +3243,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
     width: 448px;
     padding: 0;
     height: calc(367.36px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(367.36px * 0.18);
@@ -2921,11 +3271,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -2937,7 +3287,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -2971,13 +3321,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
     width: 448px;
     padding: 0;
     height: calc(367.36px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(367.36px * 0.18);
@@ -2985,11 +3349,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3001,7 +3365,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3035,13 +3399,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
     width: 448px;
     padding: 0;
     height: calc(367.36px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(367.36px * 0.18);
@@ -3049,11 +3427,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3065,7 +3443,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3099,13 +3477,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
     width: 448px;
     padding: 0;
     height: calc(367.36px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(367.36px * 0.18);
@@ -3113,11 +3505,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3129,7 +3521,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3163,13 +3555,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
     width: 448px;
     padding: 0;
     height: calc(367.36px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(367.36px * 0.18);
@@ -3177,11 +3583,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3193,7 +3599,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3227,13 +3633,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
     width: 448px;
     padding: 0;
     height: calc(367.36px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(367.36px * 0.18);
@@ -3241,11 +3661,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3257,7 +3677,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3294,13 +3714,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-detailsimage {
     width: 512px;
     padding: 0;
     height: calc(419.84px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(419.84px * 0.18);
@@ -3308,11 +3742,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3324,7 +3758,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3358,13 +3792,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-detailsimage {
     width: 512px;
     padding: 0;
     height: calc(419.84px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(419.84px * 0.18);
@@ -3372,11 +3820,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3388,7 +3836,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3422,13 +3870,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-detailsimage {
     width: 512px;
     padding: 0;
     height: calc(419.84px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(419.84px * 0.18);
@@ -3436,11 +3898,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3452,7 +3914,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3486,13 +3948,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-detailsimage {
     width: 512px;
     padding: 0;
     height: calc(419.84px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(419.84px * 0.18);
@@ -3500,11 +3976,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3516,7 +3992,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3550,13 +4026,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-detailsimage {
     width: 512px;
     padding: 0;
     height: calc(419.84px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(419.84px * 0.18);
@@ -3564,11 +4054,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3580,7 +4070,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;
@@ -3614,13 +4104,27 @@ body {
     padding: 0;
   }
   /* line 21, ../../../Portfolio/scss/_mixins.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data img {
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
+    display: none;
+    opacity: 0;
+  }
+  /* line 26, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-detailsimage {
     width: 512px;
     padding: 0;
     height: calc(419.84px * 0.82);
     border-bottom: 0.05rem solid #222255ff;
   }
-  /* line 29, ../../../Portfolio/scss/_mixins.scss */
+  /* line 34, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-detailsimage {
+    display: block;
+    opacity: 100%;
+  }
+  /* line 39, ../../../Portfolio/scss/_mixins.scss */
+  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data:hover .prj-card-coverimage {
+    display: none;
+  }
+  /* line 45, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     height: calc(419.84px * 0.18);
@@ -3628,11 +4132,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 36, ../../../Portfolio/scss/_mixins.scss */
+  /* line 52, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     background-color: #e7e7ff;
   }
-  /* line 40, ../../../Portfolio/scss/_mixins.scss */
+  /* line 56, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text div {
     width: 50%;
     height: 100%;
@@ -3644,7 +4148,7 @@ body {
     border-right: 0.1rem solid #222255ff;
     align-content: center;
   }
-  /* line 52, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     width: 50%;
     height: 100%;

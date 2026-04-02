@@ -18,11 +18,27 @@
             border-radius: 0.2rem;
             padding: 0;
 
-            img {
+            .prj-card-detailsimage {
+                display: none;
+                opacity: 0;
+            }
+
+            .prj-card-coverimage, .prj-card-detailsimage {
                 width: #{$card-width};
                 padding: 0;
                 height: calc(#{$card-height} * 0.82);
                 border-bottom: 0.05rem solid #{$card-text};
+            }
+
+            &:hover {
+                .prj-card-detailsimage{
+                    display: block;
+                    opacity: 100%;
+                }
+
+                .prj-card-coverimage{
+                    display: none;
+                }
 
             }
 
@@ -34,7 +50,7 @@
                 flex-direction: row;
 
                 a:hover {
-                        background-color: #e7e7ff;                    
+                        background-color: #e7e7ff;
                 }
 
                 div {
