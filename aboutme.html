@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="js/preload.js"></script>
 
 </head>
 <body>
@@ -38,13 +39,13 @@
             </div>
         </div>
     </main>
-    <div class="burger-top">
+   <div class="burger-top">
         <div class="burger-button">  <!-- Burger Button -->
-            <button class="burger-bar" id="bm-menu-button">
-                <div class="burger-bar-top"></div>
-                <div class="burger-bar-middle"></div>
-                <div class="burger-bar-bottom"></div>
-            </button>
+            <div class="burger-bar" id="bm-menu-button">
+                <div id="burger-bar-top"></div>
+                <div id="burger-bar-middle"></div>
+                <div id="burger-bar-bottom"></div>
+            </div>
             <div class="burger-menu-top">  <!-- Burger Menu Items -->
                 <div class="burger-menu-wrapper" id="bm-display">
 
@@ -71,10 +72,14 @@
                     </div>
 
                     <div class="burger-menu-contact-box menu-box">
-                        <div class="contact-title menu-text"><div>Contact Me</div></div>
+                        <div class="contact-title menu-text">
+                            <div>
+                                <a href="index.html#cform-top-target">Contact Me</a>
+                            </div>
+                        </div>
                         <div class="contact-links" style="width: 0px;height: 0px;">
-                            <a href="index.html#cform-top-target" ><img src="img/email_icon.png" alt="email icon"></a>
-                            <img src="img/comment-sms-solid.png" alt="s.m.s icon">
+                            <a href="mailto:neilarolls@gmail.com"><img src="img/email_icon.png" alt="email icon"></a>
+                            <a href="#"><img src="img/comment-sms-solid.png" alt="s.m.s icon"></a>
                         </div>
                     </div>
 

@@ -1,10 +1,10 @@
 .burger-top {
+    z-index: 5 !important;
 
     .burger-button {
         position: fixed;
         left: 0;
         top: 0;
-        // background-color: transparent;
         padding: 0;
         border: 0;
 
@@ -13,28 +13,28 @@
             position: fixed;
             width: 3.75rem;
             height: 2.75rem;
-            #{$burger-button-position}: 0.1rem;
-            top: 0.1rem;
+            #{$burger-button-position}: 0.2rem;
+            top: 0.2rem;
             background-color: transparent;
             border: 0.125rem solid #{$bm-btn-border};
             border-radius: #{$bm-btn-radius};
 
-            div {
+            * {
                 transition: (box-shadow, border) 0.3s linear;
                 position: fixed;
                 width: 2.5rem;
-                #{$burger-button-position}: 0.55rem;            // Change button to 'left' or 'right' in _variables.scss
-                top: 0.55rem;
+                #{$burger-button-position}: 0.72rem;            // Change button to 'left' or 'right' in _variables.scss
+                top: 0.74rem;
                 background-color: transparent;
                 border: 0.225rem solid #{$bm-btn-border};
             }
 
-            .burger-bar-middle {
-                top: 1.3rem;
+            #burger-bar-middle {
+                top: 1.5rem;
             }
 
-            .burger-bar-bottom {
-                top: 2.05rem;
+            #burger-bar-bottom {
+                top: 2.26rem;
             }
         }
 
@@ -59,14 +59,17 @@
         }
 
         .burger-menu-top {
+            z-index: 5;
 
             .burger-menu-wrapper {
+                z-index: 5;
 
                 #aboutme-break {
                     display: none;
                 }
 
-                > div {                                             // set menu item defaults
+                > div {                 
+                    z-index: 5;                            // set menu item defaults
                     position: fixed;
                     background-color: #{$bm-main-background};
                     border-radius: #{$bm-box-radius};
@@ -80,10 +83,10 @@
                     }
                 }
 
-                div {                                                 // set menu item defaults
+                :nth-child(1), :nth-child(2), :nth-child(3), :nth-child(4), :nth-child(5) {     // set menu item anchor defaults except for contact me element (6th child)
                     a {
                         display: #{$bm-menu-mode};
-                        z-index: 2;
+                        z-index: 5;
                         font-family: "roboto", sans-serif;
                         font-weight: 350;
                         font-size: 1.25rem;
@@ -116,7 +119,7 @@
 
                             display: #{$bm-menu-mode};
                             top: calc(100vh / #{$burger-height-factor} - 1.725rem);
-                            z-index: 2;
+                            z-index: 5;
                             font-family: "roboto", sans-serif;
                             font-weight: 700;
                             font-size: 2.8rem;
@@ -176,6 +179,13 @@
                                 }
                             }
                         }
+
+                        &:hover {
+                            a {
+                                color: white;
+                                text-shadow: 0 0 0.3rem #000000;
+                            }
+                        }
                     }
                 }
 
@@ -199,6 +209,7 @@
 
                         a {
                             color: white;
+                            text-shadow: 0 0 0.3rem #000000;
                         }
                     }
 
@@ -275,6 +286,7 @@
 
                         a {
                             color: white;
+                            text-shadow: 0 0 0.3rem #000000;
                         }
                     }
 
@@ -342,6 +354,7 @@
 
                         a {
                             color: white;
+                            text-shadow: 0 0 0.3rem #000000;
                         }
                     }
 
@@ -410,6 +423,7 @@
 
                         a {
                             color: white;
+                            text-shadow: 0 0 0.3rem #000000;
                         }
                     }
 
@@ -458,9 +472,8 @@
                     }
                 }
 
-                :nth-child(6) {                                                                 // Contact Me
-                    
-                    // display: none;
+                :nth-child(6) {                                                                 // Contact Me section
+
                     height: calc((100vh / #{$burger-height-factor}) * 2);
                     top: calc(((100vh / #{$burger-height-factor}) * 6));
 
@@ -482,10 +495,20 @@
                             @media (min-width: 1200px) {
                                 width: 300px;
                             }
+
+                            a {
+                                color: #{$bm-text-initials};
+                                text-decoration: none;
+                            }
+
+                            a:hover {
+                                color: white;
+                                text-shadow: 0 0 0.3rem #000000;
+                            }
                         }
                     }
 
-                    @media (min-height: 360px) {
+                    @media (min-height: 360px) {                                                    // Contact Me text height responsive behaviour
 
                         :first-child {
                             :first-child {
@@ -503,7 +526,7 @@
                         :first-child {
                             :first-child {
                                 font-size: 2.1rem;
-                                top: calc(((100vh / #{$burger-height-factor}) * 6.5) - 1.9rem);
+                                top: calc(((100vh / #{$burger-height-factor}) * 6.5) - 2rem);
 
                                 @media (min-width: 1200px) {
                                     width: 300px;
@@ -526,11 +549,11 @@
                         }
                     }
 
-                    :nth-child(2) {                                                             // Contact Me Email Icon defaults and responsive behaviour
+                    :nth-child(2) {                                                                 // Contact Me Icons
                         display: block;
                         position: fixed;
 
-                        :first-child {
+                        :first-child {                                                              // Email Icon defaults and width responsive behaviour
                             display: block;
                             position: fixed;
                             width: 2rem;
@@ -538,12 +561,16 @@
                             left: calc(50px - 1rem);
                             top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
 
+                            img {                                
+                                filter: drop-shadow(#00000088 0.3rem 0.3rem 0.3rem); 
+                            }
+
                             @media (min-width: 1200px) {
                                 left: calc(100px - 0.65rem);
                             }
                         }
 
-                        @media (min-height: 360px) {
+                        @media (min-height: 360px) {                                                // Email Icon height responsive behaviour
 
                         :first-child {
                                 top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.2rem);
@@ -576,7 +603,7 @@
 
                         @media (min-height: 1080px) {
 
-                        :first-child  {
+                            :first-child  {
                                 top: calc(((100vh / #{$burger-height-factor}) * 6.725));
                                 width: 5rem;
                                 height: 5rem;
@@ -589,32 +616,62 @@
                                     height: 7rem;
                                 }
                             }
-                        }
+                            
 
                         
-                        :nth-child(2) {                                                         // Contact SMS Icon defaults and responsive behaviour
-                            display: block;
-                            position: fixed;
-                            width: 2rem;
-                            height: 2rem;
-                            left: calc(100px - 1rem);
-                            top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+                            :nth-child(2) {                                                         // Contact SMS Icon defaults and responsive behaviour
+                                display: block;
+                                position: fixed;
+                                width: 2rem;
+                                height: 2rem;
+                                left: calc(100px - 1rem);
+                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
 
-                            @media (min-width: 1200px) {
-                                left: calc(200px - 1.35rem);
+                                a {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+
+                                    img {
+                                        top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+                                    }
+                                }
+
+                                @media (min-width: 1200px) {
+                                    left: calc(200px - 1.35rem);
+                                }
+                            }
+                        }
+                        
+                        :nth-child(2) {                                                             // Contact SMS Icon defaults and width responsive behaviour
+                            width: fit-content;
+                            height: fit-content;
+                            
+                            img {
+                                display: block;
+                                position: fixed;
+                                width: 2rem;
+                                height: 2rem;
+                                filter: drop-shadow(#00000088 0.3rem 0.3rem 0.3rem); 
+                                left: calc(100px - 1rem);
+                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+
+                                @media (min-width: 1200px) {
+                                    left: calc(200px - 1.35rem);
+                                }
                             }
                         }
 
-                        @media (min-height: 360px) {
+                        @media (min-height: 360px) {                                                // Contact Me SMS Icon height responsive behaviour
 
                             :nth-child(2) {
-                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.2rem);
-                                width: 3rem;
-                                height: 3rem;
-                                left: calc(100px - 1rem);
+                                img {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.2rem);
+                                    width: 3rem;
+                                    height: 3rem;
+                                    left: calc(100px - 1rem);
 
-                                @media (min-width: 1200px) {
-                                    left: calc(200px - 1.15rem);
+                                    @media (min-width: 1200px) {
+                                        left: calc(200px - 1.15rem);
+                                    }
                                 }
                             }
                         }
@@ -622,16 +679,20 @@
                         @media (min-height: 720px) {
 
                             :nth-child(2) {
-                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.6rem);
-                                width: 3.5rem;
-                                height: 3.5rem;
-                                left: calc(100px - 0.75rem);
+                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.6rem);
+                                    left: calc(100px - 0.75rem);
+                                img {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.6rem);
+                                    width: 3.5rem;
+                                    height: 3.5rem;
+                                    left: calc(100px - 0.75rem);
 
-                                @media (min-width: 1200px) {
-                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 2.5rem);
-                                    width: 5rem;
-                                    height: 5rem;
-                                    left: calc(200px - 2rem);
+                                    @media (min-width: 1200px) {
+                                        top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 2.5rem);
+                                        width: 5rem;
+                                        height: 5rem;
+                                        left: calc(200px - 2rem);
+                                    }
                                 }
                             }
                         }
@@ -639,16 +700,18 @@
                         @media (min-height: 1080px) {
 
                             :nth-child(2) {
-                                top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 4.5rem);
-                                width: 5rem;
-                                height: 5rem;
-                                left: calc(75px - 2.5rem);
+                                img {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 4.5rem);
+                                    width: 5rem;
+                                    height: 5rem;
+                                    left: calc(75px - 2.5rem);
 
-                                @media (min-width: 1200px) {
-                                    top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 3.5rem);
-                                    left: calc(150px - 3.5rem);
-                                    width: 7rem;
-                                    height: 7rem;
+                                    @media (min-width: 1200px) {
+                                        top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 3.5rem);
+                                        left: calc(150px - 3.5rem);
+                                        width: 7rem;
+                                        height: 7rem;
+                                    }
                                 }
                             }
                         }
@@ -657,20 +720,5 @@
 
             }
         }
-
-        // &:hover {                                                                               // Currently pops menu up on hover. Needs js to make it a toggle
-
-        //     .burger-menu-wrapper {
-        //         display: block;
-        //     }
-        // }
-
-        // @media (max-width: 575.999px) {                                                         // Hides menu under 576px width
-
-        //     .burger-menu-wrapper {
-        //             display: none;
-        //     }
-        // }
-
     }
 }

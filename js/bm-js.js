@@ -1,7 +1,6 @@
 let button = document.querySelector("#bm-menu-button");                                   // get menu button element
 let menu = document.querySelector("#bm-display");                                         // get display element
-let sound = new Audio('sound/751085__smallconfusion__mechanical-plastic-click-07.wav');   // define sound as an audio file
-sound.load();                                                                             // Pre-load the sound (CLICK)
+
 
 function updateMenuDisplay() {                                                            // Equivalent to @media call to display menu at 576px or greater width
   if (window.innerWidth >= 576) {
@@ -11,7 +10,7 @@ function updateMenuDisplay() {                                                  
   }
 }
 
-if (button && menu) {
+if (button && menu) {                                                     // good practice is to check that variables exist before using them to avoid errors
   button.addEventListener("click", function() {                           // attaches event listener to button listening for a click event
     const isHidden = window.getComputedStyle(menu).display === "none";    // sets isHidden to true/false depending on menu visibility
     menu.style.display = isHidden ? "block" : "none";                     // toggles the menu display value dependent on value of isHidden

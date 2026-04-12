@@ -1,14 +1,11 @@
-@mixin project-card($card-index, $card-width, $card-height, $card-border, $card-bg, $card-text, $font-family, $font-size-title, $font-size-link) {
+@mixin project-card($card-index, $card-width, $card-height, $card-border, $card-bg, $card-bg-alt, $card-text, $font-family, $font-size-title, $font-size-link) {
 
-    :nth-child(#{$card-index}) {
+:nth-child(#{$card-index}) {                                        // select the div corresponding to the $card-index value
         width: #{$card-width};
         padding: 0;
         margin: 0;
 
-        .prj-card-data {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
+        .prj-card-data {                                            // set width, height, font family, border and colours
             width: #{$card-width};
             height: #{$card-height};
             font-family: #{$font-family}, sans-serif;
@@ -17,55 +14,59 @@
             color: #{$card-text};
             border-radius: 0.2rem;
             padding: 0;
+            overflow-x: clip;
 
-            .prj-card-detailsimage {
-                display: none;
-                opacity: 0;
-            }
-
-            .prj-card-coverimage, .prj-card-detailsimage {
-                width: #{$card-width};
+            .prj-image-wrapper {                                    // set up images
                 padding: 0;
-                height: calc(#{$card-height} * 0.82);
-                border-bottom: 0.05rem solid #{$card-text};
-            }
+                position: relative;
+                width: #{$card-width};
 
-            &:hover {
-                .prj-card-detailsimage{
-                    display: block;
-                    opacity: 100%;
-                }
-
-                .prj-card-coverimage{
+                .prj-card-detailsimage {
+                    position: relative;
                     display: none;
                 }
+                .prj-card-coverimage {
+                    position: relative;
+                }
+
+                .prj-card-coverimage, .prj-card-detailsimage {
+                    width: #{$card-width};
+                    padding: 0;
+                    height: calc(#{$card-height} * 0.82);
+                    z-index: 0;
+                    border-bottom: 0.05rem solid #{$card-text};
+                    left: 0;
+                    top: 0;
+                }
 
             }
 
-            .prj-card-text {
+            .prj-card-text {                                        // calculate proportional size of text block
                 padding: 0;
                 height: calc(#{$card-height} * 0.18);
                 width: #{$card-width};
                 display: flex;
                 flex-direction: row;
+                box-shadow: inset 0rem 0rem 1.2rem #111111aa;
 
-                a:hover {
-                        background-color: #e7e7ff;
+                a:hover {                                           // show gradient on hover
+                    background: radial-gradient(circle at center, transparent 0%, transparent 75%, #11111155 100%), linear-gradient(0deg, #11111188 0%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #11111188 100%);
                 }
 
-                div {
+                div {                                               // title styling
                     width: 50%;
                     height: 100%;
                     padding: 0;
                     font-weight: 600;
                     font-size: #{$font-size-title};
                     display: block;
-                    color: #{$card-text};
+                    color: #{$card-text};                    
                     border-right: 0.1rem solid #{$card-text};
                     align-content: center;
+                    background: radial-gradient(circle at center, transparent 0%, transparent 75%, #11111155 100%), linear-gradient(0deg, #11111188 0%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #11111188 100%);
                 }
 
-                a {
+                a {                                                 // anchor styling
                     width: 50%;
                     height: 100%;
                     padding: 0;
@@ -78,6 +79,29 @@
                     align-content: center;
                 }
 
+            }
+
+                                                                    // hovering on the card brings the alt image into view
+            &:hover {
+                .prj-image-wrapper {
+                    .prj-card-coverimage {
+                        display: none;
+                    }
+                    .prj-card-detailsimage {
+                        display: block;
+                    }
+                }
+            }
+                                                                    // and releases back to the default
+            &:not(:hover) {
+                .prj-image-wrapper {
+                    .prj-card-detailsimage {
+                        display: none;
+                    }
+                    .prj-card-coverimage {
+                        display: block;
+                    }
+                }
             }
         }
     }

@@ -4,7 +4,7 @@
     height: calc(#{$prj-card-height} * 7.5);
     padding: 3rem 0;
 
-    .prj-v-wrapper {                                // Adjust padding at 675px and 1200px to allow for menu and expanded menu
+    .prj-v-wrapper {                                // Adjust padding at 576px and 1200px to allow for menu and expanded menu
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -20,8 +20,8 @@
         .prj-h-wrapper {
             margin: 0;
 
-            #page-turner-3 {        
-                display: none;                // Previous page icon and link
+            #page-turner-3 {                        // Previous page icon and link
+                display: none;
 
                 a {
                     position: static;
@@ -41,24 +41,40 @@
 
             }
 
-            .prj-cards {
+            .prj-cards {                                            // Uses a mixin to generate the project card styling with Params: size, colours, font family and sizes, and border.
+                                                                    // The mixin styles each card and flips the image to details on hover.
 
                 @media (max-width: 831.999px) {
 
-                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, 0.95rem, $prj-font-size-link);
+                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 0.95rem, $prj-font-size-link);
 
-                    @for $prj-card-index from 2 through 6 {
-                        @include project-card($prj-card-index, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
-                    }
+                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(3, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-3, $card-bg-colour-alt-3, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(4, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-4, $card-bg-colour-alt-4, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(5, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-5, $card-bg-colour-alt-5, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(6, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-6, $card-bg-colour-alt-6, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
                 }
 
                 @media (min-width: 832px) {                  // Make cards 25% bigger
                     $prj-card-width: 300px;
                     $prj-card-height: 246px;
 
-                    @for $prj-card-index from 1 through 6 {
-                        @include project-card($prj-card-index, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
-                    }
+                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(3, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-3, $card-bg-colour-alt-3, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(4, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-4, $card-bg-colour-alt-4, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(5, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-5, $card-bg-colour-alt-5, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(6, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-6, $card-bg-colour-alt-6, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
                 }
 
                 @media (min-width: 992px) {                 // Make cards 50% bigger
@@ -68,11 +84,18 @@
                     $prj-font-size-title: 1.625rem;
                     $prj-font-size-link: 1.43rem;
 
-                    @include project-card( 1, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, 1.4rem, $prj-font-size-link);
+                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.4rem, $prj-font-size-link);
 
-                    @for $prj-card-index from 2 through 6 {
-                        @include project-card($prj-card-index, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
-                    }
+                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(3, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-3, $card-bg-colour-alt-3, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(4, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-4, $card-bg-colour-alt-4, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(5, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-5, $card-bg-colour-alt-5, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(6, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-6, $card-bg-colour-alt-6, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+                    
                 }
 
                 @media (min-width: 1200px) {
@@ -82,11 +105,19 @@
                     $prj-font-size-title: 1.625rem;
                     $prj-font-size-link: 1.43rem;
 
-                    @include project-card( 1, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, 1.45rem, $prj-font-size-link);
 
-                    @for $prj-card-index from 2 through 6 {
-                        @include project-card($prj-card-index, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
-                    }
+                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.45rem, $prj-font-size-link);
+
+                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(3, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-3, $card-bg-colour-alt-3, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(4, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-4, $card-bg-colour-alt-4, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(5, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-5, $card-bg-colour-alt-5, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(6, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-6, $card-bg-colour-alt-6, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
                 }
 
                 @media (min-width: 1350px) {                // Make cards 75% bigger
@@ -96,11 +127,17 @@
                     $prj-font-size-title: 2rem;
                     $prj-font-size-link: 1.76rem;
 
-                    @include project-card( 1, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, 1.65rem, $prj-font-size-link);
+                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.65rem, $prj-font-size-link);
 
-                    @for $prj-card-index from 2 through 6 {
-                        @include project-card($prj-card-index, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
-                    }
+                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(3, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-3, $card-bg-colour-alt-3, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(4, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-4, $card-bg-colour-alt-4, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(5, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-5, $card-bg-colour-alt-5, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(6, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-6, $card-bg-colour-alt-6, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
 
                 }
 
@@ -111,37 +148,40 @@
                     $prj-font-size-title: 2.4rem;
                     $prj-font-size-link: 2.112rem;
 
-                    @include project-card( 1, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, 1.8rem, $prj-font-size-link);
+                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.8rem, $prj-font-size-link);
 
-                    @for $prj-card-index from 2 through 6 {
-                        @include project-card($prj-card-index, $prj-card-width, $prj-card-height, $prj-card-border, $prj-card-bg, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
-                    }
+                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(3, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-3, $card-bg-colour-alt-3, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(4, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-4, $card-bg-colour-alt-4, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(5, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-5, $card-bg-colour-alt-5, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
+                    @include project-card(6, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-6, $card-bg-colour-alt-6, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
+
                 }
 
-                display: grid;                              // This section manipulates the GRID and children's properties to change the layout across media widths.
+                display: grid;                              // This section manipulates the GRID and childrens' properties to change the layout across media widths.
                 grid-template-columns: 100%;
                 grid-template-rows: repeat(6, 1fr);
 
 
-                :nth-child(n) {                                        // Initial state 
+                :nth-child(n) {                             // initial state 
                     padding: 1.25rem 0.625rem 0 0.625rem;
                 }
-
                 :nth-child(2), :nth-child(4), :nth-child(6) {
                     justify-self: end;
                 }
-
                 :nth-child(1), :nth-child(3), :nth-child(5) {
                     justify-self: start;
                 }
-
-                @media (min-width: 576px) {
+                @media (min-width: 576px) {                             // @media calls to manipulate positioning of cards
 
                     :nth-child(n) {
                         padding: 1.25rem 2.5rem 0 2.5rem;
                     }
                 }
-
                 @media (min-width: 768px) {
                     grid-template-columns: 50% 50%;
                     grid-template-rows: repeat(3, 66.6667%);
@@ -168,12 +208,12 @@
 
                     }
                 }
-
                 @media (min-width: 992px) {
                     grid-template-rows: repeat(3, 49.5%);
 
                     :nth-child(1), :nth-child(3), :nth-child(5) {
                         align-self: end;
+                        z-index: 0;                                     // needed to add this to make sure the ONE time cards overlap a little they don't mix'n'match z-index
                     }
 
                     @media (min-width: 832px) {
@@ -188,17 +228,13 @@
 
                         :nth-child(2), :nth-child(4), :nth-child(6) {
                             align-self: start;
-
-
                         }
 
                     }
                 }
-
                 @media (min-width: 1350px) {
                     grid-template-rows: repeat(3, 40%);
                 }
-
                 @media (min-width: 1440px) {
                     grid-template-rows: repeat(3, 36%);
 
@@ -216,8 +252,6 @@
                         align-self: center;
                     }
                 }
-
-
             }
 
         }

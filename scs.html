@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="js/preload.js"></script>
 
 </head>
 <body>
@@ -26,17 +27,30 @@
                 <div class="scs-h-wrapper">
                     <div class="scs-sections">
                         <div class="scs-scsintro">
-                            <div class="scs-title"><strong>Scion Coalition Scheme.</strong></div><div class="scs-text">The Scion Coalition Scheme is an intensive, specially tailored training program run by Netmatters in order to give willing candidates the opportunity to enter the industry as web developers. Under the supervision of senior web developers, scions generally aim to complete training within six to nine months. The course is intensive and therefore the level of learning achieved is extensive in a short space of time.</div>
+                            <div class="scs-title"><strong>SCION COALITION SCHEME</strong></div>
+                            <div class="scs-text">The Scion Coalition Scheme is an intensive, specially tailored training program run by Netmatters in order to give willing candidates the opportunity to enter the industry as web developers. Under the supervision of senior web developers, scions generally aim to complete training within six to nine months. The course is intensive and therefore the level of learning achieved is extensive in a short space of time.</div>
+                            <div id="scion-homepage-link-container">
+                                <a id="scion-homepage-link" target="_blank" href="https://www.netmatters.co.uk/train-for-a-career-in-tech"><img src="img/netmatters-icon.png" alt="netmatters link icon"></a>
+                                <a id="scion-homepage-link-alt" target="_blank" href="https://www.netmatters.co.uk/train-for-a-career-in-tech"><img src="img/netmatters-icon-alt.png" alt="netmatters link icon"></a>
+                            </div>
                         </div>
                         <div class="scs-treehouse">
-                            <div class="scs-title"><strong>Treehouse.</strong></div>
+                            <div class="scs-title"><strong>TREEHOUSE</strong></div>
                             <div class="scs-text">Treehouse is an online learning community, featuring videos covering a number of topics from basic HTML to C# programming, iOS development, data analysis, and more. By completing courses users can earn points, allowing them to track their progress and see how much they've covered in certain areas.</div>
+                            <div id="treehouse-homepage-link-container">
+                                <a id="treehouse-homepage-link" target="_blank" href="https://teamtreehouse.com"><img src="img/treehouse-icon.png" alt="netmatters link icon"></a>
+                                <a id="treehouse-homepage-link-alt" target="_blank" href="https://teamtreehouse.com"><img src="img/treehouse-icon-alt.png" alt="netmatters link icon"></a>
+                            </div>
                         </div>
                         <div class="scs-netmatters">
-                            <div class="scs-title"><strong>About Netmatters.</strong></div>
+                            <div class="scs-title"><strong>ABOUT NETMATTERS</strong></div>
                             <ul class="scs-text">
                                 <li>Established in 2008</li><li>Norfolk's leading technology company</li><li>Winner of the Princess Royal Training Award</li><li>Winner of EDP Skills of Tomorrow Award</li><li>80+ Staff, 2 locations across Norfolk</li><li>Digital Marketing, Website & Software development & IT Support</li><li>Broad spectrum of clients, working nationwide</li><li>Operate to strict company values</li>
                             </ul>
+                            <div id="netmatters-homepage-link-container">
+                                <a id="netmatters-homepage-link" target="_blank" href="https://www.netmatters.co.uk"><img src="img/netmatters-icon.png" alt="netmatters link icon"></a>
+                                <a id="netmatters-homepage-link-alt" target="_blank" href="https://www.netmatters.co.uk"><img src="img/netmatters-icon-alt.png" alt="netmatters link icon"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -45,11 +59,11 @@
     </main>
     <div class="burger-top">
         <div class="burger-button">  <!-- Burger Button -->
-            <button class="burger-bar" id="bm-menu-button">
-                <div class="burger-bar-top"></div>
-                <div class="burger-bar-middle"></div>
-                <div class="burger-bar-bottom"></div>
-            </button>
+            <div class="burger-bar" id="bm-menu-button">
+                <div id="burger-bar-top"></div>
+                <div id="burger-bar-middle"></div>
+                <div id="burger-bar-bottom"></div>
+            </div>
             <div class="burger-menu-top">  <!-- Burger Menu Items -->
                 <div class="burger-menu-wrapper" id="bm-display">
 
@@ -76,10 +90,14 @@
                     </div>
 
                     <div class="burger-menu-contact-box menu-box">
-                        <div class="contact-title menu-text"><div>Contact Me</div></div>
+                        <div class="contact-title menu-text">
+                            <div>
+                                <a href="index.html#cform-top-target">Contact Me</a>
+                            </div>
+                        </div>
                         <div class="contact-links" style="width: 0px;height: 0px;">
-                            <a href="index.html#cform-top-target" ><img src="img/email_icon.png" alt="email icon"></a>
-                            <img src="img/comment-sms-solid.png" alt="s.m.s icon">
+                            <a href="mailto:neilarolls@gmail.com"><img src="img/email_icon.png" alt="email icon"></a>
+                            <a href="#"><img src="img/comment-sms-solid.png" alt="s.m.s icon"></a>
                         </div>
                     </div>
 

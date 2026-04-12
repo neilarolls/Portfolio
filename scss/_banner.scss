@@ -41,7 +41,8 @@
                 grid-row-start: 2;
                 grid-row-end: 3;
 
-                :nth-child(1) {
+                :nth-child(1), :nth-child(1) {
+                    display: inline-block;
                     transition: font-size 0.05s linear;
                     font-size: 1.2rem;
                     font-weight: 400;
@@ -65,45 +66,45 @@
 
                 @media (min-width: 576px) {                     // Scale banner title
 
-                    .banner-title {
+                    .banner-title, .banner-title * {
                         font-size: 1.6rem;
                     }
 
-                    .banner-name {
+                    .banner-name, .banner-name * {
                         font-size: 3.5rem;
                     }
                     
-                    .banner-profession {
+                    .banner-profession, .banner-profession * {
                         font-size: 1.5rem;
                     }
                 }
 
                 @media (min-width: 768px) {
 
-                    .banner-title {
+                    .banner-title, .banner-title * {
                         font-size: 2.8rem;
                     }
 
-                    .banner-name {
+                    .banner-name, .banner-name * {
                         font-size: 6.125rem;
                     }
 
-                    .banner-profession {
+                    .banner-profession, .banner-profession * {
                         font-size: 2.625rem;
                     }
                 }
 
                 @media (min-width: 992px) {
 
-                    .banner-title {
+                    .banner-title, .banner-title * {
                         font-size: 4.2rem;
                     }
 
-                    .banner-name {
+                    .banner-name, .banner-name * {
                         font-size: 9.1875rem;
                     }
 
-                    .banner-profession {
+                    .banner-profession, .banner-profession * {
                         font-size: 3.938rem;
                     }
                 }
