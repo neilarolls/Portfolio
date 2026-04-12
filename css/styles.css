@@ -1245,11 +1245,11 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 7fr 5fr 7fr 1.5fr;
+  grid-template-rows: 5fr 1fr 5fr 1fr;
 }
 
 /* line 33, ../../../Portfolio/scss/_banner.scss */
-.banner-top .banner-v-wrapper .banner-h-wrapper .banner-text {
+.banner-top .banner-v-wrapper .banner-h-wrapper .banner-text, .banner-top .banner-v-wrapper .banner-h-wrapper div * {
   font-family: "roboto", sans-serif;
   margin: 0;
   color: white;
@@ -1259,79 +1259,10 @@ body {
   grid-column-end: 1;
   grid-row-start: 2;
   grid-row-end: 3;
+  position: absolute;
 }
 
-/* line 44, ../../../Portfolio/scss/_banner.scss */
-.banner-top .banner-v-wrapper .banner-h-wrapper .banner-text :nth-child(1), .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text :nth-child(1) {
-  display: inline-block;
-  transition: font-size 0.05s linear;
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-bottom: -0.1rem;
-}
-
-/* line 52, ../../../Portfolio/scss/_banner.scss */
-.banner-top .banner-v-wrapper .banner-h-wrapper .banner-text :nth-child(2) {
-  transition: font-size 0.05s linear;
-  font-size: 2.625rem;
-  font-weight: 500;
-}
-
-/* line 58, ../../../Portfolio/scss/_banner.scss */
-.banner-top .banner-v-wrapper .banner-h-wrapper .banner-text :nth-child(3) {
-  transition: font-size 0.05s linear;
-  padding-top: 0.25rem;
-  font-size: 1.125rem;
-  font-weight: 300;
-  border-top: 0.05rem solid;
-}
-
-@media (min-width: 576px) {
-  /* line 69, ../../../Portfolio/scss/_banner.scss */
-  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title, .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title * {
-    font-size: 1.6rem;
-  }
-  /* line 73, ../../../Portfolio/scss/_banner.scss */
-  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name, .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name * {
-    font-size: 3.5rem;
-  }
-  /* line 77, ../../../Portfolio/scss/_banner.scss */
-  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession, .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession * {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 768px) {
-  /* line 84, ../../../Portfolio/scss/_banner.scss */
-  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title, .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title * {
-    font-size: 2.8rem;
-  }
-  /* line 88, ../../../Portfolio/scss/_banner.scss */
-  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name, .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name * {
-    font-size: 6.125rem;
-  }
-  /* line 92, ../../../Portfolio/scss/_banner.scss */
-  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession, .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession * {
-    font-size: 2.625rem;
-  }
-}
-
-@media (min-width: 992px) {
-  /* line 99, ../../../Portfolio/scss/_banner.scss */
-  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title, .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-title * {
-    font-size: 4.2rem;
-  }
-  /* line 103, ../../../Portfolio/scss/_banner.scss */
-  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name, .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-name * {
-    font-size: 9.1875rem;
-  }
-  /* line 107, ../../../Portfolio/scss/_banner.scss */
-  .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession, .banner-top .banner-v-wrapper .banner-h-wrapper .banner-text .banner-profession * {
-    font-size: 3.938rem;
-  }
-}
-
-/* line 114, ../../../Portfolio/scss/_banner.scss */
+/* line 113, ../../../Portfolio/scss/_banner.scss */
 .banner-top .banner-v-wrapper .banner-h-wrapper #page-turner-1 {
   display: flex;
   flex-direction: column;
@@ -1340,6 +1271,7 @@ body {
   grid-column-end: 1;
   grid-row-start: 4;
   grid-row-end: 5;
+  margin-left: -40px;
 }
 
 /* line 123, ../../../Portfolio/scss/_banner.scss */

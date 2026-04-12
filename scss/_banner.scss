@@ -28,9 +28,9 @@
             margin: 0 auto;
             display: grid;
             grid-template-columns: 100%;
-            grid-template-rows: 7fr 5fr 7fr 1.5fr;
+            grid-template-rows: 5fr 1fr 5fr 1fr;
 
-            .banner-text {                                      // Set up defaults and transitions
+            .banner-text, div * {                                      // Set up defaults and transitions
                 font-family: "roboto", sans-serif;
                 margin: 0; 
                 color: white;
@@ -40,74 +40,73 @@
                 grid-column-end: 1;
                 grid-row-start: 2;
                 grid-row-end: 3;
+                position: absolute;
+                // text-shadow: 0 0 1rem #{white};
 
-                :nth-child(1), :nth-child(1) {
-                    display: inline-block;
-                    transition: font-size 0.05s linear;
-                    font-size: 1.2rem;
-                    font-weight: 400;
-                    margin-bottom: -0.1rem;
-                }
+                // :nth-child(1), :nth-child(1) {
+                //     display: inline-block;
+                //     font-size: 1.2rem;
+                //     font-weight: 400;
+                //     margin-bottom: -0.1rem;
+                // }
 
-                :nth-child(2) {
-                    transition: font-size 0.05s linear;
-                    font-size: 2.625rem;
-                    font-weight: 500;
-                }
+                // :nth-child(2) {
+                //     font-size: 2.625rem;
+                //     font-weight: 500;
+                // }
 
-                :nth-child(3) {
-                    transition: font-size 0.05s linear;
-                    padding-top: 0.25rem;
-                    font-size: 1.125rem;
-                    font-weight: 300;
-                    border-top: 0.05rem solid;
-                }
+                // :nth-child(3) {
+                //     padding-top: 0.25rem;
+                //     font-size: 1.125rem;
+                //     font-weight: 300;
+                //     border-top: 0.05rem solid;
+                // }
                 
 
-                @media (min-width: 576px) {                     // Scale banner title
+                // @media (min-width: 576px) {                     // Scale banner title
 
-                    .banner-title, .banner-title * {
-                        font-size: 1.6rem;
-                    }
+                //     .banner-title, .banner-title * {
+                //         font-size: 1.6rem;
+                //     }
 
-                    .banner-name, .banner-name * {
-                        font-size: 3.5rem;
-                    }
+                //     .banner-name, .banner-name * {
+                //         font-size: 3.5rem;
+                //     }
                     
-                    .banner-profession, .banner-profession * {
-                        font-size: 1.5rem;
-                    }
-                }
+                //     .banner-profession, .banner-profession * {
+                //         font-size: 1.5rem;
+                //     }
+                // }
 
-                @media (min-width: 768px) {
+                // @media (min-width: 768px) {
 
-                    .banner-title, .banner-title * {
-                        font-size: 2.8rem;
-                    }
+                //     .banner-title, .banner-title * {
+                //         font-size: 2.8rem;
+                //     }
 
-                    .banner-name, .banner-name * {
-                        font-size: 6.125rem;
-                    }
+                //     .banner-name, .banner-name * {
+                //         font-size: 6.125rem;
+                //     }
 
-                    .banner-profession, .banner-profession * {
-                        font-size: 2.625rem;
-                    }
-                }
+                //     .banner-profession, .banner-profession * {
+                //         font-size: 2.625rem;
+                //     }
+                // }
 
-                @media (min-width: 992px) {
+                // @media (min-width: 992px) {
 
-                    .banner-title, .banner-title * {
-                        font-size: 4.2rem;
-                    }
+                //     .banner-title, .banner-title * {
+                //         font-size: 4.2rem;
+                //     }
 
-                    .banner-name, .banner-name * {
-                        font-size: 9.1875rem;
-                    }
+                //     .banner-name, .banner-name * {
+                //         font-size: 9.1875rem;
+                //     }
 
-                    .banner-profession, .banner-profession * {
-                        font-size: 3.938rem;
-                    }
-                }
+                //     .banner-profession, .banner-profession * {
+                //         font-size: 3.938rem;
+                //     }
+                // }
 
             }
 
@@ -119,6 +118,7 @@
                 grid-column-end: 1;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                margin-left: -40px;
 
                 a {
                     position: static;
