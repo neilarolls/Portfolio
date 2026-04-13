@@ -10,8 +10,8 @@ function updateMenuDisplay() {                                                  
   }
 }
 
-if (button && menu) {                                                     // good practice is to check that variables exist before using them to avoid errors
-  button.addEventListener("click", function() {                           // attaches event listener to button listening for a click event
+if (button && menu) {                                                     // Good practice is to check that variables exist before using them to avoid errors.
+  button.addEventListener("click", function() {                           // Attaches event listener to button listening for a click event.
     const isHidden = window.getComputedStyle(menu).display === "none";    // sets isHidden to true/false depending on menu visibility
     menu.style.display = isHidden ? "block" : "none";                     // toggles the menu display value dependent on value of isHidden
     sound.play();                                                         // plays 'click' audio

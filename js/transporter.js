@@ -5,7 +5,8 @@ $("#l18").css({"position":"absolute", "color":"white", "height":"0.01px", "width
 let numLetters = 34;
 let lettersSent = 0;
 let letterDelay = 15;                    // Number of masterTicks between sending letters
-let pathIncrements = 100;                // Lower goes faster but quality may suffer - eyeball it
+let pathIncrements = 100;                // Changing this goes faster/slower but quality may suffer - eyeball it. (Investigating how to implement VBlank testing)
+let blockScaleThreshhold = 1.25;         // Adjusts the maximum scaling on the title block - 1 is 1200, 1.25 is around 1450-1500.
 
 // Read screen width and height, the basis for scaling the title block.
 
@@ -14,8 +15,8 @@ let scrHeight = window.innerHeight;
 
 let blockScale = (scrWidth / 1200);     // Scales down for small screens
 
-if (blockScale > 1) {                   // Stops scaling around the 2000px width mark
-    blockScale = 1;
+if (blockScale > blockScaleThreshhold) {                   // Stops scaling when threshhold value is reached
+    blockScale = blockScaleThreshhold;
 }
 
     // Calculated text positions are relative to this centre.
@@ -77,11 +78,11 @@ function resizeRedraw() {
 
     blockScale = (scrWidth / 1200);
 
-    if (blockScale > 1) {
-        blockScale = 1;
+    if (blockScale > blockScaleThreshhold) {                   // Stops scaling when threshhold value is reached
+        blockScale = blockScaleThreshhold;
     }
 
-    if (scrWidth >= 1200) {
+    if (scrWidth >= 1200) {                                     // Adjusts centre to allow for popup menu, which is Fixed position
         xCentre = ((scrWidth - 300) / 2) + 300;
     } else if (scrWidth >= 576) {
         xCentre = ((scrWidth - 150) / 2) + 150;
@@ -123,9 +124,9 @@ function advanceText() {                                                        
         }
     }
 
-    for (let i = 0; i < lettersSent; i++) {                                                 // Increment letter ticks
+    for (let i = 0; i < lettersSent; i++) {                                                 // Increment letter ticks...
         
-        if (tick[i] < pathIncrements && tick[i] > 0) {                                      // Only if they are active and haven't reached the end
+        if (tick[i] < pathIncrements && tick[i] > 0) {                                      // ...only if they are active and haven't reached the end
 
             tick[i]++;
         }
@@ -148,11 +149,11 @@ let counter = 0;
 
         advanceText();
 
-        if ( lettersSent === numLetters && masterTick > ((numLetters + 3) * letterDelay)) {     // jQuery FadeIn of line after a short pause
-            $("#l18").fadeIn(2000);
+        if ( lettersSent === numLetters && masterTick > ((numLetters + 5) * letterDelay)) {     // jQuery FadeIn of line after a short pause (change n in "numLetters + n" to adjust)
+            $("#l18").fadeIn(3000);
         }
 
-        // counter++;
+        // counter++;                                                                       // Had a finite loop for testing - typing counter = 1 in the console will exit the loop
         masterTick++;
 
     } while (counter < 1);
