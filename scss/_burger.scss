@@ -64,12 +64,12 @@
             .burger-menu-wrapper {
                 z-index: 5;
 
-                #aboutme-break {
+                #aboutme-break {                                    // Hide the <br> block in the About me text as default
                     display: none;
                 }
 
-                > div {                 
-                    z-index: 5;                            // set menu item defaults
+                > div {                                             // Set basic menu item styling that can apply to all, ie background colour, fixed positioning and border radius
+                    z-index: 5;
                     position: fixed;
                     background-color: #{$bm-main-background};
                     border-radius: #{$bm-box-radius};
@@ -98,7 +98,7 @@
                     }
                 }
 
-                // Specify heights, positions and responsive behaviours.
+                // This section specifies heights, positions and responsive behaviours.
                 // Variable functions described in _variables.scss file
 
 
