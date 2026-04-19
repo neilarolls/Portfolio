@@ -14,27 +14,28 @@
             width: 3.75rem;
             height: 2.75rem;
             #{$burger-button-position}: 0.2rem;
-            top: 0.2rem;
+            top: 0.3rem;
             background-color: transparent;
             border: 0.125rem solid #{$bm-btn-border};
             border-radius: #{$bm-btn-radius};
 
             * {
                 transition: (box-shadow, border) 0.3s linear;
-                position: fixed;
+                position: relative;
                 width: 2.5rem;
                 #{$burger-button-position}: 0.72rem;            // Change button to 'left' or 'right' in _variables.scss
-                top: 0.74rem;
+                top: 0.45rem;
+                right: -0.45rem;
                 background-color: transparent;
                 border: 0.225rem solid #{$bm-btn-border};
             }
 
             #burger-bar-middle {
-                top: 1.5rem;
+                top: 0.85rem;
             }
 
             #burger-bar-bottom {
-                top: 2.26rem;
+                top: 1.2rem;
             }
         }
 
