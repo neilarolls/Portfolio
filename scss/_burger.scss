@@ -38,14 +38,14 @@
             }
         }
 
-        @media (min-width: 576px) {                             // Hide button when menu is on display
+        @media (min-width: 576px) {                             // Hide button when display is over 576px - critical for the js switching the menu on/off
 
             .burger-bar {
                 display: none;
             }
         }
 
-        .burger-bar:hover {                                     // Glows when hovered over
+        .burger-bar:hover {                                     // Glows when hovered over - *******  MOVE TO JS ? ********
 
             @media (max-width: 575.999px) {
                 box-shadow: 0 0 1rem #{$bm-btn-glow}, inset 0 0 0.5rem #{$bm-btn-glow};
@@ -83,7 +83,7 @@
                     }
                 }
 
-                :nth-child(1), :nth-child(2), :nth-child(3), :nth-child(4), :nth-child(5) {     // set menu item anchor defaults except for contact me element (6th child)
+                #bm-avatar-box, #bm-aboutme-box, #bm-portfolio-box, #bm-coding-box, #bm-scs-box {     // set menu item anchor defaults except for contact me element (6th child)
                     a {
                         display: #{$bm-menu-mode};
                         z-index: 5;
@@ -102,15 +102,16 @@
                 // Variable functions described in _variables.scss file
 
 
-                :nth-child(1) {                                                                 // My Initials
+                #bm-avatar-box {                                                                 // My Initials
+
+                    transition: left 0.1s linear;
                     
-                    // display: none;
                     height: calc((100vh / #{$burger-height-factor}) * 2);
                     top: 0;
 
-                    .menu-initials {
+                    #menu-initials {
 
-                        a {
+                        #avatar-link {
                             width: 150px;
 
                             @media (min-width: 1200px) {
@@ -134,7 +135,7 @@
 
                         @media (min-height: 360px) {
 
-                            a {
+                            #avatar-link {
                             font-size: 4.6rem;
                             height: 5.2rem;
                             top: calc(100vh / #{$burger-height-factor} - 2.7875rem);
@@ -146,14 +147,14 @@
                             @media (min-width: 1200px) {
                                 width: 300px;
 
-                                a {
+                                #avatar-link {
                                     font-size: 9rem;
                                     height: 9.8rem;
                                     width: 300px;
                                 }
                             }
 
-                            a {
+                            #avatar-link {
                                 font-size: 6.4rem;
                                 height: 7rem;
                                 top: calc(100vh / #{$burger-height-factor} - 3.685rem);
@@ -172,7 +173,7 @@
 
                             @media (min-width: 1200px) {
 
-                                a {
+                                #avatar-link {
                                     font-size: 12rem;
                                     height: 13rem;
                                     top: calc(100vh / #{$burger-height-factor} - 6.685rem);
@@ -181,7 +182,7 @@
                         }
 
                         &:hover {
-                            a {
+                            #avatar-link {
                                 color: white;
                                 text-shadow: 0 0 0.3rem #000000;
                             }
@@ -189,12 +190,14 @@
                     }
                 }
 
-                :nth-child(2) {                                                                 // About Me
-                    // transition: left 0.1s linear;
+                #bm-aboutme-box {                                                                 // About Me
+
+                    transition: left 0.2s linear;
+
                     top: calc((100vh / #{$burger-height-factor}) * 2);
                     height: calc(100vh / #{$burger-height-factor});
 
-                    a {
+                    #about-me-link {
                         display: #{$bm-menu-mode};
                         width: #{$Menu-width};
                         top: calc(((100vh / #{$burger-height-factor}) * 2.5) - 0.7187rem);
@@ -207,7 +210,7 @@
 
                     &:hover {
 
-                        a {
+                        #about-me-link {
                             color: white;
                             text-shadow: 0 0 0.3rem #000000;
                         }
@@ -216,7 +219,7 @@
 
                     @media (min-height: 360px) {
 
-                        a {
+                        #about-me-link {
                             font-size: 1.5rem;
                             height: 2.2rem;
                             top: calc(((100vh / #{$burger-height-factor}) * 2.5) - 1.1rem);
@@ -237,7 +240,7 @@
                         @media (min-width: 1200px) {
                             width: 300px;
 
-                            a {
+                            #about-me-link {
                                 font-size: 2.4rem;
                                 height: 2.8rem;
                                 width: 300px;
@@ -252,7 +255,7 @@
                             }
                         }
 
-                        a {
+                        #about-me-link {
                             font-size: 2rem;
                             height: 2.8rem;
                             top: calc(((100vh / #{$burger-height-factor}) * 2.5) - 2.3rem);
@@ -266,12 +269,14 @@
                     }
                 }
 
-                :nth-child(3) {                                                                 // My Portfolio
-                    // transition: left 0.1s linear;
+                #bm-portfolio-box {                                                                 // My Portfolio
+
+                    transition: left 0.3s linear;
+
                     top: calc((100vh / #{$burger-height-factor}) * 3);
                     height: calc(100vh / #{$burger-height-factor});
 
-                    a {
+                    #portfolio-link {
                         display: #{$bm-menu-mode};
                         width: #{$Menu-width};
                         top: calc(((100vh / #{$burger-height-factor}) * 3.5) - 0.7187rem);
@@ -284,7 +289,7 @@
 
                     &:hover {
 
-                        a {
+                        #portfolio-link {
                             color: white;
                             text-shadow: 0 0 0.3rem #000000;
                         }
@@ -293,7 +298,7 @@
 
                     @media (min-height: 360px) {
 
-                        a {
+                        #portfolio-link {
                             font-size: 1.5rem;
                             height: 2.2rem;
                             top: calc(((100vh / #{$burger-height-factor}) * 3.5) - 1.05rem);
@@ -314,14 +319,14 @@
                         @media (min-width: 1200px) {
                             width: 300px;
 
-                            a {
+                            #portfolio-link {
                                 font-size: 2.4rem;
                                 height: 2.8rem;
                                 width: 300px;
                             }
                         }
 
-                        a {
+                        #portfolio-link {
                             font-size: 2rem;
                             height: 2.8rem;
                             top: calc(((100vh / #{$burger-height-factor}) * 3.5) - 2.55rem);
@@ -334,12 +339,14 @@
                     }
                 }
 
-                :nth-child(4) {                                                                 // Code Examples
-                    // transition: left 0.1s linear;
+                #bm-coding-box {                                                                 // Code Examples
+
+                    transition: left 0.4s linear;
+
                     top: calc((100vh / #{$burger-height-factor}) * 4);
                     height: calc(100vh / #{$burger-height-factor});
 
-                    a {
+                    #coding-link {
                         display: #{$bm-menu-mode};
                         width: #{$Menu-width};
                         top: calc(((100vh / #{$burger-height-factor}) * 4.5) - 0.7187rem);
@@ -352,7 +359,7 @@
 
                     &:hover {
 
-                        a {
+                        #coding-link {
                             color: white;
                             text-shadow: 0 0 0.3rem #000000;
                         }
@@ -361,7 +368,7 @@
 
                     @media (min-height: 360px) {
 
-                        a {
+                        #coding-link {
                             font-size: 1.5rem;
                             height: 2.2rem;
                             top: calc(((100vh / #{$burger-height-factor}) * 4.5) - 2rem);
@@ -383,14 +390,14 @@
                         @media (min-width: 1200px) {
                             width: 300px;
 
-                            a {
+                            #coding-link {
                                 font-size: 2.4rem;
                                 height: 2.8rem;
                                 width: 300px;
                             }
                         }
 
-                        a {
+                        #coding-link {
                             font-size: 2rem;
                             height: 2.8rem;
                             top: calc(((100vh / #{$burger-height-factor}) * 4.5) - 2.55rem);
@@ -403,12 +410,14 @@
                     }
                 }
 
-                :nth-child(5) {                                                                 // SCS Scheme
-                    // transition: left 0.1s linear;
+                #bm-scs-box {                                                                 // SCS Scheme
+
+                    transition: left 0.5s linear;
+
                     top: calc((100vh / #{$burger-height-factor}) * 5);
                     height: calc(100vh / #{$burger-height-factor});
 
-                    a {
+                    #scs-link {
                         display: #{$bm-menu-mode};
                         width: #{$Menu-width};
                         top: calc(((100vh / #{$burger-height-factor}) * 5.5) - 0.7187rem);
@@ -421,7 +430,7 @@
 
                     &:hover {
 
-                        a {
+                        #scs-link {
                             color: white;
                             text-shadow: 0 0 0.3rem #000000;
                         }
@@ -430,7 +439,7 @@
 
                     @media (min-height: 360px) {
 
-                        a {
+                        #scs-link {
                             font-size: 1.5rem;
                             height: 2.2rem;
                             top: calc(((100vh / #{$burger-height-factor}) * 5.5) - 1rem);
@@ -459,7 +468,7 @@
                             }
                         }
 
-                        a {
+                        #scs-link {
                             font-size: 2rem;
                             height: 2.8rem;
                             top: calc(((100vh / #{$burger-height-factor}) * 5.5) - 2.5rem);
@@ -472,146 +481,166 @@
                     }
                 }
 
-                :nth-child(6) {                                                                 // Contact Me section
+                #bm-contact-box {                                                                 // Contact Me section
+
+                    transition: left 0.6s linear;
 
                     height: calc((100vh / #{$burger-height-factor}) * 2);
                     top: calc(((100vh / #{$burger-height-factor}) * 6));
 
-                    :first-child {                                                                  // Contact Me text defaults and responsive behaviour
+                    #contact-title {                                                                  // Contact Me text defaults and responsive behaviour
+                        transition: left 0.6s linear;
                         width: #{$Menu-width};
+                        position: fixed;
+                        display: block;
+                        width: #{$Menu-width};
+                        top: calc(((100vh / #{$burger-height-factor}) * 6.5) - 0.9rem);
+                        font-family: "roboto", sans-serif;
+                        font-size: 1.25rem;
+                        font-weight: 350;
+                        height: fit-content;
+                        text-align: center;
+                        color: #{$bm-text-initials};
 
-                        :first-child {
-                            position: fixed;
-                            display: block;
-                            width: #{$Menu-width};
-                            top: calc(((100vh / #{$burger-height-factor}) * 6.5) - 0.9rem);
-                            font-family: "roboto", sans-serif;
-                            font-size: 1.25rem;
-                            font-weight: 350;
-                            height: fit-content;
-                            text-align: center;
+                        @media (min-width: 1200px) {
+                            width: 300px;
+                        }
+
+                        #contact-title-link {
                             color: #{$bm-text-initials};
+                            text-decoration: none;
+                        }
 
-                            @media (min-width: 1200px) {
-                                width: 300px;
-                            }
-
-                            a {
-                                color: #{$bm-text-initials};
-                                text-decoration: none;
-                            }
-
-                            a:hover {
-                                color: white;
-                                text-shadow: 0 0 0.3rem #000000;
-                            }
+                        #contact-title-link:hover {
+                            color: white;
+                            text-shadow: 0 0 0.3rem #000000;
                         }
                     }
 
                     @media (min-height: 360px) {                                                    // Contact Me text height responsive behaviour
 
-                        :first-child {
-                            :first-child {
-                                font-size: 1.6rem;
+                        #contact-title {
 
-                                @media (min-width: 1200px) {
-                                    width: 300px;
-                                }
+                            font-size: 1.6rem;
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
                             }
                         }
                     }
 
                     @media (min-height: 720px) {
 
-                        :first-child {
-                            :first-child {
-                                font-size: 2.1rem;
-                                top: calc(((100vh / #{$burger-height-factor}) * 6.5) - 2rem);
+                        #contact-title {
 
-                                @media (min-width: 1200px) {
-                                    width: 300px;
-                                }
+                            font-size: 2.1rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 6.5) - 2rem);
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
                             }
+                            
                         }
                     }
 
                     @media (min-height: 1080px) {
 
-                        :first-child {
-                            :first-child {
-                                font-size: 2.3rem;
-                                top: calc(((100vh / #{$burger-height-factor}) * 6.25) - 1.25rem);
+                        #contact-title {
 
-                                @media (min-width: 1200px) {
-                                    width: 300px;
-                                }
+                            font-size: 2.3rem;
+                            top: calc(((100vh / #{$burger-height-factor}) * 6.25) - 1.25rem);
+
+                            @media (min-width: 1200px) {
+                                width: 300px;
                             }
                         }
                     }
 
-                    :nth-child(2) {                                                                 // Contact Me Icons
-                        display: block;
-                        position: fixed;
+                    #contact-links {                                                                 // Contact Me Icons
 
-                        :first-child {                                                              // Email Icon defaults and width responsive behaviour
+                        a {
+                            // transition: left 0.0s linear;
                             display: block;
                             position: fixed;
                             width: 2rem;
                             height: 2rem;
-                            left: calc(50px - 1rem);
-                            top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
 
-                            img {                                
-                                filter: drop-shadow(#00000088 0.3rem 0.3rem 0.3rem); 
-                            }
-
-                            @media (min-width: 1200px) {
-                                left: calc(100px - 0.65rem);
+                            img {
+                                // transition: left 0.0s linear;
+                                display: block;
+                                position: fixed;
+                                width: 2rem;
+                                height: 2rem;
                             }
                         }
 
+                        #popout-target-1 {                                                          // Email Icon defaults and width responsive behaviour
+
+                            // left: calc(50px - 1rem);
+                            top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+                        }
+
+                        #popout-target-2 {
+
+                            top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+                            filter: drop-shadow(#00000088 0.3rem 0.3rem 0.3rem); 
+                        }
+
+                            // @media (min-width: 1200px) {
+                            //      left: calc(100px - 0.65rem);
+                            // }
+                        
+
                         @media (min-height: 360px) {                                                // Email Icon height responsive behaviour
 
-                        :first-child {
+                            #popout-target-1,  #popout-target-2 {
+
                                 top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.2rem);
                                 width: 3rem;
                                 height: 3rem;
-                                left: calc(50px - 1.85rem);
+                                // left: calc(50px - 1.85rem);
 
-                                @media (min-width: 1200px) {
-                                    left: calc(100px - 1.85rem);
-                                }
+                                // @media (min-width: 1200px) {
+                                //     left: calc(100px - 1.85rem);
+                                // }
                             }
                         }
 
                         @media (min-height: 720px) {
 
-                        :first-child  {
-                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.6rem);
+                            #popout-target-1, #popout-target-2 {
+
+                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1rem);
                                 width: 3.5rem;
                                 height: 3.5rem;
-                                left: calc(50px - 2.3rem);
+                                // left: calc(50px - 2.3rem);
 
-                                @media (min-width: 1200px) {
+                            }
+
+                            @media (min-width: 1200px) {
+
+                                #popout-target-1, #popout-target-2 {
+
                                     top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 2.5rem);
                                     width: 5rem;
                                     height: 5rem;
-                                    left: calc(100px - 3rem);
+                                    // left: calc(100px - 3rem);
                                 }
+
                             }
                         }
 
                         @media (min-height: 1080px) {
 
-                            :first-child  {
+                            #popout-target-1,  #popout-target-2  {
                                 top: calc(((100vh / #{$burger-height-factor}) * 6.725));
                                 width: 5rem;
                                 height: 5rem;
-                                left: calc(75px - 2.5rem);
+                                // left: calc(75px - 2.5rem);
 
                                 @media (min-width: 1200px) {
-                                    top: calc(((100vh / #{$burger-height-factor}) * 6.475));
-                                    left: calc(150px - 3.5rem);
+                                    top: calc(((100vh / #{$burger-height-factor}) * 6.425));
+                                    // left: calc(150px - 3.5rem);
                                     width: 7rem;
                                     height: 7rem;
                                 }
@@ -619,58 +648,48 @@
                             
 
                         
-                            :nth-child(2) {                                                         // Contact SMS Icon defaults and responsive behaviour
-                                display: block;
-                                position: fixed;
-                                width: 2rem;
-                                height: 2rem;
-                                left: calc(100px - 1rem);
-                                top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+                            // #popout-target-1 {
 
-                                a {
-                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+                            //     // left: calc(100px - 1rem);
+                            //     top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
 
-                                    img {
-                                        top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
-                                    }
-                                }
+                            //     #popout-target-2 {
 
-                                @media (min-width: 1200px) {
-                                    left: calc(200px - 1.35rem);
-                                }
-                            }
+                            //         top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+                            //     }
+
+                            //     @media (min-width: 1200px) {
+                            //         // left: calc(200px - 1.35rem);
+                            //     }
+                            // }
                         }
                         
-                        :nth-child(2) {                                                             // Contact SMS Icon defaults and width responsive behaviour
-                            width: fit-content;
-                            height: fit-content;
+                        #popout-target-3 {                                                             // Contact SMS Icon defaults and width responsive behaviour
                             
-                            img {
-                                display: block;
-                                position: fixed;
-                                width: 2rem;
-                                height: 2rem;
-                                filter: drop-shadow(#00000088 0.3rem 0.3rem 0.3rem); 
-                                left: calc(100px - 1rem);
+                            top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+
+                            #popout-target-4 {
                                 top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
+                                filter: drop-shadow(#00000088 0.3rem 0.3rem 0.3rem); 
+                                // left: calc(100px - 1rem);
 
                                 @media (min-width: 1200px) {
-                                    left: calc(200px - 1.35rem);
+                                    // left: calc(200px - 1.35rem);
                                 }
                             }
                         }
 
                         @media (min-height: 360px) {                                                // Contact Me SMS Icon height responsive behaviour
 
-                            :nth-child(2) {
-                                img {
+                            #popout-target-3 {
+                                #popout-target-4 {
                                     top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.2rem);
                                     width: 3rem;
                                     height: 3rem;
-                                    left: calc(100px - 1rem);
+                                    // left: calc(100px - 1rem);
 
                                     @media (min-width: 1200px) {
-                                        left: calc(200px - 1.15rem);
+                                        // left: calc(200px - 1.15rem);
                                     }
                                 }
                             }
@@ -678,20 +697,20 @@
 
                         @media (min-height: 720px) {
 
-                            :nth-child(2) {
-                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.6rem);
-                                    left: calc(100px - 0.75rem);
-                                img {
-                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.6rem);
+                            #popout-target-3 {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1rem);
+                                    // left: calc(100px - 0.75rem);
+                                #popout-target-4 {
+                                    top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1rem);
                                     width: 3.5rem;
                                     height: 3.5rem;
-                                    left: calc(100px - 0.75rem);
+                                    // left: calc(100px - 0.75rem);
 
                                     @media (min-width: 1200px) {
                                         top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 2.5rem);
                                         width: 5rem;
                                         height: 5rem;
-                                        left: calc(200px - 2rem);
+                                        // left: calc(200px - 2rem);
                                     }
                                 }
                             }
@@ -699,16 +718,16 @@
 
                         @media (min-height: 1080px) {
 
-                            :nth-child(2) {
-                                img {
+                            #popout-target-3 {
+                                #popout-target-4 {
                                     top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 4.5rem);
                                     width: 5rem;
                                     height: 5rem;
-                                    left: calc(75px - 2.5rem);
+                                    // left: calc(75px - 2.5rem);
 
                                     @media (min-width: 1200px) {
-                                        top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 3.5rem);
-                                        left: calc(150px - 3.5rem);
+                                        top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 3.1rem);
+                                        // left: calc(150px - 3.5rem);
                                         width: 7rem;
                                         height: 7rem;
                                     }

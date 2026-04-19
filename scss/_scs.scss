@@ -31,7 +31,7 @@
 
                 .scs-scsintro {                                     // SCS Scheme description and link icon
                     height: fit-content;
-                    max-width: 330px;
+                    max-width: 316.667px;
                     color: #{$prj-card-text};
                     background-color: #{$prj-card-bg};
                     font-family: "roboto", sans-serif;
@@ -48,20 +48,25 @@
                         text-align: center;
                     }
 
-                    .scs-text {                        
+                    .scs-text {
                         padding-top: 0.5rem;
                         padding-bottom: 1.75rem;;
                         text-align: center;
                     }
 
                     #scion-homepage-link-container {
+                        cursor: pointer;
                         width: 100%;
                         display: grid;
                         grid-template-columns: 7fr 1fr 7fr;
                         padding: 0.7rem 0 0.7rem 0;
                         height: fit-content;
+                        background-color: #{$prj-card-bg};
+                        border: none;
+                        border-radius: 0.625rem;
 
                         #scion-homepage-link {
+
                             grid-column-start: 2;
                             grid-column-end: 3;
                             display: block;
@@ -69,6 +74,7 @@
                         }
 
                         #scion-homepage-link-alt {
+
                             grid-column-start: 2;
                             grid-column-end: 3;
                             display: none;
@@ -77,26 +83,25 @@
 
                         
 
-                        &:hover {
-                            background-image: linear-gradient(315deg, #441144 25%, #4b6a9f 50%, #3b6539 75%, #210505 100%);
-                            border-radius: 0.5rem;
-                            box-shadow: 0.2rem 0.2rem 0.3rem 0.3rem #00000033;
+                        // &:hover {                                                                                                  **  KEEP FOR prog js  **
+                        //     background-image: linear-gradient(315deg, #441144 25%, #4b6a9f 50%, #3b6539 75%, #210505 100%);
+                        //     box-shadow: 0.2rem 0.2rem 0.3rem 0.3rem #00000033;
 
-                            #scion-homepage-link {
-                                display: none;
-                            }
+                        //     #scion-homepage-link {
+                        //         display: none;
+                        //     }
 
-                            #scion-homepage-link-alt {
-                                display: block;
+                        //     #scion-homepage-link-alt {
+                        //         display: block;
                                 
-                            }
-                        }
+                        //     }
+                        // }
                     }
                 }
 
                 .scs-treehouse {                                    // Treehouse description and link icon
                     height: fit-content;
-                    max-width: 350px;
+                    max-width: 316.667px;
                     color: #{$scs-th-text};
                     background-color: #{$scs-th-bg};
                     font-family: "roboto", sans-serif;
@@ -125,6 +130,9 @@
                         display: grid;
                         grid-template-columns: 7fr 1fr 7fr;
                         padding: 0.7rem 0 0.7rem;
+                        background-color: #{$scs-th-bg};
+                        border: none;
+                        cursor: pointer;
 
                         #treehouse-homepage-link {
                             grid-column-start: 2;
@@ -142,26 +150,26 @@
 
                         
 
-                        &:hover {
-                            background-image: linear-gradient(315deg, #375491 25%, #4ba366 50%, #9e822d 75%, #c05971 100%);
-                            border-radius: 0.5rem;
-                            box-shadow: 0px 0px 1px 1px #000000;
+                        // &:hover {                                                                                                  **  KEEP FOR prog js  **
+                        //     background-image: linear-gradient(315deg, #375491 25%, #4ba366 50%, #9e822d 75%, #c05971 100%);
+                        //     border-radius: 0.5rem;
+                        //     box-shadow: 0px 0px 1px 1px #000000;
 
-                            #treehouse-homepage-link {
-                                display: none;
-                            }
+                        //     #treehouse-homepage-link {
+                        //         display: none;
+                        //     }
 
-                            #treehouse-homepage-link-alt {
-                                display: block;
-                            }
-                        }
+                        //     #treehouse-homepage-link-alt {
+                        //         display: block;
+                        //     }
+                        // }
                     }
 
                 }
 
                 .scs-netmatters {                                    // Netmatters description and link icon
                     height: fit-content;
-                    max-width: 330px;
+                    max-width: 316.667px;
 
                     .scs-title {                        
                         padding-top: 1.5rem;
@@ -196,6 +204,11 @@
                         display: grid;
                         grid-template-columns: 7fr 1fr 7fr;
                         padding: 0.7rem 0 0.7rem;
+                        background-color: white;
+                        border: none;
+                        border-radius: 0.625rem;
+                        cursor: pointer;
+
 
                         #netmatters-homepage-link {
                             grid-column-start: 2;
@@ -213,19 +226,19 @@
 
                         
 
-                        &:hover {
-                            background-image: linear-gradient(315deg, #441144 25%, #4b6a9f 50%, #3b6539 75%, #210505 100%);
-                            border-radius: 0.5rem;
-                            box-shadow: 0.2rem 0.2rem 0.3rem 0.3rem #00000033;
+                        // &:hover {                                                                                                  **  KEEP FOR prog js  **
+                        //     background-image: linear-gradient(315deg, #441144 25%, #4b6a9f 50%, #3b6539 75%, #210505 100%);
+                        //     border-radius: 0.5rem;
+                        //     box-shadow: 0.2rem 0.2rem 0.3rem 0.3rem #00000033;
 
-                            #netmatters-homepage-link {
-                                display: none;
-                            }
+                        //     #netmatters-homepage-link {
+                        //         display: none;
+                        //     }
 
-                            #netmatters-homepage-link-alt {
-                                display: block;
-                            }
-                        }
+                        //     #netmatters-homepage-link-alt {
+                        //         display: block;
+                        //     }
+                        // }
 
                     }
                 }
@@ -289,8 +302,8 @@
                         justify-self: end;
                         grid-column-start: 1;
                         grid-column-end: 2;
-                        grid-row-start: 2;
-                        grid-row-end: 3;
+                        grid-row-start: 1;
+                        grid-row-end: 2;
                     }
 
                     .scs-netmatters {
@@ -307,8 +320,8 @@
                         justify-self: end;
                         grid-column-start: 1;
                         grid-column-end: 2;
-                        grid-row-start: 1;
-                        grid-row-end: 2;
+                        grid-row-start: 2;
+                        grid-row-end: 3;
                     }
                 }
 

@@ -39,7 +39,7 @@
             </div>
         </div>
     </main>
-   <div class="burger-top">
+    <div class="burger-top">
         <div class="burger-button">  <!-- Burger Button -->
             <div class="burger-bar" id="bm-menu-button">
                 <div id="burger-bar-top"></div>
@@ -49,37 +49,39 @@
             <div class="burger-menu-top">  <!-- Burger Menu Items -->
                 <div class="burger-menu-wrapper" id="bm-display">
 
-                    <div class="burger-menu-avatar-box menu-box">
-                        <div class="menu-initials menu-text">
-                            <a href="index.html#banner-top-target">NR</a>
+                    <div id="bm-avatar-box" class="menu-box">
+                        <div id="menu-initials" class="menu-text">
+                            <a id="avatar-link" href="index.html#banner-top-target">NR</a>
                         </div>
                     </div>
 
-                    <div class="burger-menu-aboutme-box menu-box">
-                        <a class="about-me-link menu-text" href="aboutme.html"> About <br id="aboutme-break">Me</a>
+                    <div id="bm-aboutme-box" class="menu-box">
+                        <a id="about-me-link" class="menu-text" href="aboutme.html"> About <br id="aboutme-break">Me</a>
                     </div>
 
-                    <div class="burger-menu-portfolio-box menu-box">
-                        <a class="portfolio-link menu-text" href="index.html#prj-top-target">My Portfolio</a>
+                    <div id="bm-portfolio-box" class="menu-box">
+                        <a id="portfolio-link" class="menu-text" href="index.html#prj-top-target">My Portfolio</a>
                     </div>
 
-                    <div class="burger-menu-coding-box menu-box">
-                        <a class="coding-link menu-text" href="coding.html">Code Examples</a>
+                    <div id="bm-coding-box" class="menu-box">
+                        <a id="coding-link" class="menu-text" href="coding.html">Code Examples</a>
                     </div>
 
-                    <div class="burger-menu-scs-box menu-box">
-                        <a class="scs-link menu-text" href="scs.html#scs-top-target">SCS Scheme</a>
+                    <div id="bm-scs-box" class="menu-box">
+                        <a id="scs-link" class="menu-text" href="scs.html#scs-top-target">SCS Scheme</a>
                     </div>
 
-                    <div class="burger-menu-contact-box menu-box">
-                        <div class="contact-title menu-text">
-                            <div>
-                                <a href="index.html#cform-top-target">Contact Me</a>
-                            </div>
+                    <div id="bm-contact-box" class="menu-box">
+                        <div id="contact-title">
+                            <a id="contact-title-link" class="menu-text" href="index.html#cform-top-target">Contact Me</a>
                         </div>
-                        <div class="contact-links" style="width: 0px;height: 0px;">
-                            <a href="mailto:neilarolls@gmail.com"><img src="img/email_icon.png" alt="email icon"></a>
-                            <a href="#"><img src="img/comment-sms-solid.png" alt="s.m.s icon"></a>
+                        <div id="contact-links" style="width: 0;height: 0;">
+                            <a id="popout-target-1" class="menu-text" href="mailto:neilarolls@gmail.com">
+                                <img id="popout-target-2" src="img/email_icon.png" alt="email icon">
+                            </a>
+                            <a id="popout-target-3" class="menu-text" href="#">
+                                <img id="popout-target-4" src="img/comment-sms-solid.png" alt="s.m.s icon">
+                            </a>
                         </div>
                     </div>
 
@@ -88,5 +90,5 @@
         </div>
     </div>
     <script type="text/javascript" src="js/jquery-4.0.0.min.js"></script>
-    <script src="js/bm-js"></script>
+    <script src="js/bm-js.js"></script>
 </body>

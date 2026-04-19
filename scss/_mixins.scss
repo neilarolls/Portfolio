@@ -9,24 +9,27 @@
             width: #{$card-width};
             height: #{$card-height};
             font-family: #{$font-family}, sans-serif;
-            border: 0.1rem solid #{$card-border};
-            background-color: #{$card-bg};
+            background-color: #{$prj-page-bg};
             color: #{$card-text};
-            border-radius: 0.2rem;
             padding: 0;
             overflow-x: clip;
+            border-radius: 0.5rem;
 
             .prj-image-wrapper {                                    // set up images
                 padding: 0;
                 position: relative;
                 width: #{$card-width};
-
+                display: flex;
+                flex-direction: row;
+                // justify-content: flex-end;
+                
                 .prj-card-detailsimage {
                     position: relative;
                     display: none;
                 }
                 .prj-card-coverimage {
                     position: relative;
+                    display: block;
                 }
 
                 .prj-card-coverimage, .prj-card-detailsimage {
@@ -45,38 +48,51 @@
                 padding: 0;
                 height: calc(#{$card-height} * 0.18);
                 width: #{$card-width};
-                display: flex;
-                flex-direction: row;
-                box-shadow: inset 0rem 0rem 1.2rem #111111aa;
+                display: grid;
+                grid-template-rows: 1fr;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                filter: drop-shadow(0 0 1.5rem #00000088);
+                border-radius: 0.5rem;
+
 
                 a:hover {                                           // show gradient on hover
-                    background: radial-gradient(circle at center, transparent 0%, transparent 75%, #11111155 100%), linear-gradient(0deg, #11111188 0%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #11111188 100%);
+                    filter: drop-shadow(0 0 0.5rem white);
+                    color: white;
+                    // font-weight: 600;
+                    // letter-spacing: -0.35px;
                 }
 
                 div {                                               // title styling
-                    width: 50%;
-                    height: 100%;
+                    width: 99%;
+                    height: 98%;
                     padding: 0;
                     font-weight: 600;
                     font-size: #{$font-size-title};
                     display: block;
-                    color: #{$card-text};                    
-                    border-right: 0.1rem solid #{$card-text};
+                    color: #{$card-text};
                     align-content: center;
-                    background: radial-gradient(circle at center, transparent 0%, transparent 75%, #11111155 100%), linear-gradient(0deg, #11111188 0%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #11111188 100%);
+                    background: linear-gradient(90deg, #000 2%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #000 98%), linear-gradient(0deg, #000 2%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #000 98%);
+                    border: 0.5px solid #ddd;
+                    border-radius: 0.5rem;
+                    box-shadow: 0 -0.3rem 0.5rem #00000033;
                 }
 
                 a {                                                 // anchor styling
-                    width: 50%;
-                    height: 100%;
+                    transition: text-shadow 0.1s linear;
+                    width: 99%;
+                    height: 98%;
                     padding: 0;
                     font-weight: 350;
                     font-size: #{$font-size-link};
                     display: block;
-                    top: 0rem;
                     text-decoration: none;
-                    color: #{$card-text};
+                    color: #{$prj-card-border};
                     align-content: center;
+                    border: 0.5px solid #{$card-bg-alt};
+                    border-radius: 0.5rem;
+                    box-shadow: 0 -0.25rem 0.5rem #00000055;
+                    justify-self: end;
                 }
 
             }
@@ -84,25 +100,30 @@
                                                                     // hovering on the card brings the alt image into view
             &:hover {
                 .prj-image-wrapper {
+
+
                     .prj-card-coverimage {
                         display: none;
                     }
+
                     .prj-card-detailsimage {
                         display: block;
                     }
+
+                    
                 }
             }
-                                                                    // and releases back to the default
-            &:not(:hover) {
-                .prj-image-wrapper {
-                    .prj-card-detailsimage {
-                        display: none;
-                    }
-                    .prj-card-coverimage {
-                        display: block;
-                    }
-                }
-            }
+            //                                                         // and releases back to the default
+            // &:not(:hover) {
+            //     .prj-image-wrapper {
+            //         .prj-card-detailsimage {
+            //             display: none;
+            //         }
+            //         .prj-card-coverimage {
+            //             display: block;
+            //         }
+            //     }
+            // }
         }
     }
 }
