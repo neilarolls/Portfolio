@@ -198,7 +198,7 @@ let counter = 0;
 
 (async () => {
     do {
-        await new Promise(resolve => setTimeout(resolve, 1));
+        await new Promise(resolve => setTimeout(resolve, 2));
                                                                                             // Sets a timeout of 1 ms. Increase if the loop is holding up other processes on the page,
                                                                                             // but under no circumstances set it to 0. Instinct said I shouldn't, I checked, and indeed,
                                                                                             // setting 0 on timeouts is 'A Bad Thing To Do' if you want event handlers to work correctly.

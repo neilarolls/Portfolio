@@ -9,7 +9,7 @@ $(document).ready(function() {                                                  
   function bmSlideLeft() {
 
     if (bmPosition) {                                                                       // If menu position is currently shown (true) then slide items left,
-      $("#bm-display div").css({"left":"-155px"});                                          // transitions should do the rest.
+        $("#bm-display div").css({"left":"-155px"});                                        // transitions should do the rest.
         $("#popout-target-1").css({"left":"-155px","transition":"left 0.6s linear"});
         $("#popout-target-2").css({"left":"-155px","transition":"left 0.6s linear"});
         $("#popout-target-3").css({"left":"-155px","transition":"left 0.6s linear"});
@@ -26,16 +26,18 @@ $(document).ready(function() {                                                  
     if (!bmPosition) {                                                                      // If menu position is currently hidden (false) then slide items right,
       $("#bm-display div").css({"left":"0px"});                                             // transitions should do the rest.
 
-      
+      const currentWidth = window.innerWidth;
+      const currentHeight = window.innerHeight;
 
-      if (window.innerHeight < 360 && window.innerWidth < 1200) {
 
-        $("#popout-target-1 #popout-target-2").css({"left":"35px"});
-        // $("#popout-target-2").css({"left":"35px"});
+      if (currentHeight < 360 && currentWidth < 1200) {
+
+        $("#popout-target-1").css({"left":"35px"});
+        $("#popout-target-2").css({"left":"35px"});
         $("#popout-target-3").css({"left":"83px"});
         $("#popout-target-4").css({"left":"83px"});
 
-      } else if (window.innerHeight < 360 && window.innerWidth >= 1200) {
+      } else if (currentHeight < 360 && currentWidth >= 1200) {
 
         $("#popout-target-1").css({"left":"86px","transition":"left 0.05s linear"});
         $("#popout-target-2").css({"left":"86px","transition":"left 0.05s linear"});
@@ -44,14 +46,14 @@ $(document).ready(function() {                                                  
 
       }
 
-      if (window.innerHeight >= 360 && window.innerHeight < 720 && window.innerWidth < 1200) {
+      if (currentHeight >= 360 && currentHeight < 720 && currentWidth < 1200) {
 
         $("#popout-target-1").css({"left":"20.4px"});
         $("#popout-target-2").css({"left":"20.4px"});
         $("#popout-target-3").css({"left":"89.6px"});
         $("#popout-target-4").css({"left":"89.6px"});
 
-      } else if (window.innerHeight >= 360 && window.innerHeight < 720 && window.innerWidth >= 1200) {
+      } else if (currentHeight >= 360 && currentHeight < 720 && currentWidth >= 1200) {
 
         $("#popout-target-1").css({"left":"78px","transition":"left 0.05s linear"});
         $("#popout-target-2").css({"left":"78px","transition":"left 0.05s linear"});
@@ -60,14 +62,14 @@ $(document).ready(function() {                                                  
 
       }
 
-      if (window.innerHeight >= 720 && window.innerHeight < 1080 && window.innerWidth < 1200) {
+      if (currentHeight >= 720 && currentHeight < 1080 && currentWidth < 1200) {
 
         $("#popout-target-1").css({"left":"13.2px"});
         $("#popout-target-2").css({"left":"13.2px"});
         $("#popout-target-3").css({"left":"88px"});
         $("#popout-target-4").css({"left":"88px"});
 
-      } else if (window.innerHeight >= 720 && window.innerHeight < 1080 && window.innerWidth >= 1200) {
+      } else if (currentHeight >= 720 && currentHeight < 1080 && currentWidth >= 1200) {
 
         $("#popout-target-1").css({"left":"52px","transition":"left 0.05s linear"});
         $("#popout-target-2").css({"left":"52px","transition":"left 0.05s linear"});
@@ -76,14 +78,14 @@ $(document).ready(function() {                                                  
 
       }
 
-      if (window.innerHeight >= 1080 && window.innerWidth < 1200) {
+      if (currentHeight >= 1080 && currentWidth < 1200) {
 
         $("#popout-target-1").css({"left":"35px"});
         $("#popout-target-2").css({"left":"35px"});
         $("#popout-target-3").css({"left":"35px"});
         $("#popout-target-4").css({"left":"35px"});
 
-      } else if (window.innerHeight >= 1080 && window.innerWidth >= 1200) {
+      } else if (currentHeight >= 1080 && currentWidth >= 1200) {
 
         $("#popout-target-1").css({"left":"94px","transition":"left 0.05s linear"});
         $("#popout-target-2").css({"left":"94px","transition":"left 0.05s linear"});
@@ -116,6 +118,13 @@ $(document).ready(function() {                                                  
       bmPosition = false;
       bmSlideRight();
       shownByUser = false;
+    } else if (bmPosition && window.innerWidth < 576 && shownByUser) {
+      bmPosition = false;
+      $("#popout-target-1").css({"transition":"left 0.05s linear"});
+      $("#popout-target-2").css({"transition":"left 0.05s linear"});
+      $("#popout-target-3").css({"transition":"left 0.05s linear"});
+      $("#popout-target-4").css({"transition":"left 0.05s linear"});
+      bmSlideRight();
     }
   }
 
