@@ -14,7 +14,7 @@
 // different fonts and other css styling on any element in the animation.
 // 
 // Another idea: trailing letters. Push the preceding coordinates into what I've discovered is called an 'evicting stack'
-// before updating to new coordinates, then moving trailing letters to the stored coordinates (nts:z-index?). If I create one
+// before updating to new coordinates, then moving trailing letters to the stored coordinates (nts:draw order?). If I create one
 // array per trail 'level', then keep track of which is the primary array, it automatically overwrites the oldest coordinates
 // and avoids shuffling values around between arrays en masse. I can see why they're also called circular stacks, which seems 
 // more apt.
