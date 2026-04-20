@@ -377,6 +377,19 @@ body {
   overflow-x: clip;
 }
 
+/* line 7, ../../../Portfolio/scss/_base.scss */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* line 1, ../../../Portfolio/scss/_burger.scss */
 .burger-top {
   z-index: 5 !important;
