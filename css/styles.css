@@ -372,12 +372,17 @@ template {
 }
 
 /* line 1, ../../../Portfolio/scss/_base.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 5, ../../../Portfolio/scss/_base.scss */
 body {
   min-width: 280px;
   overflow-x: clip;
 }
 
-/* line 7, ../../../Portfolio/scss/_base.scss */
+/* line 11, ../../../Portfolio/scss/_base.scss */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -1196,7 +1201,7 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 5fr 1fr 5fr 1fr;
+  grid-template-rows: 5fr 1fr 5fr 100px;
 }
 
 /* line 33, ../../../Portfolio/scss/_banner.scss */
@@ -1245,59 +1250,53 @@ body {
 .prj-top {
   z-index: 0;
   background-color: #0e0e17;
-  height: calc(200.08px * 7.5);
-  padding: 3rem 0;
+  height: calc(200.08px * 8);
+  padding: 4rem 0 3rem;
 }
 
-/* line 7, ../../../Portfolio/scss/_projects.scss */
+@media (max-width: 831.999px) {
+  /* line 1, ../../../Portfolio/scss/_projects.scss */
+  .prj-top {
+    height: calc(200.08px * 7.45);
+  }
+}
+
+/* line 13, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  height: calc(200.08px * 8);
+  grid-template-columns: 100%;
+  grid-template-rows: 20fr 50px;
   text-align: center;
 }
 
+@media (max-width: 831.999px) {
+  /* line 13, ../../../Portfolio/scss/_projects.scss */
+  .prj-top .prj-v-wrapper {
+    height: calc(200.08px * 7.45);
+  }
+}
+
 @media (min-width: 576px) {
-  /* line 7, ../../../Portfolio/scss/_projects.scss */
+  /* line 13, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper {
     padding-left: 150px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 7, ../../../Portfolio/scss/_projects.scss */
+  /* line 13, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper {
     padding-left: 300px;
   }
 }
 
-/* line 20, ../../../Portfolio/scss/_projects.scss */
+/* line 34, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper {
   margin: 0;
 }
 
-/* line 23, ../../../Portfolio/scss/_projects.scss */
-.prj-top .prj-v-wrapper .prj-h-wrapper #page-turner-3 {
-  display: none;
-}
-
-/* line 26, ../../../Portfolio/scss/_projects.scss */
-.prj-top .prj-v-wrapper .prj-h-wrapper #page-turner-3 a {
-  position: static;
-  display: block;
-  color: white;
-  left: calc(50vw - 1.25rem);
-}
-
-/* line 32, ../../../Portfolio/scss/_projects.scss */
-.prj-top .prj-v-wrapper .prj-h-wrapper #page-turner-3 a img {
-  position: relative;
-  width: 2.5rem;
-  text-decoration: none;
-  top: -2.5rem;
-  opacity: 50%;
-}
-
-/* line 44, ../../../Portfolio/scss/_projects.scss */
+/* line 37, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
   display: grid;
   grid-template-columns: 100%;
@@ -4994,103 +4993,141 @@ body {
   }
 }
 
-/* line 172, ../../../Portfolio/scss/_projects.scss */
+/* line 165, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
   padding: 1.25rem 0.625rem 0 0.625rem;
 }
 
-/* line 175, ../../../Portfolio/scss/_projects.scss */
+/* line 168, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
   justify-self: end;
 }
 
-/* line 178, ../../../Portfolio/scss/_projects.scss */
+/* line 171, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top {
   justify-self: start;
 }
 
 @media (min-width: 576px) {
-  /* line 183, ../../../Portfolio/scss/_projects.scss */
+  /* line 176, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     padding: 1.25rem 2.5rem 0 2.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 44, ../../../Portfolio/scss/_projects.scss */
+  /* line 37, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(3, 66.6667%);
   }
-  /* line 191, ../../../Portfolio/scss/_projects.scss */
+  /* line 184, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     align-self: end;
   }
 }
 
 @media (min-width: 768px) and (min-width: 832px) {
-  /* line 197, ../../../Portfolio/scss/_projects.scss */
+  /* line 190, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     align-self: center;
   }
 }
 
 @media (min-width: 768px) and (min-width: 992px) {
-  /* line 205, ../../../Portfolio/scss/_projects.scss */
+  /* line 198, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     align-self: start;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 44, ../../../Portfolio/scss/_projects.scss */
+  /* line 37, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
     grid-template-rows: repeat(3, 49.5%);
   }
-  /* line 216, ../../../Portfolio/scss/_projects.scss */
+  /* line 209, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top {
     align-self: end;
   }
 }
 
 @media (min-width: 992px) and (min-width: 832px) {
-  /* line 222, ../../../Portfolio/scss/_projects.scss */
+  /* line 215, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     align-self: center;
   }
 }
 
 @media (min-width: 992px) and (min-width: 896px) {
-  /* line 230, ../../../Portfolio/scss/_projects.scss */
+  /* line 223, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     align-self: start;
   }
 }
 
 @media (min-width: 1350px) {
-  /* line 44, ../../../Portfolio/scss/_projects.scss */
+  /* line 37, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
     grid-template-rows: repeat(3, 40%);
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 44, ../../../Portfolio/scss/_projects.scss */
+  /* line 37, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
     grid-template-rows: repeat(3, 36%);
   }
-  /* line 243, ../../../Portfolio/scss/_projects.scss */
+  /* line 236, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     justify-self: end;
   }
-  /* line 247, ../../../Portfolio/scss/_projects.scss */
+  /* line 240, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top {
     justify-self: start;
   }
-  /* line 252, ../../../Portfolio/scss/_projects.scss */
+  /* line 245, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     align-self: center;
   }
+}
+
+/* line 252, ../../../Portfolio/scss/_projects.scss */
+.prj-top .prj-v-wrapper #page-turner-2 {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 10fr 40px 10px 40px 10fr;
+  grid-template-rows: 50px;
+  opacity: 50%;
+}
+
+/* line 260, ../../../Portfolio/scss/_projects.scss */
+.prj-top .prj-v-wrapper #page-turner-2 #prev-page-link-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+}
+
+/* line 267, ../../../Portfolio/scss/_projects.scss */
+.prj-top .prj-v-wrapper #page-turner-2 #prev-page-link-2 img {
+  width: 2.5rem;
+}
+
+/* line 273, ../../../Portfolio/scss/_projects.scss */
+.prj-top .prj-v-wrapper #page-turner-2 #next-page-link-2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+}
+
+/* line 280, ../../../Portfolio/scss/_projects.scss */
+.prj-top .prj-v-wrapper #page-turner-2 #next-page-link-2 img {
+  width: 2.5rem;
 }
 
 /* line 1, ../../../Portfolio/scss/_contactform.scss */
@@ -5451,23 +5488,25 @@ body {
 }
 
 /* line 393, ../../../Portfolio/scss/_contactform.scss */
-.cform-top .cform-v-wrapper .cform-h-wrapper #page-turner-backtotop {
+.cform-top .cform-v-wrapper .cform-h-wrapper #page-turner-3 {
+  padding-top: 40px;
   width: 100%;
   display: grid;
   grid-template-columns: 10fr 1fr 10fr;
-  grid-template-rows: 70% 30%;
+  grid-template-rows: 10fr 50px;
 }
 
-/* line 399, ../../../Portfolio/scss/_contactform.scss */
-.cform-top .cform-v-wrapper .cform-h-wrapper #page-turner-backtotop #prev-page-link-1 {
+/* line 400, ../../../Portfolio/scss/_contactform.scss */
+.cform-top .cform-v-wrapper .cform-h-wrapper #page-turner-3 #prev-page-link-1 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  justify-self: center;
 }
 
-/* line 405, ../../../Portfolio/scss/_contactform.scss */
-.cform-top .cform-v-wrapper .cform-h-wrapper #page-turner-backtotop #prev-page-link-1 img {
+/* line 407, ../../../Portfolio/scss/_contactform.scss */
+.cform-top .cform-v-wrapper .cform-h-wrapper #page-turner-3 #prev-page-link-1 img {
   width: 2.5rem;
 }
 
@@ -5672,7 +5711,7 @@ body {
   grid-column-start: 2;
   grid-column-end: 3;
   display: block;
-  height: fit-content;
+  height: 48px;
 }
 
 /* line 144, ../../../Portfolio/scss/_scs.scss */
@@ -5680,7 +5719,7 @@ body {
   grid-column-start: 2;
   grid-column-end: 3;
   display: none;
-  height: fit-content;
+  height: 48px;
 }
 
 /* line 170, ../../../Portfolio/scss/_scs.scss */
@@ -5735,7 +5774,7 @@ body {
   grid-column-start: 2;
   grid-column-end: 3;
   display: block;
-  height: fit-content;
+  height: 48px;
 }
 
 /* line 220, ../../../Portfolio/scss/_scs.scss */
@@ -5743,7 +5782,7 @@ body {
   grid-column-start: 2;
   grid-column-end: 3;
   display: none;
-  height: fit-content;
+  height: 48px;
 }
 
 @media (min-width: 576px) {
@@ -5878,7 +5917,7 @@ body {
 @media (min-height: 1080px) {
   /* line 23, ../../../Portfolio/scss/_scs.scss */
   .scs-top .scs-v-wrapper .scs-h-wrapper .scs-sections {
-    row-gap: 6rem;
+    row-gap: 5.75rem;
   }
 }
 

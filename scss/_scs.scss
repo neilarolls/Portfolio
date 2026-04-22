@@ -138,14 +138,14 @@
                             grid-column-start: 2;
                             grid-column-end: 3;
                             display: block;
-                            height: fit-content;
+                            height: 48px;
                         }
 
                         #treehouse-homepage-link-alt {
                             grid-column-start: 2;
                             grid-column-end: 3;
                             display: none;
-                            height: fit-content;
+                            height: 48px;
                         }
 
                         
@@ -214,14 +214,14 @@
                             grid-column-start: 2;
                             grid-column-end: 3;
                             display: block;
-                            height: fit-content;
+                            height: 48px;
                         }
 
                         #netmatters-homepage-link-alt {
                             grid-column-start: 2;
                             grid-column-end: 3;
                             display: none;
-                            height: fit-content;
+                            height: 48px;
                         }
 
                         
@@ -332,7 +332,7 @@
                 }
 
                 @media (min-height: 1080px) {
-                    row-gap: 6rem;
+                    row-gap: 5.75rem;
 
                     @media (min-width: 992px) {
                         .scs-netmatters {

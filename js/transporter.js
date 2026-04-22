@@ -34,7 +34,7 @@
 
 
 // Style any lines - the lines need special handling because they scale width rather than font-size.
-$("#l18").css({"position":"absolute", "color":"white", "height":"0.01px", "width":"602px", "border":"0.5px solid white"});// (++++)
+$("#l18").css({"position":"absolute", "color":"white", "height":"0.01px", "width":"602px", "border":"0.0333rem solid white"});// (++++)
 
 
 // A string of ID's EXCLUDING any lines.
@@ -198,7 +198,7 @@ let counter = 0;
 
 (async () => {
     do {
-        await new Promise(resolve => setTimeout(resolve, 2));
+        await new Promise(resolve => setTimeout(resolve, 3));
                                                                                             // Sets a timeout of 1 ms. Increase if the loop is holding up other processes on the page,
                                                                                             // but under no circumstances set it to 0. Instinct said I shouldn't, I checked, and indeed,
                                                                                             // setting 0 on timeouts is 'A Bad Thing To Do' if you want event handlers to work correctly.

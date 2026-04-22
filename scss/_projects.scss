@@ -1,12 +1,26 @@
 .prj-top {
     z-index: 0;
     background-color: #{$prj-page-bg};
-    height: calc(#{$prj-card-height} * 7.5);
-    padding: 3rem 0;
+    
+    height: calc(#{$prj-card-height} * 8);
+    
+    @media (max-width: 831.999px) {
+        height: calc(#{$prj-card-height} * 7.45);
+    }
+
+    padding: 4rem 0 3rem;
 
     .prj-v-wrapper {                                // Adjust padding at 576px and 1200px to allow for menu and expanded menu
-        display: flex;
-        flex-direction: column;
+        display: grid;
+
+        height: calc(#{$prj-card-height} * 8);
+
+        @media (max-width: 831.999px) {
+            height: calc(#{$prj-card-height} * 7.45);
+        }
+
+        grid-template-columns: 100%;
+        grid-template-rows: 20fr 50px;
         text-align: center;
 
         @media (min-width: 576px) {
@@ -19,27 +33,6 @@
 
         .prj-h-wrapper {
             margin: 0;
-
-            #page-turner-3 {                        // Previous page icon and link
-                display: none;
-
-                a {
-                    position: static;
-                    display: block;
-                    color: white;
-                    left: calc(50vw - 1.25rem);
-
-                    img {
-                        position: relative;
-                        width: 2.5rem;
-                        text-decoration: none;
-                        top: -2.5rem;
-                        opacity: #{$next-prev-opacity};
-                    }
-
-                }
-
-            }
 
             .prj-cards {                                            // Uses a mixin to generate the project card styling with Params: size, colours, font family and sizes, and border.
                                                                     // The mixin styles each card and flips the image to details on hover.
@@ -254,7 +247,41 @@
                     }
                 }
             }
+        }    
 
+        #page-turner-2 {
+            width: 100%;
+            height: 50px;
+            display: grid;
+            grid-template-columns: 10fr 40px 10px 40px 10fr;
+            grid-template-rows: 50px;
+            opacity: #{$next-prev-opacity};
+
+            #prev-page-link-2 {
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                    grid-row-start: 1;
+                    grid-row-end: 2;
+                    justify-self: center;
+            
+                img {
+                    width: 2.5rem;
+
+                }
+            }
+
+            #next-page-link-2 {
+                    grid-column-start: 4;
+                    grid-column-end: 5;
+                    grid-row-start: 1;
+                    grid-row-end: 2;
+                    justify-self: center;
+            
+                img {
+                    width: 2.5rem;
+
+                }
+            }
         }
     }
 }

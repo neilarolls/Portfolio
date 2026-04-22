@@ -9,8 +9,8 @@ $(document).ready(function() {                                                  
   function bmSlideLeft() {
 
     if (bmPosition) {                                                                       // If menu position is currently shown (true) then slide items left,
-        $("#bm-display div").css({"left":"-155px"});                                        // transitions should do the rest.
-        $("#popout-target-1").css({"left":"-155px","transition":"left 0.6s linear"});
+        $("#bm-display div").css({"left":"-155px"});                                        // transitions should do the rest. (chuck 'em in a bucket as opposed
+        $("#popout-target-1").css({"left":"-155px","transition":"left 0.6s linear"});       // to slide right's controlled positioning).
         $("#popout-target-2").css({"left":"-155px","transition":"left 0.6s linear"});
         $("#popout-target-3").css({"left":"-155px","transition":"left 0.6s linear"});
         $("#popout-target-4").css({"left":"-155px","transition":"left 0.6s linear"});

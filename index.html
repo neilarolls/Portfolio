@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div id="page-turner-1">
-                        <a id="next-page-link-1" href="#prj-top-target"><img src="img/nextpage.png" alt="Next Page Link"></a>
+                        <a id="next-page-link-1" href="#prj-top-target"><img src="img/nextpage.png" alt="next page icon"></a>
                     </div>
                 </div>
             </div>
@@ -160,9 +160,15 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
+                
+                <div id="page-turner-2">
+                    <a id="prev-page-link-2" href="#banner-top-target" ><img src="img/prevpage.png" alt="previous page icon"></a>
+                    <a id="next-page-link-2" href="#cform-top-target"><img src="img/nextpage.png" alt="next page icon"></a>
+                </div>
+                
             </div>
         </div>
         <div class="cform-top" id="cform-top-target">  <!-- Contact Form -->
@@ -187,17 +193,17 @@
 
                             <div class="cform-firstname">
                                 <label for="first-name" class="visually-hidden">First name</label>
-                                <input type="text" id="firstname" name="first-name" placeholder="type your first name..." required minlength="1" maxlength="22" size="22">
+                                <input pattern="^([A-Za-zÀ-ÖØ-öø-ÿ'\.-]+)\s?(?:\s([A-Za-zÀ-ÖØ-öø-ÿ'\.-]+)){0,1}?$" title="Will accept up to two first names, alphabetic characters only." type="text" id="firstname" name="first-name" placeholder="type your first name..." required minlength="1" maxlength="30" size="22">
                             </div>
 
                             <div class="cform-lastname">
                                 <label for="last-name" class="visually-hidden">Last name</label>
-                                <input type="text" id="lastname" name="last-name" placeholder="type your last name..." required minlength="1" maxlength="22" size="22">
+                                <input pattern="([A-zÀ-ÿ'\.-]+ ?[a-zA-Z'\.-]+ ?[a-zA-Z'\.-]+)" title="Will accept up to three last names, alphabetic characters and '-' are recognised." type="text" id="lastname" name="last-name" placeholder="type your last name..." required minlength="1" maxlength="30" size="22">
                             </div>
 
                             <div class="cform-emailaddress">
                                 <label for="email-address" class="visually-hidden">Email address</label>
-                                <input type="email" id="emailaddress" name="email-address" placeholder="type your email address..." required minlength="1" maxlength="22" size="22">
+                                <input pattern="([^@\s]+@[^@\s]+\.[^@\s]+)" title="Example: name123@anyplace.com" type="email" id="emailaddress" name="email-address" placeholder="type your email address..." required minlength="1" maxlength="64" size="22">
                             </div>
 
                             <div class="cform-subject">
@@ -222,8 +228,8 @@
                         </form>
                     </div>
 
-                    <div id="page-turner-backtotop">
-                        <a id="prev-page-link-1" href="#banner-top-target" ><img src="img/prevpage-dk.png" alt="previous page icon"></a>
+                    <div id="page-turner-3">
+                        <a id="prev-page-link-1" href="#prj-top-target" ><img src="img/prevpage-dk.png" alt="previous page icon"></a>
                     </div>
 
                 </div>
