@@ -24,27 +24,6 @@
                 padding-left: 300px;
             }
 
-            #page-turner-4 {
-                display: none;
-
-                a {
-                    position: static;
-                    display: block;
-                    color: white;
-                    left: calc(50vw - 1.25rem);
-                    top: calc(200vh + 1rem);
-
-                    img {
-                        position: relative;
-                        width: 2.5rem;
-                        text-decoration: none;
-                        opacity: #{$next-prev-opacity};
-                    }
-
-                }
-
-            }
-
             
             .cform-sections {
                 display: grid;
@@ -128,83 +107,72 @@
                     text-align: center;
                     gap: 1.2rem;
 
-                    [class*=cform-] input {                    // targets just the inputs ignoring the textareas
+                    [id*=cform-] input {                    // targets just the inputs ignoring the textareas
                         color: #{$form-text-colour};
                         background-color: white;
                         font-size: 1rem;
                         height: 1.6rem;
                         padding: 0 0.5rem 0 0.5rem;
                         border-radius: 0.5rem;
-                        border: 0.09rem solid #{$form-input-border-colour};
-                        width: 90%;
+                        border: 0.1rem solid #{$form-input-border-colour};
+                        width: 92%;
 
                         &:focus {
                             outline: none !important;
                         }
                     }
 
-                    :nth-child(5) {                                                 // Initial message area - starts visible
+                    .reqd-field {
+                        box-shadow: 0.3rem 0.3rem 0.8rem #{$form-input-border-colour-reqd};
+                        border-radius: 0.5rem;
+                    }
+
+                    #cform-message {                                                 // Initial message area - starts visible
                         
-                            resize: none;
-                            height: 8.25rem;
-                            color: #{$form-text-colour};
-                            background-color: white;
-                            font-size: 0.85rem;
-                            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-                            border-radius: 0.5rem;
-                            border: 0.09rem solid #{$form-input-border-colour};
-                            width: fit-content;
-                            vertical-align: bottom;
+                        resize: none;                            
+                        height: 8.25rem;
+                        color: #{$form-text-colour};
+                        box-shadow: 0.3rem 0.3rem 0.8rem #{$form-input-border-colour-reqd2};
+                        border: 0.1rem solid #{$form-input-border-colour};
+                        border-radius: 0.5rem;
+                        background-color: white;
+                        font-size: 0.85rem;
+                        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+                        vertical-align: bottom;
                             
-                            textarea {
-                                resize: none;
-                                outline: none !important;
-                            }
+                        textarea {
+                            border: none;
+                            resize: none;
+                            outline: none !important;
+                        }
 
-                            textarea:focus {
-                                resize: none;
-                                outline: none !important;
-                            }
-
-                        
+                        textarea:focus {
+                            border: none;
+                            resize: none;
+                            outline: none !important;
+                        }                        
                     }
 
-                    :nth-child(6) {                                                 // Alt message area - starts hidden
-                        
-                            display: none;
-                            height: 4.25rem;
-                            color: #{$form-text-colour};
-                            background-color: white;
-                            font-size: 0.85rem;
-                            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-                            border-radius: 0.5rem;
-                            border: 0.09rem solid #{$form-input-border-colour};
-                            width: fit-content;
-                            vertical-align: normal;
 
-                            textarea {
-                                resize: none;
-                                outline: none !important;
-                            }
-
-                            textarea:focus {
-                                resize: none;
-                                outline: none !important;
-                            }
-                        
-                    }
-
-                    .cform-button {                                             // Submit button
+                    #cform-button {                                             // Submit button
                         width: 8rem;
                         height: 3rem;
                         background-color: #{$bm-btn-glow};
                         border-radius: 0.5rem;
                         border: 0.09rem solid #{$form-input-border-colour};
                         font-size: 1.5rem;
+                        margin-top: 0.25rem;
 
                         &:hover {
                             background-color: white;
                         }
+                    }
+
+                    #asterisk-means-reqd {
+                        font-size: 1.2rem;
+                        position: relative;
+                        top: 0;
+                        left: 0;
                     }
 
                 }
@@ -249,16 +217,16 @@
 
                         gap: 2rem;
 
-                            :nth-child(n) {
+                            [id*=cform-] {
 
-                                :nth-child(2) {
+                                input {
                                     font-size: 1.25rem;
                                     padding: 0.25rem 0.75rem 0.25rem 0.75rem;
                                 }
 
                             }
 
-                            :nth-child(5) {
+                            #cform-message {
                                 height: 8.5rem;
 
                                 textarea {

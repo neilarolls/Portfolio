@@ -191,39 +191,36 @@
 
                         <form id="cform-form" action="#" method="get">
 
-                            <div class="cform-firstname">
-                                <label for="first-name" class="visually-hidden">First name</label>
-                                <input pattern="^([A-Za-zÀ-ÖØ-öø-ÿ'\.-]+)\s?(?:\s([A-Za-zÀ-ÖØ-öø-ÿ'\.-]+)){0,1}?$" title="Will accept up to two first names, alphabetic characters only." type="text" id="firstname" name="first-name" placeholder="type your first name..." required minlength="1" maxlength="30" size="22">
+                            <div id="cform-firstname" class="reqd-field">
+                                <label for="*first-name" class="visually-hidden">First name</label>
+                                <input pattern="^([A-Za-zÀ-ÖØ-öø-ÿ'\.-]+)\s?(?:\s([A-Za-zÀ-ÖØ-öø-ÿ'\.-]+)){0,1}?$" title="Will accept up to two first names, no numbers allowed." type="text" id="firstname" name="first-name" placeholder="*first name..." required minlength="1" maxlength="30" size="22">
                             </div>
 
-                            <div class="cform-lastname">
-                                <label for="last-name" class="visually-hidden">Last name</label>
-                                <input pattern="([A-zÀ-ÿ'\.-]+ ?[a-zA-Z'\.-]+ ?[a-zA-Z'\.-]+)" title="Will accept up to three last names, alphabetic characters and '-' are recognised." type="text" id="lastname" name="last-name" placeholder="type your last name..." required minlength="1" maxlength="30" size="22">
+                            <div id="cform-lastname" class="reqd-field">
+                                <label for="*last-name" class="visually-hidden">Last name</label>
+                                <input pattern="^([A-Za-zÀ-ÖØ-öø-ÿ'\.-]+)\s?(?:\s([A-Za-zÀ-ÖØ-öø-ÿ'\.-]+)){0,1}?$" title="Will accept up to two last names, no numbers allowed." type="text" id="lastname" name="last-name" placeholder="*last name..." required minlength="1" maxlength="30" size="22">
                             </div>
 
-                            <div class="cform-emailaddress">
+                            <div id="cform-emailaddress" class="reqd-field">
                                 <label for="email-address" class="visually-hidden">Email address</label>
-                                <input pattern="([^@\s]+@[^@\s]+\.[^@\s]+)" title="Example: name123@anyplace.com" type="email" id="emailaddress" name="email-address" placeholder="type your email address..." required minlength="1" maxlength="64" size="22">
+                                <input pattern="([^@\s]+@[^@\s]+\.[^@\s]+)" title="Example: name123@anywhere.com" type="email" id="emailaddress" name="email-address" placeholder="*email address..." required minlength="1" maxlength="64" size="22">
                             </div>
 
-                            <div class="cform-subject">
+                            <div id="cform-subject">
                                 <label for="subject-field" class="visually-hidden">Subject</label>
-                                <input type="text" id="subjectfield" name="subject-field" placeholder="type the subject..." minlength="1" maxlength="22" size="22">
+                                <input type="text" id="subjectfield" name="subject-field" placeholder="subject..." minlength="1" maxlength="22" size="22">
                             </div>
 
-                            <div class="cform-message">
+                            <div id="cform-message" class="reqd-field">
                                 <label for="message-field" class="visually-hidden">Message</label>
-                                <textarea id="messagefield" name="message-field" rows="8" cols="25" maxlength="256" required placeholder="type your message here..."></textarea>
+                                <textarea id="messagefield" name="message-field" rows="8" cols="25" maxlength="256" required placeholder="*message..." style="resize: none;"></textarea>
                             </div>
 
-                            <div class="cform-message-squat">
-                                <label for="message-field2" class="visually-hidden"></label>
-                                <textarea id="messagefield2" name="message-field2" rows="4" cols="23" maxlength="256" required placeholder="type your message here..."></textarea>
-                            </div>
-
-                            <button class="cform-button" type="submit" form="cform-form">
+                            <button id="cform-button" type="submit" form="cform-form">
                                 SUBMIT
                             </button>
+
+                            <div id="asterisk-means-reqd">* required</div>
 
                         </form>
                     </div>
