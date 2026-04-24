@@ -14,28 +14,42 @@
             width: 3.75rem;
             height: 2.75rem;
             #{$burger-button-position}: 0.2rem;
-            top: 0.3rem;
+            top: 0.33rem;
             background-color: transparent;
             border: 0.125rem solid #{$bm-btn-border};
             border-radius: #{$bm-btn-radius};
 
-            * {
+            #burger-bar-top {
                 transition: (box-shadow, border) 0.3s linear;
                 position: relative;
                 width: 2.5rem;
                 #{$burger-button-position}: 0.72rem;            // Change button to 'left' or 'right' in _variables.scss
-                top: 0.45rem;
+                top: 0.425rem;
                 right: -0.45rem;
                 background-color: transparent;
                 border: 0.225rem solid #{$bm-btn-border};
             }
 
             #burger-bar-middle {
-                top: 0.85rem;
+                transition: (box-shadow, border) 0.3s linear;
+                position: relative;
+                width: 2.5rem;
+                #{$burger-button-position}: 0.72rem;
+                top: 0.8rem;
+                right: -0.45rem;
+                background-color: transparent;
+                border: 0.225rem solid #{$bm-btn-border};
             }
 
             #burger-bar-bottom {
-                top: 1.2rem;
+                transition: (box-shadow, border) 0.3s linear;
+                position: relative;
+                width: 2.5rem;
+                #{$burger-button-position}: 0.72rem;
+                top: 1.175rem;
+                right: -0.45rem;
+                background-color: transparent;
+                border: 0.225rem solid #{$bm-btn-border};
             }
         }
 
@@ -46,13 +60,13 @@
             }
         }
 
-        .burger-bar:hover {                                     // Glows when hovered over - *******  MOVE TO JS ? ********
+        .burger-bar:hover {                                     // Glows when hovered over
 
             @media (max-width: 575.999px) {
                 box-shadow: 0 0 1rem #{$bm-btn-glow}, inset 0 0 0.5rem #{$bm-btn-glow};
                 border-color: rgb(255, 253, 236);
 
-                div {
+                #burger-bar-top, #burger-bar-middle, #burger-bar-bottom {
                     box-shadow: 0 0 0.5rem #{$bm-btn-glow}, inset 0 0 0.5rem #{$bm-btn-glow};
                     border-color: rgb(255, 253, 236);
                 }

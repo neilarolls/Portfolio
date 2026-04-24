@@ -6,7 +6,7 @@ $banner-border-color: #141423;
 
 // Burger Menu variables
 
-$burger-height-factor: 7.9;            // Adjusts the height of the menu boxes relative to the spacing, higher values give smaller boxes.
+$burger-height-factor: 8;            // Adjusts the height of the menu boxes relative to the spacing, higher values give smaller boxes.
                                         // Decreasing this value below the gap factor will cause the menu boxes to overlap.
 $burger-spacing-factor: 8;            // Decrease this value to increase the gap between menu boxes. Should be less than the height factor.
 $Menu-width: 150px;                     // Menu box width.

@@ -64,7 +64,7 @@
 
                     }
 
-                    .cform-git-details {                    
+                    .cform-git-details {
 
                         h5 {
                             display: block;
@@ -91,7 +91,7 @@
 
                         div {
                             width: 200px;
-                            padding-top: 0.25rem;
+                            padding-top: 1rem;
                             padding-bottom: 1.5rem;
                             font-size: 1rem;
                             margin: 0 auto;
@@ -114,17 +114,13 @@
                         height: 1.6rem;
                         padding: 0 0.5rem 0 0.5rem;
                         border-radius: 0.5rem;
+                        box-shadow: 0.3rem 0.3rem 0.8rem #{$form-input-border-colour-reqd};
                         border: 0.1rem solid #{$form-input-border-colour};
                         width: 92%;
 
                         &:focus {
                             outline: none !important;
                         }
-                    }
-
-                    .reqd-field {
-                        box-shadow: 0.3rem 0.3rem 0.8rem #{$form-input-border-colour-reqd};
-                        border-radius: 0.5rem;
                     }
 
                     #cform-message {                                                 // Initial message area - starts visible
@@ -139,7 +135,7 @@
                         font-size: 0.85rem;
                         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
                         vertical-align: bottom;
-                            
+
                         textarea {
                             border: none;
                             resize: none;
@@ -150,7 +146,7 @@
                             border: none;
                             resize: none;
                             outline: none !important;
-                        }                        
+                        }
                     }
 
 

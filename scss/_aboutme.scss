@@ -16,7 +16,7 @@
                 display: grid;
                 height: fit-content;
                 grid-template-columns: 100%;
-                grid-template-rows: 0.75fr 1fr 5fr 0.2fr;
+                grid-template-rows: 6.5rem 4rem 6.5rem auto;
 
                 .aboutme-title {
                     color: #{$aboutme-text-main};
@@ -35,11 +35,11 @@
                     padding: 0.75rem 1.5rem;
                     height: fit-content;
                     font-size: 1.5rem;
-                    grid-row-start: 3;
-                    grid-row-end: 4;
+                    grid-row-start: 4;
+                    grid-row-end: 5;
                     justify-self: center;
                     border: 0.25rem solid #{$aboutme-text-main};
-                    border-radius: 0.25rem;
+                    border-radius: 0.5rem;
                     background-color: #{$bm-item-border};
 
                 }
