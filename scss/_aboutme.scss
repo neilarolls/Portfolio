@@ -5,6 +5,7 @@
     background-color: #{$prj-page-bg};
     font-family: "roboto", sans-serif;
     background-image: url(../img/pexels-francesco-ungaro-998641.jpg);
+    background-size: cover;
     overflow: clip;
 
     .aboutme-v-wrapper {
@@ -46,6 +47,29 @@
 
                 @media (min-width: 576px) {
                     padding-left: 150px;
+
+                    .aboutme-intro {
+                        width: 300px;
+                    }
+                }
+
+                @media (min-width: 768px) {
+
+                        .aboutme-title {
+                            font-size: 3.5rem;
+                        }
+
+                        .aboutme-intro {
+                            font-size: 1.75rem;
+                            width: 450px;
+                        }
+                }
+
+                @media (min-width: 992px) {
+
+                    .aboutme-intro {
+                        width: 600px;
+                    }
                 }
 
                 @media (min-width: 1200px) {

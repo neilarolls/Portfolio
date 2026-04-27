@@ -5923,10 +5923,11 @@ body {
   background-color: #0e0e17;
   font-family: "roboto", sans-serif;
   background-image: url(../img/pexels-francesco-ungaro-998641.jpg);
+  background-size: cover;
   overflow: clip;
 }
 
-/* line 15, ../../../Portfolio/scss/_aboutme.scss */
+/* line 16, ../../../Portfolio/scss/_aboutme.scss */
 .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections {
   display: grid;
   height: fit-content;
@@ -5934,7 +5935,7 @@ body {
   grid-template-rows: 6.5rem 4rem 6.5rem auto;
 }
 
-/* line 21, ../../../Portfolio/scss/_aboutme.scss */
+/* line 22, ../../../Portfolio/scss/_aboutme.scss */
 .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-title {
   color: #e6e6ef;
   width: fit-content;
@@ -5946,7 +5947,7 @@ body {
   justify-self: center;
 }
 
-/* line 32, ../../../Portfolio/scss/_aboutme.scss */
+/* line 33, ../../../Portfolio/scss/_aboutme.scss */
 .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
   color: #e6e6ef;
   width: 75%;
@@ -5962,22 +5963,45 @@ body {
 }
 
 @media (min-width: 576px) {
-  /* line 15, ../../../Portfolio/scss/_aboutme.scss */
+  /* line 16, ../../../Portfolio/scss/_aboutme.scss */
   .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections {
     padding-left: 150px;
+  }
+  /* line 51, ../../../Portfolio/scss/_aboutme.scss */
+  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 58, ../../../Portfolio/scss/_aboutme.scss */
+  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-title {
+    font-size: 3.5rem;
+  }
+  /* line 62, ../../../Portfolio/scss/_aboutme.scss */
+  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
+    font-size: 1.75rem;
+    width: 450px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 70, ../../../Portfolio/scss/_aboutme.scss */
+  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
+    width: 600px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 15, ../../../Portfolio/scss/_aboutme.scss */
+  /* line 16, ../../../Portfolio/scss/_aboutme.scss */
   .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections {
     padding-left: 300px;
   }
-  /* line 53, ../../../Portfolio/scss/_aboutme.scss */
+  /* line 77, ../../../Portfolio/scss/_aboutme.scss */
   .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-title {
     font-size: 4rem;
   }
-  /* line 57, ../../../Portfolio/scss/_aboutme.scss */
+  /* line 81, ../../../Portfolio/scss/_aboutme.scss */
   .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
     font-size: 2rem;
   }
