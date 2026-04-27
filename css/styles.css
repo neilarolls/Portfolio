@@ -1190,7 +1190,7 @@ body {
   background-image: url(../img/background-pexels-felix-mittermeier-956981.jpg);
   background-size: cover;
   background-position: center;
-  box-shadow: inset 0 0 1rem 1rem #10102088;
+  box-shadow: inset 0 0 2rem 2rem #101020ff;
 }
 
 @media (min-width: 576px) {
