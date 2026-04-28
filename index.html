@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Portfolio</title>
-    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"> -->
     <link rel="stylesheet" href="css/styles.css">
+
     <!-- Site Icon -->
     <link rel="icon" type="image/png" href="img/NR-logo-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="img/NR-logo-24x24.png" sizes="24x24">
@@ -219,7 +218,8 @@
                             <button id="cform-button" type="submit" form="cform-form">
                                 SUBMIT
                             </button>
-
+                            
+                            <button type="button" id="cform-clearInputs" onclick="document.getElementById('cform-form').reset()">RESET FORM</button>
                             <div id="asterisk-means-reqd">* required</div>
 
                         </form>

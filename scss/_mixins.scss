@@ -76,6 +76,7 @@
                     border: 0.5px solid #ddd;
                     border-radius: 0.5rem;
                     box-shadow: 0 -0.3rem 0.5rem #00000033;
+                    text-shadow: 0.04rem 0.04rem 0.01rem #{$card-bg};
                 }
 
                 a {                                                 // anchor styling

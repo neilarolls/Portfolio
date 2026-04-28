@@ -164,11 +164,30 @@
                         }
                     }
 
+                     #cform-clearInputs {
+
+                        position: relative;
+                        top: 60px;
+                        left: 0px;
+                        border: 0.05rem solid #ffffff00;
+                        font-size: 0.875rem;
+                        font-weight: 300;
+                        padding: 9px 15px 7px;
+                        border-radius: 0.25rem;
+                        background-color: #44444422;
+                        color: #{$form-text-colour};
+
+                        &:hover {
+                            border: 0.05rem solid #{$form-input-border-colour};
+                        }
+                        
+                    }
+
                     #asterisk-means-reqd {
                         font-size: 1.2rem;
                         position: relative;
-                        top: 0;
-                        left: 0;
+                        top: -40px;
+                        left: 0px;
                     }
 
                 }
@@ -213,25 +232,36 @@
 
                         gap: 2rem;
 
-                            [id*=cform-] {
+                        [id*=cform-] {
 
-                                input {
-                                    font-size: 1.25rem;
-                                    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-                                }
-
+                            input {
+                                font-size: 1.25rem;
+                                padding: 0.25rem 0.75rem 0.25rem 0.75rem;
                             }
 
-                            #cform-message {
-                                height: 8.5rem;
+                        }
 
-                                textarea {
-                                    height: 7.9rem;
-                                }
+                        #cform-message {
+                            height: 8.5rem;
+
+                            textarea {
+                                height: 7.9rem;
                             }
+                        }
 
+                        #cform-clearInputs {
 
-                        
+                            top: 60px;
+                            left: 0px;
+
+                        }
+
+                        #asterisk-means-reqd {
+
+                            top: -60px;
+                            left: 0px;
+                        }
+
                     }
                 }
 
@@ -274,22 +304,35 @@
                         gap: 2.5rem;
                         padding-top: 5rem;;
 
-                            :nth-child(n) {
+                        :nth-child(n) {
 
-                                :nth-child(2) {
-                                    padding: 0.375rem 0.875rem 0.375rem 0.875rem;
-                                    font-size: 1.4rem;
-                                }
-
+                            :nth-child(2) {
+                                padding: 0.375rem 0.875rem 0.375rem 0.875rem;
+                                font-size: 1.4rem;
                             }
 
-                            :nth-child(5) {
-                                height: 8.8rem;
-                                textarea {
-                                    height: 7.9rem;
-                                }
-                            }
+                        }
 
+                        :nth-child(5) {
+                            height: 8.8rem;
+                            textarea {
+                                height: 7.9rem;
+                            }
+                        }
+
+
+                        #cform-clearInputs {
+
+                            top: 2px;
+                            left: 75px;
+
+                        }
+
+                        #asterisk-means-reqd {
+
+                            top: -65px;
+                            left: -95px;
+                        }
 
                         
                     }
