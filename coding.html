@@ -26,21 +26,33 @@
         <div class="coding-top">
             <div class="coding-v-wrapper">
                 <div class="coding-h-wrapper">
-                    <!-- <div class="coding-uc">
-
-                        <div class="coding-headline-wrapper">
-                            <h2 id="coding-uc-headline">This page is currently under construction.</h2>
+                    <div id="code-transporter">
+                        <div id="code-transporter-header">
+                            <div id="code-transporter-title"><span class="code-drop-shadow">LETTER<br>ANIMATION</span></div>
+                            <div id="code-transporter-badge"><span class="code-metallic">Transporter.js</span></div>
+                            <div id="code-transporter-subtitle"><span class="code-drop-shadow">Languages used: HTML / CSS / SASS / JS / JQUERY.</span></div>
                         </div>
-
-                        <div class="coding-details-wrapper">
-                            <p id="coding-uc-details">As I progress through the course I will be adding examples of code I have created in a number of languages.</p>
+                        <div class="code-transporter-textblock">
+                            I wrote this because I wanted a specific effect. It consists of an asynchronous loop which maintains timings and alters positions and styling to animate letters so they appear from a central point and fly sequentially into place, growing from nothing to final size, with some additional transitions using jQuery Fade().<br>
                         </div>
-
-                    </div> -->
-
-                    <div>LETTER ANIMATION</div>
-                    <div>Languages used: HTML / CSS / SASS / JS / JQUERY.</div>
-                    
+                        <img class="code-transporter-image" src="img/Coding images/Coding-image-3.png">
+                        <div class="code-transporter-textblock">
+                            As is usual, there are a number of variables to declare. First there is some styling for the line and a useful string of id's to select letters only. Then some basic values are set or calculated with media response to allow for the slide-out menu when it is shown. I used typed arrays to store the positions and styling data I manipulate in the program, entering and tweaking the data by hand. If I develop this further some kind of editing function would be a necessary first step.
+                        </div>
+                        <img class="code-transporter-image" src="img/Coding images/Coding-image-1.png">
+                        <div class="code-transporter-textblock">
+                            The main loop sets the gross animation speed, calls the advanceText() function to update the animation and increment the master clock. It also has conditional code to manage the fade-ins/fade-outs.
+                        </div>
+                        <img class="code-transporter-image" src="img/Coding images/Coding-image-2.png">
+                        <div class="code-transporter-textblock">
+                            The advanceText() function adds a letter at times defined using the master clock. The first loop calculates new coordinates and scaling for in-flight letters. It updates positions with a conditional statement to handle lines seperately. Finally, it iterates through the letters, incrementing their individual progress clocks.
+                        </div>
+                        <img class="code-transporter-image" src="img/Coding images/Coding-image-4.png">
+                        <div class="code-transporter-textblock">
+                            The moveAllToCentre() function resets the positions and visibility of letters and lines.
+                            resizeRedraw(), triggered by a resize event listener on the window object, resets all clocks, recalculates scaling parameters and uses the moveAllToCentre() function, ready to restart the animation.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
