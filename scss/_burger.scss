@@ -1,5 +1,5 @@
 .burger-top {
-    z-index: 5 !important;
+    z-index: 10 !important;
 
     .burger-button {
         position: fixed;
@@ -7,8 +7,10 @@
         top: 0;
         padding: 0;
         border: 0;
+        z-index: 10 !important;
 
         .burger-bar {                                           // Set up Burger Button
+            z-index: 10 !important;
             transition: (box-shadow, border) 0.3s linear; 
             position: fixed;
             width: 3.75rem;
@@ -20,6 +22,7 @@
             border-radius: #{$bm-btn-radius};
 
             #burger-bar-top {
+                z-index: 10 !important;
                 transition: (box-shadow, border) 0.3s linear;
                 position: relative;
                 width: 2.5rem;
@@ -31,6 +34,7 @@
             }
 
             #burger-bar-middle {
+                z-index: 10 !important;
                 transition: (box-shadow, border) 0.3s linear;
                 position: relative;
                 width: 2.5rem;
@@ -42,6 +46,7 @@
             }
 
             #burger-bar-bottom {
+                z-index: 10 !important;
                 transition: (box-shadow, border) 0.3s linear;
                 position: relative;
                 width: 2.5rem;
@@ -74,17 +79,16 @@
         }
 
         .burger-menu-top {
-            z-index: 5;
+            z-index: 10 !important;
 
             .burger-menu-wrapper {
-                z-index: 5;
+                z-index: 10 !important;
 
                 #aboutme-break {                                    // Hide the <br> block in the About me text as default
                     display: none;
                 }
 
                 > div {                                             // Set basic menu item styling that can apply to all, ie background colour, fixed positioning and border radius
-                    z-index: 5;
                     position: fixed;
                     background-color: #{$bm-main-background};
                     border-radius: #{$bm-box-radius};
@@ -101,7 +105,6 @@
                 #bm-avatar-box, #bm-aboutme-box, #bm-portfolio-box, #bm-coding-box, #bm-scs-box {     // set menu item anchor defaults except for contact me element (6th child)
                     a {
                         display: #{$bm-menu-mode};
-                        z-index: 5;
                         font-family: "roboto", sans-serif;
                         font-weight: 350;
                         font-size: 1.25rem;
@@ -135,7 +138,7 @@
 
                             display: #{$bm-menu-mode};
                             top: calc(100vh / #{$burger-height-factor} - 1.725rem);
-                            z-index: 5;
+                            z-index: 10;
                             font-family: "roboto", sans-serif;
                             font-weight: 700;
                             font-size: 2.8rem;
