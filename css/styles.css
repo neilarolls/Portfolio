@@ -5590,12 +5590,17 @@ main {
   box-sizing: border-box;
   text-wrap: wrap;
   width: 100vw;
-  height: 5000px;
+  height: fit-content;
   background: linear-gradient(to top left, #ff5e5eaa, #ffbf5eaa 50%, #ffff91aa 100%);
   font-family: "roboto", sans-serif;
-  overflow: hidden;
+  overflow: visible;
   min-width: 280px;
   color: black;
+}
+
+/* line 22, ../../../Portfolio/scss/_coding.scss */
+#coding-top .coding-v-wrapper {
+  height: fit-content;
 }
 
 @media (min-width: 576px) {
@@ -5614,36 +5619,41 @@ main {
   }
 }
 
-/* line 34, ../../../Portfolio/scss/_coding.scss */
+/* line 35, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper {
   padding: 2rem 0 2rem 0;
+  height: fit-content;
 }
 
-/* line 38, ../../../Portfolio/scss/_coding.scss */
+/* line 40, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter {
   height: fit-content;
+  position: relative;
+  padding-top: 30rem;
   justify-self: center;
   overflow: visible;
   z-index: 3;
 }
 
-/* line 45, ../../../Portfolio/scss/_coding.scss */
+/* line 49, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter::before {
   content: "";
   position: absolute;
   inset: 0;
   top: 3.78rem;
+  left: calc((100vw - 100%) * 1px);
   height: 26rem;
-  background-image: linear-gradient(0deg, #ffaa9477 0%, #ffaa9477 100%);
-  z-index: 0;
-  width: 100vw;
+  background-image: linear-gradient(0deg, #ffaa9477 0%, #ffe4dd77 50%, #ffaa9477 100%);
+  width: 100%;
   z-index: -1;
 }
 
-/* line 60, ../../../Portfolio/scss/_coding.scss */
+/* line 64, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header {
   position: absolute;
   top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 4;
   overflow: hidden;
   display: grid;
@@ -5664,59 +5674,54 @@ main {
 }
 
 @media (max-width: 319.999px) {
-  /* line 60, ../../../Portfolio/scss/_coding.scss */
+  /* line 64, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header {
     width: 240px;
-    left: calc((100vw / 2) - 123px);
   }
 }
 
 @media (min-width: 320px) {
-  /* line 60, ../../../Portfolio/scss/_coding.scss */
+  /* line 64, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header {
     width: 250px;
-    left: calc((100vw / 2) - 125px);
   }
 }
 
 @media (min-width: 576px) {
-  /* line 60, ../../../Portfolio/scss/_coding.scss */
+  /* line 64, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header {
     width: 300px;
-    left: calc(((100vw - 150px) / 2));
   }
 }
 
 @media (min-width: 768px) {
-  /* line 60, ../../../Portfolio/scss/_coding.scss */
+  /* line 64, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header {
     width: 400px;
-    left: calc(((100vw - 150px) / 2) - 50px);
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 60, ../../../Portfolio/scss/_coding.scss */
+  /* line 64, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header {
     width: 500px;
-    left: calc(((100vw - 300px) / 2) + 50px);
   }
 }
 
 @media (max-width: 767.999px) {
-  /* line 60, ../../../Portfolio/scss/_coding.scss */
+  /* line 64, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header {
     background-image: none;
     grid-template-columns: 1fr;
   }
 }
 
-/* line 118, ../../../Portfolio/scss/_coding.scss */
+/* line 117, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header div {
   display: block;
 }
 
-/* line 122, ../../../Portfolio/scss/_coding.scss */
+/* line 121, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header #code-transporter-title {
   z-index: 4;
   align-self: center;
@@ -5731,19 +5736,19 @@ main {
 }
 
 @media (min-width: 768px) {
-  /* line 122, ../../../Portfolio/scss/_coding.scss */
+  /* line 121, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header #code-transporter-title {
     grid-column-start: 2;
     grid-column-end: 3;
   }
 }
 
-/* line 141, ../../../Portfolio/scss/_coding.scss */
+/* line 140, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header #code-transporter-title .code-drop-shadow {
   filter: drop-shadow(0.15rem 0.15rem #22222233);
 }
 
-/* line 147, ../../../Portfolio/scss/_coding.scss */
+/* line 146, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header #code-transporter-badge {
   align-self: center;
   grid-row-start: 2;
@@ -5756,14 +5761,14 @@ main {
 }
 
 @media (min-width: 768px) {
-  /* line 147, ../../../Portfolio/scss/_coding.scss */
+  /* line 146, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header #code-transporter-badge {
     grid-column-start: 2;
     grid-column-end: 3;
   }
 }
 
-/* line 165, ../../../Portfolio/scss/_coding.scss */
+/* line 164, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header #code-transporter-badge .code-metallic {
   min-width: 280px;
   padding: 1rem 1.5rem;
@@ -5774,7 +5779,7 @@ main {
   z-index: 4;
 }
 
-/* line 178, ../../../Portfolio/scss/_coding.scss */
+/* line 177, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header #code-transporter-subtitle {
   z-index: 4;
   grid-row-start: 3;
@@ -5790,17 +5795,16 @@ main {
 }
 
 @media (min-width: 768px) {
-  /* line 178, ../../../Portfolio/scss/_coding.scss */
+  /* line 177, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-header #code-transporter-subtitle {
     grid-column-start: 1;
     grid-column-end: 3;
   }
 }
 
-/* line 201, ../../../Portfolio/scss/_coding.scss */
+/* line 200, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content {
   position: relative;
-  z-index: 3;
   align-items: center;
   overflow: visible;
   display: grid;
@@ -5808,14 +5812,17 @@ main {
   grid-template-rows: auto;
   z-index: 3;
   justify-items: center;
+  top: 0;
+  height: fit-content;
   width: 100%;
 }
 
-/* line 221, ../../../Portfolio/scss/_coding.scss */
+/* line 214, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-video {
   display: block;
   align-self: center;
   border: 1px solid white;
+  margin-top: 2rem;
   overflow: visible;
   box-shadow: 0.5rem 0.5rem 0.5rem #37373766;
   justify-self: center;
@@ -5824,7 +5831,7 @@ main {
 }
 
 @media (max-width: 319.999px) {
-  /* line 221, ../../../Portfolio/scss/_coding.scss */
+  /* line 214, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-video {
     width: 252px;
     height: 138px;
@@ -5833,13 +5840,13 @@ main {
 }
 
 @media (min-width: 1200px) {
-  /* line 221, ../../../Portfolio/scss/_coding.scss */
+  /* line 214, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-video {
     max-width: 1000px;
   }
 }
 
-/* line 249, ../../../Portfolio/scss/_coding.scss */
+/* line 242, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-textblock {
   box-shadow: 0.5rem 0.5rem 0.5rem #60606066;
   text-align: center;
@@ -5856,7 +5863,7 @@ main {
 }
 
 @media (max-width: 319.999px) {
-  /* line 249, ../../../Portfolio/scss/_coding.scss */
+  /* line 242, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-textblock {
     width: 100vw;
     left: calc((100vw / 2) - 126px);
@@ -5866,21 +5873,21 @@ main {
 }
 
 @media (min-width: 576px) {
-  /* line 249, ../../../Portfolio/scss/_coding.scss */
+  /* line 242, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-textblock {
     font-size: 1.35rem;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 249, ../../../Portfolio/scss/_coding.scss */
+  /* line 242, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-textblock {
     font-size: 1.5rem;
     max-width: 1000px;
   }
 }
 
-/* line 283, ../../../Portfolio/scss/_coding.scss */
+/* line 276, ../../../Portfolio/scss/_coding.scss */
 #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-image {
   display: block;
   align-self: center;
@@ -5891,7 +5898,7 @@ main {
 }
 
 @media (max-width: 319.999px) {
-  /* line 283, ../../../Portfolio/scss/_coding.scss */
+  /* line 276, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-image {
     width: 252px;
     left: calc((100vw / 2) - 126px);
@@ -5899,12 +5906,12 @@ main {
 }
 
 @media (max-width: 767.999px) {
-  /* line 283, ../../../Portfolio/scss/_coding.scss */
+  /* line 276, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-image {
     transition: scale 0.2s ease-in;
     scale: 1;
   }
-  /* line 304, ../../../Portfolio/scss/_coding.scss */
+  /* line 297, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-image:hover {
     transition: scale 0.2s ease-in;
     scale: 1.1;
@@ -5912,7 +5919,7 @@ main {
 }
 
 @media (min-width: 1200px) {
-  /* line 283, ../../../Portfolio/scss/_coding.scss */
+  /* line 276, ../../../Portfolio/scss/_coding.scss */
   #coding-top .coding-v-wrapper .coding-h-wrapper #code-transporter #code-transporter-content .code-transporter-image {
     max-width: 1000px;
   }
