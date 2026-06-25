@@ -24,33 +24,63 @@
 <body>
     <main>
         <div id="coding-top">
-            <div class="coding-v-wrapper">
-                <div class="coding-h-wrapper">
-                    <div id="code-transporter">
-                        <div id="code-transporter-header">
-                            <div id="code-transporter-title"><span class="code-drop-shadow">LETTER<br>ANIMATION</span></div>
-                            <div id="code-transporter-badge"><span class="code-metallic">Transporter.js</span></div>
-                            <div id="code-transporter-subtitle"><span class="code-drop-shadow">Languages used: HTML / CSS / SASS / JS / JQUERY.</span></div>
+            <div id="coding-v-wrapper">
+                <div id="coding-h-wrapper">
+                    <div id="code-top-1" class="code-example-top">
+                        <div id="code-transporter-header" class="code-example-header">
+                            <div id="code-transporter-title" class="code-example-header-title"><span class="code-drop-shadow">LETTER<br>ANIMATION</span></div>
+                            <div id="code-transporter-badge" class="code-example-header-badge"><span class="code-metallic">Transporter.js</span></div>
+                            <div id="code-transporter-subtitle" class="code-example-header-subtitle"><span class="code-drop-shadow">Languages used: HTML / CSS / SASS / JS / JQUERY.</span></div>
                         </div>
-                        <div id="code-transporter-content">
-                            <video id="code-anim-block-1" class="code-transporter-video" controls width="600"><source src="video/Transporter.mp4" type="video/mp4"/></video>
-                            <div id="code-anim-block-2" class="code-transporter-textblock">
+                        <div id="code-transporter-content" class="code-example-content">
+                            <video id="transporter-content-block-1" class="code-content-video" controls width="600"><source src="video/Transporter.mp4" type="video/mp4"/></video>
+                            <div id="transporter-content-block-2" class="code-content-textblock">
                                 I wrote this because I wanted a specific effect. It consists of an asynchronous loop which maintains timings and alters positions and styling to animate letters so they appear from a central point and fly sequentially into place, growing from nothing to final size, with some additional transitions using jQuery Fade().<br>
                             </div>
-                            <img id="code-anim-block-3" class="code-transporter-image" src="img/Coding images/Coding-image-3.png">
-                            <div id="code-anim-block-4" class="code-transporter-textblock">
+                            <img id="transporter-content-block-3" class="code-content-image" src="img/Coding images/Coding-image-3.png">
+                            <div id="transporter-content-block-4" class="code-content-textblock">
                                 As is usual, there are a number of variables to declare. First there is some styling for the line and a useful string of id's to select letters only. Then some basic values are set or calculated with media response to allow for the slide-out menu when it is shown. I used typed arrays to store the positions and styling data I manipulate in the program, entering and tweaking the data by hand. If I develop this further some kind of editing function would be a necessary first step.
                             </div>
-                            <img id="code-anim-block-5" class="code-transporter-image" src="img/Coding images/Coding-image-1.png">
-                            <div id="code-anim-block-6" class="code-transporter-textblock">
+                            <img id="transporter-content-block-5" class="code-content-image" src="img/Coding images/Coding-image-1.png">
+                            <div id="transporter-content-block-6" class="code-content-textblock">
                                 The main loop sets the gross animation speed, calls the advanceText() function to update the animation and increment the master clock. It also has conditional code to manage the fade-ins/fade-outs.
                             </div>
-                            <img id="code-anim-block-7" class="code-transporter-image" src="img/Coding images/Coding-image-2.png">
-                            <div id="code-anim-block-8" class="code-transporter-textblock">
+                            <img id="transporter-content-block-7" class="code-content-image" src="img/Coding images/Coding-image-2.png">
+                            <div id="transporter-content-block-8" class="code-content-textblock">
                                 The advanceText() function adds a letter at times defined using the master clock. The first loop calculates new coordinates and scaling for in-flight letters. It updates positions with a conditional statement to handle lines seperately. Finally, it iterates through the letters, incrementing their individual progress clocks.
                             </div>
-                            <img id="code-anim-block-9" class="code-transporter-image" src="img/Coding images/Coding-image-4.png">
-                            <div id="code-anim-block-10" class="code-transporter-textblock">
+                            <img id="transporter-content-block-9" class="code-content-image" src="img/Coding images/Coding-image-4.png">
+                            <div id="transporter-content-block-10" class="code-content-textblock">
+                                The moveAllToCentre() function resets the positions and visibility of letters and lines.
+                                resizeRedraw(), triggered by a resize event listener on the window object, resets all clocks, recalculates scaling parameters and uses the moveAllToCentre() function, ready to restart the animation.
+                            </div>
+                        </div>
+                    </div>
+                    <div id="code-top-2" class="code-example-top" style="display: none;">
+                        <div id="code-jsarray-header" class="code-example-header">
+                            <div id="code-jsarray-title" class="code-example-header-title"><span class="code-drop-shadow">JAVASCRIPT<br>ARRAY</span></div>
+                            <div id="code-jsarray-badge" class="code-example-header-badge"><span class="code-metallic-2">js-array.js</span></div>
+                            <div id="code-jsarray-subtitle" class="code-example-header-subtitle"><span class="code-drop-shadow">Languages used: JS / JQUERY.</span></div>
+                        </div>
+                        <div id="code-jsarray-content" class="code-example-content">
+                            <video id="jsarray-content-block-1" class="code-content-video" controls width="600"><source src="video/Transporter.mp4" type="video/mp4"/></video>
+                            <div id="jsarray-content-block-2" class="code-content-textblock">
+                                I wrote this because I wanted a specific effect. It consists of an asynchronous loop which maintains timings and alters positions and styling to animate letters so they appear from a central point and fly sequentially into place, growing from nothing to final size, with some additional transitions using jQuery Fade().<br>
+                            </div>
+                            <img id="jsarray-content-block-3" class="code-content-image" src="img/Coding images/Coding-image-3.png">
+                            <div id="jsarray-content-block-4" class="code-content-textblock">
+                                As is usual, there are a number of variables to declare. First there is some styling for the line and a useful string of id's to select letters only. Then some basic values are set or calculated with media response to allow for the slide-out menu when it is shown. I used typed arrays to store the positions and styling data I manipulate in the program, entering and tweaking the data by hand. If I develop this further some kind of editing function would be a necessary first step.
+                            </div>
+                            <img id="jsarray-content-block-5" class="code-content-image" src="img/Coding images/Coding-image-1.png">
+                            <div id="jsarray-content-block-6" class="code-content-textblock">
+                                The main loop sets the gross animation speed, calls the advanceText() function to update the animation and increment the master clock. It also has conditional code to manage the fade-ins/fade-outs.
+                            </div>
+                            <img id="jsarray-content-block-7" class="code-content-image" src="img/Coding images/Coding-image-2.png">
+                            <div id="jsarray-content-block-8" class="code-content-textblock">
+                                The advanceText() function adds a letter at times defined using the master clock. The first loop calculates new coordinates and scaling for in-flight letters. It updates positions with a conditional statement to handle lines seperately. Finally, it iterates through the letters, incrementing their individual progress clocks.
+                            </div>
+                            <img id="jsarray-content-block-9" class="code-content-image" src="img/Coding images/Coding-image-4.png">
+                            <div id="jsarray-content-block-10" class="code-content-textblock">
                                 The moveAllToCentre() function resets the positions and visibility of letters and lines.
                                 resizeRedraw(), triggered by a resize event listener on the window object, resets all clocks, recalculates scaling parameters and uses the moveAllToCentre() function, ready to restart the animation.
                             </div>

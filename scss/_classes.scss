@@ -1,0 +1,26 @@
+.code-drop-shadow {
+
+    filter: drop-shadow(0.15rem 0.15rem #22222233);
+}
+
+.code-metallic {
+
+    min-width: 280px;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #111 2%, #{$card-bg-colour-alt-1} 10%, #{$card-bg-colour-1} 20%, white 22.5%, #{$card-bg-colour-1} 25%, #{$card-bg-colour-alt-1} 50%, #{$card-bg-colour-1} 59%, white 60%, #{$card-bg-colour-1} 61%, #{$card-bg-colour-alt-1} 90%, #111 98%), linear-gradient(0deg, #111 2%, #{$card-bg-colour-alt-1} 10%, #{$card-bg-colour-1} 50%, #{$card-bg-colour-alt-1} 90%, #111 98%);
+    text-shadow: 0.04rem 0.04rem 0.01rem white;
+    filter: drop-shadow(0 0 0.5rem #00000066);
+    z-index: 4;
+}
+
+.code-metallic-2 {
+    
+    min-width: 280px;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #111 2%, #{$card-bg-colour-alt-1} 10%, #{$card-bg-colour-1} 20%, white 22.5%, #{$card-bg-colour-1} 25%, #{$card-bg-colour-alt-1} 50%, #{$card-bg-colour-1} 59%, white 60%, #{$card-bg-colour-1} 61%, #{$card-bg-colour-alt-1} 90%, #111 98%), linear-gradient(0deg, #111 2%, #{$card-bg-colour-alt-1} 10%, #{$card-bg-colour-1} 50%, #{$card-bg-colour-alt-1} 90%, #111 98%);
+    text-shadow: 0.04rem 0.04rem 0.01rem white;
+    filter: drop-shadow(0 0 0.5rem #00000066);
+    z-index: 4;
+}
