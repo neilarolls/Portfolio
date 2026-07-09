@@ -25,7 +25,8 @@
             }
 
             
-            .cform-sections {
+            #cform-sections {
+
                 display: grid;
                 grid-template-columns: 100%;      // Single column for lowest widths
                 justify-content: center;
@@ -37,14 +38,14 @@
                     color: #{$form-text-colour};
                 }
 
-                .cform-content-left {
+                #cform-content-left {
 
                     display: grid;
                     grid-template-columns: 100%;
                     justify-content: center;
                     padding-bottom: 1rem;
-                    
-                    .cform-git {
+
+                    #cform-git {
 
                         .h3 {
 
@@ -68,7 +69,7 @@
 
                     }
 
-                    .cform-git-details {
+                    #cform-git-details {
 
                         #git-details-mailme {
 
@@ -81,14 +82,14 @@
 
                             a {
                                 position: relative;
-                                height: 1.25rem;
+                                height: 2rem;
                                 top: 0.22rem;
                                 right: 10px;
                                 text-decoration: none;
                                 color: #{$form-text-colour};
 
                                 img {
-                                    height: 3rem;
+                                    height: 2rem;
                                     position: relative;
                                     right: -10px;
                                 }
@@ -105,13 +106,13 @@
                             font-size: 1.25rem;
                             padding: 0.5rem 0 1rem 0.5rem;
 
-
                         }
 
                     }
                 }
 
                 #cform-form {
+
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -119,6 +120,7 @@
                     gap: 1.2rem;
 
                     [id*=cform-] input {                    // targets just the inputs ignoring the textareas
+
                         color: #{$form-text-colour};
                         background-color: white;
                         font-size: 1rem;
@@ -203,36 +205,49 @@
 
                 }
 
-                @media (min-width: 576px) {
-                    :nth-child(1) {
-                        :nth-child(1) {
+// ---------------------
+// Responsive behaviours
+// ---------------------
 
-                            h3 {
-                                font-size: 2.8125rem;
-                                
+                @media (min-width: 576px) {
+
+                    #cform-content-left {
+
+                        #cform-git {
+
+                            .h3 {
+
+                                font-size: 2.8125rem;                                
                             }
 
-                            div {
+                            #git-text {
                                 font-size: 1.25rem;
                                 width: 250px;
                             }
                         }
 
-                        :nth-child(2) {
+                        #cform-git-details {
 
-                            h5 {
+                            #git-details-mailme {
+
                                 font-size: 1.625rem;
 
                                 a {
+
+                                    height: 3rem;
+                                    top: 0.22rem;
+                                    right: 20px;
+
                                     img {
-                                        height: 2rem;
+
+                                        height: 3rem;
                                         top: 0.22rem;
-                                        right: 0.2rem;
+                                        right: -20px;
                                     }
                                 }
                             }
 
-                            div {
+                            #git-details-text {
                                 font-size: 1.25rem;
                                 width: 250px;
                             }
@@ -276,37 +291,49 @@
                     }
                 }
 
-                @media (min-width: 768px) {
+                @media (min-width: 900px) {
                     grid-template-columns: 45% 45%;
                     column-gap: 2rem;
 
-                    :nth-child(1) {
+                    #cform-content-left {
 
-                        :nth-child(1) {
+                        #cform-git {
 
-                            h3 {
-                                font-size: 3.3rem;
+                            .h3 {
+
+                                font-size: 3.3rem;                       
                             }
 
-                            div {
+                            #git-text {
+
                                 font-size: 1.5rem;
                             }
                         }
 
-                        :nth-child(2) {
+                        #cform-git-details {
 
-                            h5 {
-                                font-size: 2rem;
+                            #git-details-mailme {
 
-                                a {
-                                    img {
-                                        height: 3.5rem;
-                                    }
-                                }
+                                // font-size: 2rem;
+
+                                // a {
+
+                                //     height: 4rem;
+                                //     top: 0.22rem;
+                                //     right: 20px;
+
+                                //     img {
+
+                                //         height: 4rem;
+                                //         top: 0.22rem;
+                                //         right: -20px;
+                                //     }
+                                // }
                             }
 
-                            div {
+                            #git-details-text {
                                 font-size: 1.5rem;
+                                margin: 0 auto;
                             }
                         }
                     }
