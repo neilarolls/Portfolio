@@ -88,7 +88,7 @@
                                     <img class="prj-card-coverimage" src="img/AI-placeholders/image-1.png" alt="project image">
                                     <img class="prj-card-detailsimage" src="img/AI-placeholders/image-1-alt.png" alt="project details">
                                 </div>
-                                <div class="prj-card-text" id="card1">
+                                <div class="prj-card-text">
                                     <div>Netmatters Homepage</div>
                                     <a target="_blank" href="http://netmatters.neil-rolls.netmatters-scs.co.uk/index.html">View Project...</a>
                                 </div>
@@ -179,39 +179,39 @@
 
                         <div class="cform-content-left">
                             <div class="cform-git">
-                                <h3>Get In Touch</h3>
-                                <div>I'm currently in training, this is my first project from scratch. I aim to deliver high quality so am open to comments, advice or useful leads for my fledgling career.</div>
+                                <div role="heading" aria-level="3" class="h3">Get In Touch</div>
+                                <div id="git-text">I'm currently in training, this is my first project from scratch. I aim to deliver high quality so am open to comments, advice or useful leads for my fledgling career.</div>
                             </div>
                             <div class="cform-git-details">
-                                <h5><a href="mailto:neilarolls@gmail.com"><img src="img/email_icon.png" alt="email icon"> neilarolls@gmail.com</a></h5>
-                                <div>Please feel free to contact me at the above address, I will do my best to reply as soon as possible. (The form doesn't currently send emails, working on that...)</div>
+                                <div id="git-details-mailme" role="heading" aria-level="5" class="h5"><a href="mailto:neilarolls@gmail.com"><img src="img/email_icon.png" alt="email icon"> neilarolls@gmail.com</a></div>
+                                <div id="git-details-text">Please feel free to contact me at the above address, I will do my best to reply as soon as possible. (The form doesn't currently send emails, working on that...)</div>
                             </div>
                         </div>
 
                         <form id="cform-form" action="#" method="get" onsubmit="return false;">
 
                             <div id="cform-firstname" class="reqd-field">
-                                <label for="*first-name" class="visually-hidden">First name</label>
+                                <label for="firstname" class="visually-hidden">First name</label>
                                 <input pattern="^([A-Za-zÀ-ÿ'\.\-]+)\s?(?:\s([A-Za-zÀ-ÿ'\.\-]+)){0,1}?$" title="Will accept up to two first names, no numbers allowed." type="text" id="firstname" name="first-name" placeholder="*first name..." required minlength="1" maxlength="30" size="22">
                             </div>
 
                             <div id="cform-lastname" class="reqd-field">
-                                <label for="*last-name" class="visually-hidden">Last name</label>
+                                <label for="lastname" class="visually-hidden">Last name</label>
                                 <input pattern="^([A-Za-zÀ-ÿ'\.\-]+)\s?(?:\s([A-Za-zÀ-ÿ'\.\-]+)){0,1}?$" title="Will accept up to two last names, no numbers allowed." type="text" id="lastname" name="last-name" placeholder="*last name..." required minlength="1" maxlength="30" size="22">
                             </div>
 
                             <div id="cform-emailaddress" class="reqd-field">
-                                <label for="email-address" class="visually-hidden">Email address</label>
+                                <label for="emailaddress" class="visually-hidden">Email address</label>
                                 <input pattern="([^@\s]+@[^@\s]+\.[^@\s]+)" title="Example: name123@anywhere.com" type="email" id="emailaddress" name="email-address" placeholder="*email address..." required minlength="1" maxlength="64" size="22">
                             </div>
 
                             <div id="cform-subject">
-                                <label for="subject-field" class="visually-hidden">Subject</label>
+                                <label for="subjectfield" class="visually-hidden">Subject</label>
                                 <input type="text" id="subjectfield" name="subject-field" placeholder="subject..." minlength="1" maxlength="22" size="22">
                             </div>
 
                             <div id="cform-message" class="reqd-field">
-                                <label for="message-field" class="visually-hidden">Message</label>
+                                <label for="messagefield" class="visually-hidden">Message</label>
                                 <textarea id="messagefield" name="message-field" rows="8" cols="25" maxlength="256" required placeholder="*message..." style="resize: none;"></textarea>
                             </div>
 
@@ -285,10 +285,10 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="js/jquery-4.0.0.min.js"></script>
+    <script src="js/jquery-4.0.0.min.js"></script>
     <!-- <script type="text/javascript" src="slick/slick.js"></script> -->
-     <script type="text/javascript" src="js/form.js"></script>
-    <script type="text/javascript" src="js/bm-js.js"></script>
-    <script type="text/javascript" src="js/transporter.js"></script>
+     <script src="js/form.js"></script>
+    <script src="js/bm-js.js"></script>
+    <script src="js/transporter.js"></script>
   </body>
 </html>

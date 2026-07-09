@@ -1,14 +1,17 @@
-html {  
+html {
+
     scroll-behavior: smooth;
 }
 
 body {
+
     // overflow: hidden;
     min-width: 280px;
     overflow-x: clip;
 }
 
 .visually-hidden {
+
   position: absolute;
   width: 1px;
   height: 1px;

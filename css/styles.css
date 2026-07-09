@@ -376,13 +376,13 @@ html {
   scroll-behavior: smooth;
 }
 
-/* line 5, ../../../Portfolio/scss/_base.scss */
+/* line 6, ../../../Portfolio/scss/_base.scss */
 body {
   min-width: 280px;
   overflow-x: clip;
 }
 
-/* line 11, ../../../Portfolio/scss/_base.scss */
+/* line 13, ../../../Portfolio/scss/_base.scss */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -421,7 +421,7 @@ body {
   top: 0.33rem;
   background-color: #44444455;
   border: 0.125rem solid #d6d3c1e6;
-  border-radius: 0.4rem;
+  border-radius: 3px;
 }
 
 /* line 24, ../../../Portfolio/scss/_burger.scss */
@@ -5248,8 +5248,8 @@ body {
   padding-bottom: 1rem;
 }
 
-/* line 48, ../../../Portfolio/scss/_contactform.scss */
-.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git h3 {
+/* line 49, ../../../Portfolio/scss/_contactform.scss */
+.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git .h3 {
   font-weight: 800;
   font-size: 2.25rem;
   width: 100%;
@@ -5258,52 +5258,55 @@ body {
   padding: 1rem 0;
 }
 
-/* line 57, ../../../Portfolio/scss/_contactform.scss */
-.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git div {
-  font-size: 1rem;
+/* line 59, ../../../Portfolio/scss/_contactform.scss */
+.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git #git-text {
+  font-weight: 400;
+  font-size: 1.25rem;
   width: 200px;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 0.5rem;
 }
 
-/* line 69, ../../../Portfolio/scss/_contactform.scss */
-.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git-details h5 {
-  display: block;
-  position: static;
-  margin: 0;
-  text-align: center;
-  width: 95%;
-  font-size: 1.25rem;
-  padding: 0.5rem 0 1rem 0.5rem;
-}
-
-/* line 78, ../../../Portfolio/scss/_contactform.scss */
-.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git-details h5 a {
-  position: relative;
-  height: 1.25rem;
-  top: 0.22rem;
-  right: -1.5px;
-  text-decoration: none;
-  color: #222244;
-}
-
-/* line 86, ../../../Portfolio/scss/_contactform.scss */
-.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git-details h5 a img {
-  height: 2rem;
-}
-
-/* line 92, ../../../Portfolio/scss/_contactform.scss */
-.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git-details div {
+/* line 73, ../../../Portfolio/scss/_contactform.scss */
+.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git-details #git-details-mailme {
   width: 200px;
   padding-top: 1rem;
   padding-bottom: 1.5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 103, ../../../Portfolio/scss/_contactform.scss */
+/* line 82, ../../../Portfolio/scss/_contactform.scss */
+.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git-details #git-details-mailme a {
+  position: relative;
+  height: 1.25rem;
+  top: 0.22rem;
+  right: 10px;
+  text-decoration: none;
+  color: #222244;
+}
+
+/* line 90, ../../../Portfolio/scss/_contactform.scss */
+.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git-details #git-details-mailme a img {
+  height: 3rem;
+  position: relative;
+  right: -10px;
+}
+
+/* line 98, ../../../Portfolio/scss/_contactform.scss */
+.cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections .cform-content-left .cform-git-details #git-details-text {
+  display: block;
+  position: static;
+  margin: 0;
+  text-align: center;
+  width: 200px;
+  font-size: 1.25rem;
+  padding: 0.5rem 0 1rem 0.5rem;
+}
+
+/* line 114, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form {
   display: flex;
   flex-direction: column;
@@ -5312,7 +5315,7 @@ body {
   gap: 1.2rem;
 }
 
-/* line 110, ../../../Portfolio/scss/_contactform.scss */
+/* line 121, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form [id*=cform-] input {
   color: #222244;
   background-color: white;
@@ -5325,12 +5328,12 @@ body {
   width: 92%;
 }
 
-/* line 121, ../../../Portfolio/scss/_contactform.scss */
+/* line 132, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form [id*=cform-] input:focus {
   outline: none !important;
 }
 
-/* line 126, ../../../Portfolio/scss/_contactform.scss */
+/* line 137, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-message {
   resize: none;
   height: 8.25rem;
@@ -5344,21 +5347,21 @@ body {
   vertical-align: bottom;
 }
 
-/* line 139, ../../../Portfolio/scss/_contactform.scss */
+/* line 150, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-message textarea {
   border: none;
   resize: none;
   outline: none !important;
 }
 
-/* line 145, ../../../Portfolio/scss/_contactform.scss */
+/* line 156, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-message textarea:focus {
   border: none;
   resize: none;
   outline: none !important;
 }
 
-/* line 153, ../../../Portfolio/scss/_contactform.scss */
+/* line 164, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-button {
   width: 8rem;
   height: 3rem;
@@ -5369,12 +5372,12 @@ body {
   margin-top: 0.25rem;
 }
 
-/* line 162, ../../../Portfolio/scss/_contactform.scss */
+/* line 173, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-button:hover {
   background-color: white;
 }
 
-/* line 167, ../../../Portfolio/scss/_contactform.scss */
+/* line 178, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-clearInputs {
   position: relative;
   top: 60px;
@@ -5388,12 +5391,12 @@ body {
   color: #222244;
 }
 
-/* line 180, ../../../Portfolio/scss/_contactform.scss */
+/* line 191, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-clearInputs:hover {
   border: 0.05rem solid #71452e;
 }
 
-/* line 186, ../../../Portfolio/scss/_contactform.scss */
+/* line 197, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #asterisk-means-reqd {
   font-size: 1.2rem;
   position: relative;
@@ -5402,53 +5405,53 @@ body {
 }
 
 @media (min-width: 576px) {
-  /* line 199, ../../../Portfolio/scss/_contactform.scss */
+  /* line 210, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(1) h3 {
     font-size: 2.8125rem;
   }
-  /* line 204, ../../../Portfolio/scss/_contactform.scss */
+  /* line 215, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(1) div {
     font-size: 1.25rem;
     width: 250px;
   }
-  /* line 212, ../../../Portfolio/scss/_contactform.scss */
+  /* line 223, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(2) h5 {
     font-size: 1.625rem;
   }
-  /* line 216, ../../../Portfolio/scss/_contactform.scss */
+  /* line 227, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(2) h5 a img {
     height: 2rem;
     top: 0.22rem;
     right: 0.2rem;
   }
-  /* line 224, ../../../Portfolio/scss/_contactform.scss */
+  /* line 235, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(2) div {
     font-size: 1.25rem;
     width: 250px;
   }
-  /* line 231, ../../../Portfolio/scss/_contactform.scss */
+  /* line 242, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form {
     gap: 2rem;
   }
-  /* line 237, ../../../Portfolio/scss/_contactform.scss */
+  /* line 248, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form [id*=cform-] input {
     font-size: 1.25rem;
     padding: 0.25rem 0.75rem 0.25rem 0.75rem;
   }
-  /* line 244, ../../../Portfolio/scss/_contactform.scss */
+  /* line 255, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-message {
     height: 8.5rem;
   }
-  /* line 247, ../../../Portfolio/scss/_contactform.scss */
+  /* line 258, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-message textarea {
     height: 7.9rem;
   }
-  /* line 252, ../../../Portfolio/scss/_contactform.scss */
+  /* line 263, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-clearInputs {
     top: 60px;
     left: 0px;
   }
-  /* line 259, ../../../Portfolio/scss/_contactform.scss */
+  /* line 270, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #asterisk-means-reqd {
     top: -60px;
     left: 0px;
@@ -5461,50 +5464,50 @@ body {
     grid-template-columns: 45% 45%;
     column-gap: 2rem;
   }
-  /* line 275, ../../../Portfolio/scss/_contactform.scss */
+  /* line 287, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(1) h3 {
     font-size: 3.3rem;
   }
-  /* line 279, ../../../Portfolio/scss/_contactform.scss */
+  /* line 291, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(1) div {
     font-size: 1.5rem;
   }
-  /* line 286, ../../../Portfolio/scss/_contactform.scss */
+  /* line 298, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(2) h5 {
     font-size: 2rem;
   }
-  /* line 290, ../../../Portfolio/scss/_contactform.scss */
+  /* line 302, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(2) h5 a img {
     height: 3.5rem;
   }
-  /* line 296, ../../../Portfolio/scss/_contactform.scss */
+  /* line 308, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(2) div {
     font-size: 1.5rem;
   }
-  /* line 302, ../../../Portfolio/scss/_contactform.scss */
+  /* line 314, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form {
     gap: 2.5rem;
     padding-top: 5rem;
   }
-  /* line 309, ../../../Portfolio/scss/_contactform.scss */
+  /* line 321, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form :nth-child(n) :nth-child(2) {
     padding: 0.375rem 0.875rem 0.375rem 0.875rem;
     font-size: 1.4rem;
   }
-  /* line 316, ../../../Portfolio/scss/_contactform.scss */
+  /* line 328, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form :nth-child(5) {
     height: 8.8rem;
   }
-  /* line 318, ../../../Portfolio/scss/_contactform.scss */
+  /* line 330, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form :nth-child(5) textarea {
     height: 7.9rem;
   }
-  /* line 324, ../../../Portfolio/scss/_contactform.scss */
+  /* line 336, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #cform-clearInputs {
     top: 2px;
     left: 75px;
   }
-  /* line 331, ../../../Portfolio/scss/_contactform.scss */
+  /* line 343, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form #asterisk-means-reqd {
     top: -65px;
     left: -95px;
@@ -5516,42 +5519,42 @@ body {
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections {
     grid-template-columns: 550px 550px;
   }
-  /* line 347, ../../../Portfolio/scss/_contactform.scss */
+  /* line 359, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(1) h3 {
     font-size: 3.3rem;
   }
-  /* line 351, ../../../Portfolio/scss/_contactform.scss */
+  /* line 363, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(1) div {
     font-size: 1.5rem;
   }
-  /* line 358, ../../../Portfolio/scss/_contactform.scss */
+  /* line 370, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(2) h5 {
     font-size: 2rem;
   }
-  /* line 362, ../../../Portfolio/scss/_contactform.scss */
+  /* line 374, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(2) h5 a img {
     height: 3.5rem;
   }
-  /* line 368, ../../../Portfolio/scss/_contactform.scss */
+  /* line 380, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections :nth-child(1) :nth-child(2) div {
     font-size: 1.5rem;
   }
-  /* line 374, ../../../Portfolio/scss/_contactform.scss */
+  /* line 386, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form {
     gap: 2.5rem;
     padding-top: 5rem;
   }
-  /* line 381, ../../../Portfolio/scss/_contactform.scss */
+  /* line 393, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form :nth-child(n) :nth-child(2) {
     font-size: 1.4rem;
   }
-  /* line 388, ../../../Portfolio/scss/_contactform.scss */
+  /* line 400, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper .cform-sections #cform-form :nth-child(5) textarea {
     height: 7.9rem;
   }
 }
 
-/* line 400, ../../../Portfolio/scss/_contactform.scss */
+/* line 412, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper #page-turner-3 {
   padding-top: 40px;
   width: 100%;
@@ -5560,7 +5563,7 @@ body {
   grid-template-rows: 10fr 50px;
 }
 
-/* line 407, ../../../Portfolio/scss/_contactform.scss */
+/* line 419, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper #page-turner-3 #prev-page-link-1 {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -5569,7 +5572,7 @@ body {
   justify-self: center;
 }
 
-/* line 414, ../../../Portfolio/scss/_contactform.scss */
+/* line 426, ../../../Portfolio/scss/_contactform.scss */
 .cform-top .cform-v-wrapper .cform-h-wrapper #page-turner-3 #prev-page-link-1 img {
   width: 2.5rem;
 }
