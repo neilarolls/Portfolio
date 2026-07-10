@@ -84,14 +84,14 @@
                                 position: relative;
                                 height: 2rem;
                                 top: 0.22rem;
-                                right: 10px;
+                                right: 15px;
                                 text-decoration: none;
                                 color: #{$form-text-colour};
 
                                 img {
                                     height: 2rem;
                                     position: relative;
-                                    right: -10px;
+                                    right: -15px;
                                 }
                             }
                         }
@@ -231,18 +231,19 @@
                             #git-details-mailme {
 
                                 font-size: 1.625rem;
+                                padding-bottom: 2.5rem;
 
                                 a {
 
                                     height: 3rem;
                                     top: 0.22rem;
-                                    right: 20px;
+                                    right: 22.5px;
 
                                     img {
 
                                         height: 3rem;
                                         top: 0.22rem;
-                                        right: -20px;
+                                        right: -22.5px;
                                     }
                                 }
                             }
@@ -292,6 +293,7 @@
                 }
 
                 @media (min-width: 900px) {
+
                     grid-template-columns: 45% 45%;
                     column-gap: 2rem;
 
@@ -301,7 +303,7 @@
 
                             .h3 {
 
-                                font-size: 3.3rem;                       
+                                font-size: 3.3rem;
                             }
 
                             #git-text {
@@ -314,21 +316,15 @@
 
                             #git-details-mailme {
 
-                                // font-size: 2rem;
+                                a {
 
-                                // a {
+                                    top: -1.5rem;
 
-                                //     height: 4rem;
-                                //     top: 0.22rem;
-                                //     right: 20px;
+                                    img {
 
-                                //     img {
-
-                                //         height: 4rem;
-                                //         top: 0.22rem;
-                                //         right: -20px;
-                                //     }
-                                // }
+                                        top: 0.22rem;
+                                    }
+                                }
                             }
 
                             #git-details-text {
@@ -378,8 +374,51 @@
                 }
 
                 @media (min-width: 1440px) {
+
                     grid-template-columns: 550px 550px;
 
+                    #cform-content-left {
+
+                        #cform-git {
+
+                            .h3 {
+
+                                font-size: 3.3rem;                       
+                            }
+
+                            #git-text {
+
+                                font-size: 1.5rem;
+                            }
+                        }
+
+                        #cform-git-details {
+
+                            #git-details-mailme {
+
+                                font-size: 2rem;
+
+                                a {
+
+                                    height: 4rem;
+                                    top: 0.22rem;
+                                    right: 20px;
+
+                                    img {
+
+                                        height: 4rem;
+                                        top: 0.22rem;
+                                        right: -20px;
+                                    }
+                                }
+                            }
+
+                            #git-details-text {
+                                font-size: 1.5rem;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
                     :nth-child(1) {
                         :nth-child(1) {
 
