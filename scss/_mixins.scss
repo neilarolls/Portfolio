@@ -74,7 +74,7 @@
                     align-content: center;
                     background: linear-gradient(90deg, #000 2%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #000 98%), linear-gradient(0deg, #000 2%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #000 98%);
                     border: 0.5px solid #ddd;
-                    border-radius: 0.5rem;
+                    border-radius: 0.15rem;
                     box-shadow: 0 -0.3rem 0.5rem #00000033;
                     text-shadow: 0.04rem 0.04rem 0.01rem #{$card-bg};
                 }
@@ -91,7 +91,7 @@
                     color: #{$prj-card-border};
                     align-content: center;
                     border: 0.5px solid #{$card-bg-alt};
-                    border-radius: 0.5rem;
+                    border-radius: 0.15rem;
                     box-shadow: 0 -0.25rem 0.5rem #00000055;
                     justify-self: end;
                 }
