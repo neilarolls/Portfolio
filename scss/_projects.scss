@@ -20,7 +20,7 @@
         }
 
         grid-template-columns: 100%;
-        grid-template-rows: 20fr 50px;
+        grid-template-rows: 1fr 50px;
         text-align: center;
 
         @media (min-width: 576px) {
@@ -34,7 +34,7 @@
         .prj-h-wrapper {
             margin: 0;
 
-            .prj-cards {                                            // Uses a mixin to generate the project card styling with Params: size, colours, font family and sizes, and border.
+            .prj-cards {                                            // Uses a mixin to generate the project card styling with Params: size, colours, font family and font sizes, and border.
                                                                     // The mixin styles each card and flips the image to details on hover.
 
                 @media (max-width: 831.999px) {
@@ -115,14 +115,14 @@
 
                 @media (min-width: 1350px) {                // Make cards much bigger
 
-                    $prj-card-width: 448px;
-                    $prj-card-height: 367.36px;
-                    $prj-font-size-title: 2rem;
-                    $prj-font-size-link: 1.76rem;
+                    $prj-card-width: 384px;
+                    $prj-card-height: 315px;
+                    $prj-font-size-title: 1.625rem;
+                    $prj-font-size-link: 1.43rem;
 
-                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.65rem, $prj-font-size-link);
+                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.45rem, $prj-font-size-link);
 
-                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, 1.65rem, $prj-font-size-link);
+                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, 1.45rem, $prj-font-size-link);
 
                     @include project-card(3, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-3, $card-bg-colour-alt-3, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
 
@@ -136,14 +136,14 @@
 
                 @media (min-width: 1440px) {                // Make cards 100% bigger
 
-                    $prj-card-width: 512px;
-                    $prj-card-height: 419.84px;
-                    $prj-font-size-title: 2.4rem;
-                    $prj-font-size-link: 2.112rem;
+                    $prj-card-width: 420px;
+                    $prj-card-height: 345px;
+                    $prj-font-size-title: 1.75rem;
+                    $prj-font-size-link: 1.5rem;
 
-                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.8rem, $prj-font-size-link);
+                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.5rem, $prj-font-size-link);
 
-                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, 1.8rem, $prj-font-size-link);
+                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, 1.5rem, $prj-font-size-link);
 
                     @include project-card(3, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-3, $card-bg-colour-alt-3, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
 
@@ -164,88 +164,27 @@
 
                 #prj-card-1-top, #prj-card-2-top, #prj-card-3-top, #prj-card-4-top, #prj-card-5-top, #prj-card-6-top {                             // initial state 
                     padding: 1.25rem 0.625rem 0 0.625rem;
+                    justify-self: center;
                 }
-                #prj-card-2-top, #prj-card-4-top, #prj-card-6-top {
-                    justify-self: end;
-                }
-                #prj-card-1-top, #prj-card-3-top, #prj-card-5-top {
-                    justify-self: start;
-                }
+
                 @media (min-width: 576px) {                             // @media calls to manipulate positioning of cards
 
                     #prj-card-1-top, #prj-card-2-top, #prj-card-3-top, #prj-card-4-top, #prj-card-5-top, #prj-card-6-top {
                         padding: 1.25rem 2.5rem 0 2.5rem;
                     }
                 }
+
                 @media (min-width: 768px) {
+
                     grid-template-columns: 50% 50%;
-                    grid-template-rows: repeat(3, 66.6667%);
+                    grid-template-rows: calc(#{$prj-card-height} * 1.4px);
 
-                    #prj-card-2-top, #prj-card-4-top, #prj-card-6-top {
-                        align-self: end;
-                    }
-
-                    @media (min-width: 832px) {
-
-                        #prj-card-2-top, #prj-card-4-top, #prj-card-6-top {
-                            align-self: center;
-                        }
-
-                    }
-
-                    @media (min-width: 992px) {
-
-                        #prj-card-2-top, #prj-card-4-top, #prj-card-6-top {
-                            align-self: start;
-
-
-                        }
-
-                    }
                 }
-                @media (min-width: 992px) {
-                    grid-template-rows: repeat(3, 49.5%);
 
-                    #prj-card-1-top, #prj-card-3-top, #prj-card-5-top {
-                        align-self: end;
-                    }
-
-                    @media (min-width: 832px) {
-
-                        #prj-card-2-top, #prj-card-4-top, #prj-card-6-top {
-                            align-self: center;
-                        }
-
-                    }
-
-                    @media (min-width: 896px) {
-
-                        #prj-card-2-top, #prj-card-4-top, #prj-card-6-top {
-                            align-self: start;
-                        }
-
-                    }
+                @media (min-width: 1920px) {
+                    grid-template-columns: 33.33% 33.33% 33.33%;
                 }
-                @media (min-width: 1350px) {
-                    grid-template-rows: repeat(3, 40%);
-                }
-                @media (min-width: 1440px) {
-                    grid-template-rows: repeat(3, 36%);
 
-                        
-                    #prj-card-1-top, #prj-card-2-top, #prj-card-5-top, #prj-card-6-top {
-                        justify-self: end;
-                    }
-
-                    #prj-card-3-top, #prj-card-4-top {
-                        justify-self: start;
-                    }
-
-
-                    #prj-card-1-top, #prj-card-2-top, #prj-card-3-top, #prj-card-4-top, #prj-card-5-top, #prj-card-6-top {
-                        align-self: center;
-                    }
-                }
             }
         }    
 

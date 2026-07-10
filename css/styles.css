@@ -1291,7 +1291,7 @@ body {
   display: grid;
   height: calc(200.08px * 8);
   grid-template-columns: 100%;
-  grid-template-rows: 20fr 50px;
+  grid-template-rows: 1fr 50px;
   text-align: center;
 }
 
@@ -3815,14 +3815,14 @@ body {
 @media (min-width: 1350px) {
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) {
-    width: 448px;
+    width: 384px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data {
-    width: 448px;
-    height: 367.36px;
+    width: 384px;
+    height: 315px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -3834,7 +3834,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 448px;
+    width: 384px;
     display: flex;
     flex-direction: row;
   }
@@ -3850,9 +3850,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 448px;
+    width: 384px;
     padding: 0;
-    height: calc(367.36px * 0.82);
+    height: calc(315px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -3861,8 +3861,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(367.36px * 0.18);
-    width: 448px;
+    height: calc(315px * 0.18);
+    width: 384px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -3881,7 +3881,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 1.65rem;
+    font-size: 1.45rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -3898,7 +3898,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 1.76rem;
+    font-size: 1.43rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -3918,14 +3918,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) {
-    width: 448px;
+    width: 384px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data {
-    width: 448px;
-    height: 367.36px;
+    width: 384px;
+    height: 315px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -3937,7 +3937,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 448px;
+    width: 384px;
     display: flex;
     flex-direction: row;
   }
@@ -3953,9 +3953,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 448px;
+    width: 384px;
     padding: 0;
-    height: calc(367.36px * 0.82);
+    height: calc(315px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -3964,8 +3964,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(367.36px * 0.18);
-    width: 448px;
+    height: calc(315px * 0.18);
+    width: 384px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -3984,7 +3984,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 1.65rem;
+    font-size: 1.45rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4001,7 +4001,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 1.76rem;
+    font-size: 1.43rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4021,14 +4021,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) {
-    width: 448px;
+    width: 384px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data {
-    width: 448px;
-    height: 367.36px;
+    width: 384px;
+    height: 315px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4040,7 +4040,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 448px;
+    width: 384px;
     display: flex;
     flex-direction: row;
   }
@@ -4056,9 +4056,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 448px;
+    width: 384px;
     padding: 0;
-    height: calc(367.36px * 0.82);
+    height: calc(315px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4067,8 +4067,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(367.36px * 0.18);
-    width: 448px;
+    height: calc(315px * 0.18);
+    width: 384px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4087,7 +4087,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.625rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4104,7 +4104,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 1.76rem;
+    font-size: 1.43rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4124,14 +4124,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) {
-    width: 448px;
+    width: 384px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data {
-    width: 448px;
-    height: 367.36px;
+    width: 384px;
+    height: 315px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4143,7 +4143,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 448px;
+    width: 384px;
     display: flex;
     flex-direction: row;
   }
@@ -4159,9 +4159,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 448px;
+    width: 384px;
     padding: 0;
-    height: calc(367.36px * 0.82);
+    height: calc(315px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4170,8 +4170,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(367.36px * 0.18);
-    width: 448px;
+    height: calc(315px * 0.18);
+    width: 384px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4190,7 +4190,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.625rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4207,7 +4207,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 1.76rem;
+    font-size: 1.43rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4227,14 +4227,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) {
-    width: 448px;
+    width: 384px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data {
-    width: 448px;
-    height: 367.36px;
+    width: 384px;
+    height: 315px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4246,7 +4246,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 448px;
+    width: 384px;
     display: flex;
     flex-direction: row;
   }
@@ -4262,9 +4262,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 448px;
+    width: 384px;
     padding: 0;
-    height: calc(367.36px * 0.82);
+    height: calc(315px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4273,8 +4273,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(367.36px * 0.18);
-    width: 448px;
+    height: calc(315px * 0.18);
+    width: 384px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4293,7 +4293,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.625rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4310,7 +4310,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 1.76rem;
+    font-size: 1.43rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4330,14 +4330,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) {
-    width: 448px;
+    width: 384px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data {
-    width: 448px;
-    height: 367.36px;
+    width: 384px;
+    height: 315px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4349,7 +4349,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 448px;
+    width: 384px;
     display: flex;
     flex-direction: row;
   }
@@ -4365,9 +4365,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 448px;
+    width: 384px;
     padding: 0;
-    height: calc(367.36px * 0.82);
+    height: calc(315px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4376,8 +4376,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(367.36px * 0.18);
-    width: 448px;
+    height: calc(315px * 0.18);
+    width: 384px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4396,7 +4396,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.625rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4413,7 +4413,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 1.76rem;
+    font-size: 1.43rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4436,14 +4436,14 @@ body {
 @media (min-width: 1440px) {
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) {
-    width: 512px;
+    width: 420px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data {
-    width: 512px;
-    height: 419.84px;
+    width: 420px;
+    height: 345px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4455,7 +4455,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 512px;
+    width: 420px;
     display: flex;
     flex-direction: row;
   }
@@ -4471,9 +4471,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 512px;
+    width: 420px;
     padding: 0;
-    height: calc(419.84px * 0.82);
+    height: calc(345px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4482,8 +4482,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(419.84px * 0.18);
-    width: 512px;
+    height: calc(345px * 0.18);
+    width: 420px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4502,7 +4502,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4519,7 +4519,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 2.112rem;
+    font-size: 1.5rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4539,14 +4539,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) {
-    width: 512px;
+    width: 420px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data {
-    width: 512px;
-    height: 419.84px;
+    width: 420px;
+    height: 345px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4558,7 +4558,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 512px;
+    width: 420px;
     display: flex;
     flex-direction: row;
   }
@@ -4574,9 +4574,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 512px;
+    width: 420px;
     padding: 0;
-    height: calc(419.84px * 0.82);
+    height: calc(345px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4585,8 +4585,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(419.84px * 0.18);
-    width: 512px;
+    height: calc(345px * 0.18);
+    width: 420px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4605,7 +4605,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4622,7 +4622,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 2.112rem;
+    font-size: 1.5rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4642,14 +4642,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) {
-    width: 512px;
+    width: 420px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data {
-    width: 512px;
-    height: 419.84px;
+    width: 420px;
+    height: 345px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4661,7 +4661,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 512px;
+    width: 420px;
     display: flex;
     flex-direction: row;
   }
@@ -4677,9 +4677,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 512px;
+    width: 420px;
     padding: 0;
-    height: calc(419.84px * 0.82);
+    height: calc(345px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4688,8 +4688,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(419.84px * 0.18);
-    width: 512px;
+    height: calc(345px * 0.18);
+    width: 420px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4708,7 +4708,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 1.75rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4725,7 +4725,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 2.112rem;
+    font-size: 1.5rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4745,14 +4745,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) {
-    width: 512px;
+    width: 420px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data {
-    width: 512px;
-    height: 419.84px;
+    width: 420px;
+    height: 345px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4764,7 +4764,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 512px;
+    width: 420px;
     display: flex;
     flex-direction: row;
   }
@@ -4780,9 +4780,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 512px;
+    width: 420px;
     padding: 0;
-    height: calc(419.84px * 0.82);
+    height: calc(345px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4791,8 +4791,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(419.84px * 0.18);
-    width: 512px;
+    height: calc(345px * 0.18);
+    width: 420px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4811,7 +4811,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 1.75rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4828,7 +4828,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 2.112rem;
+    font-size: 1.5rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4848,14 +4848,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) {
-    width: 512px;
+    width: 420px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data {
-    width: 512px;
-    height: 419.84px;
+    width: 420px;
+    height: 345px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4867,7 +4867,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 512px;
+    width: 420px;
     display: flex;
     flex-direction: row;
   }
@@ -4883,9 +4883,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 512px;
+    width: 420px;
     padding: 0;
-    height: calc(419.84px * 0.82);
+    height: calc(345px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4894,8 +4894,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(419.84px * 0.18);
-    width: 512px;
+    height: calc(345px * 0.18);
+    width: 420px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4914,7 +4914,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 1.75rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -4931,7 +4931,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 2.112rem;
+    font-size: 1.5rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -4951,14 +4951,14 @@ body {
   }
   /* line 3, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) {
-    width: 512px;
+    width: 420px;
     padding: 0;
     margin: 0;
   }
   /* line 8, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data {
-    width: 512px;
-    height: 419.84px;
+    width: 420px;
+    height: 345px;
     font-family: roboto, sans-serif;
     background-color: #0e0e17;
     color: #222255ff;
@@ -4970,7 +4970,7 @@ body {
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
-    width: 512px;
+    width: 420px;
     display: flex;
     flex-direction: row;
   }
@@ -4986,9 +4986,9 @@ body {
   }
   /* line 35, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-coverimage, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-detailsimage {
-    width: 512px;
+    width: 420px;
     padding: 0;
-    height: calc(419.84px * 0.82);
+    height: calc(345px * 0.82);
     z-index: 0;
     border-bottom: 0.05rem solid #222255ff;
     left: 0;
@@ -4997,8 +4997,8 @@ body {
   /* line 47, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
-    height: calc(419.84px * 0.18);
-    width: 512px;
+    height: calc(345px * 0.18);
+    width: 420px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -5017,7 +5017,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 1.75rem;
     display: block;
     color: #222255ff;
     align-content: center;
@@ -5034,7 +5034,7 @@ body {
     height: 98%;
     padding: 0;
     font-weight: 350;
-    font-size: 2.112rem;
+    font-size: 1.5rem;
     display: block;
     text-decoration: none;
     color: #d3d3d3;
@@ -5057,20 +5057,11 @@ body {
 /* line 165, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
   padding: 1.25rem 0.625rem 0 0.625rem;
-}
-
-/* line 168, ../../../Portfolio/scss/_projects.scss */
-.prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
-  justify-self: end;
-}
-
-/* line 171, ../../../Portfolio/scss/_projects.scss */
-.prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top {
-  justify-self: start;
+  justify-self: center;
 }
 
 @media (min-width: 576px) {
-  /* line 176, ../../../Portfolio/scss/_projects.scss */
+  /* line 172, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     padding: 1.25rem 2.5rem 0 2.5rem;
   }
@@ -5080,80 +5071,18 @@ body {
   /* line 37, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(3, 66.6667%);
-  }
-  /* line 184, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
-    align-self: end;
+    grid-template-rows: calc(200.08px * 1.4px);
   }
 }
 
-@media (min-width: 768px) and (min-width: 832px) {
-  /* line 190, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
-    align-self: center;
-  }
-}
-
-@media (min-width: 768px) and (min-width: 992px) {
-  /* line 198, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
-    align-self: start;
-  }
-}
-
-@media (min-width: 992px) {
+@media (min-width: 1920px) {
   /* line 37, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
-    grid-template-rows: repeat(3, 49.5%);
-  }
-  /* line 209, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top {
-    align-self: end;
+    grid-template-columns: 33.33% 33.33% 33.33%;
   }
 }
 
-@media (min-width: 992px) and (min-width: 832px) {
-  /* line 215, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
-    align-self: center;
-  }
-}
-
-@media (min-width: 992px) and (min-width: 896px) {
-  /* line 223, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
-    align-self: start;
-  }
-}
-
-@media (min-width: 1350px) {
-  /* line 37, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
-    grid-template-rows: repeat(3, 40%);
-  }
-}
-
-@media (min-width: 1440px) {
-  /* line 37, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
-    grid-template-rows: repeat(3, 36%);
-  }
-  /* line 236, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
-    justify-self: end;
-  }
-  /* line 240, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top {
-    justify-self: start;
-  }
-  /* line 245, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
-    align-self: center;
-  }
-}
-
-/* line 252, ../../../Portfolio/scss/_projects.scss */
+/* line 191, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 {
   width: 100%;
   height: 50px;
@@ -5163,7 +5092,7 @@ body {
   opacity: 50%;
 }
 
-/* line 260, ../../../Portfolio/scss/_projects.scss */
+/* line 199, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 #prev-page-link-2 {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -5172,12 +5101,12 @@ body {
   justify-self: center;
 }
 
-/* line 267, ../../../Portfolio/scss/_projects.scss */
+/* line 206, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 #prev-page-link-2 img {
   width: 2.5rem;
 }
 
-/* line 273, ../../../Portfolio/scss/_projects.scss */
+/* line 212, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 #next-page-link-2 {
   grid-column-start: 4;
   grid-column-end: 5;
@@ -5186,7 +5115,7 @@ body {
   justify-self: center;
 }
 
-/* line 280, ../../../Portfolio/scss/_projects.scss */
+/* line 219, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 #next-page-link-2 img {
   width: 2.5rem;
 }
