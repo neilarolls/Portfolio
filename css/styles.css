@@ -1275,57 +1275,45 @@ body {
 .prj-top {
   z-index: 0;
   background-color: #0e0e17;
-  height: calc(200.08px * 8);
+  height: fit-content;
   padding: 4rem 0 3rem;
 }
 
-@media (max-width: 831.999px) {
-  /* line 1, ../../../Portfolio/scss/_projects.scss */
-  .prj-top {
-    height: calc(200.08px * 7.45);
-  }
-}
-
-/* line 13, ../../../Portfolio/scss/_projects.scss */
+/* line 9, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper {
   display: grid;
-  height: calc(200.08px * 8);
+  height: fit-content;
   grid-template-columns: 100%;
-  grid-template-rows: 1fr 50px;
+  grid-template-rows: 1fr 2rem 50px;
   text-align: center;
 }
 
-@media (max-width: 831.999px) {
-  /* line 13, ../../../Portfolio/scss/_projects.scss */
-  .prj-top .prj-v-wrapper {
-    height: calc(200.08px * 7.45);
-  }
-}
-
 @media (min-width: 576px) {
-  /* line 13, ../../../Portfolio/scss/_projects.scss */
+  /* line 9, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper {
     padding-left: 150px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 13, ../../../Portfolio/scss/_projects.scss */
+  /* line 9, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper {
     padding-left: 300px;
   }
 }
 
-/* line 34, ../../../Portfolio/scss/_projects.scss */
+/* line 25, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper {
   margin: 0;
 }
 
-/* line 37, ../../../Portfolio/scss/_projects.scss */
+/* line 28, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
+  height: fit-content;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: auto;
+  row-gap: 1.5rem;
 }
 
 @media (max-width: 831.999px) {
@@ -5054,35 +5042,43 @@ body {
   }
 }
 
-/* line 165, ../../../Portfolio/scss/_projects.scss */
+/* line 159, ../../../Portfolio/scss/_projects.scss */
+.prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
+  background-image: linear-gradient(0deg, #0e0e17 0%, #0e0e17 19%, #44449988 20%, #44449988 70%, #0e0e17 71%, #0e0e17 100%);
+}
+
+/* line 163, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
   padding: 1.25rem 0.625rem 0 0.625rem;
   justify-self: center;
 }
 
 @media (min-width: 576px) {
-  /* line 172, ../../../Portfolio/scss/_projects.scss */
+  /* line 170, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-1-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-2-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-3-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-4-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-5-top, .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards #prj-card-6-top {
     padding: 1.25rem 2.5rem 0 2.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 37, ../../../Portfolio/scss/_projects.scss */
+  /* line 28, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
     grid-template-columns: 50% 50%;
-    grid-template-rows: calc(200.08px * 1.4px);
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2.5rem;
   }
 }
 
-@media (min-width: 1920px) {
-  /* line 37, ../../../Portfolio/scss/_projects.scss */
+@media (min-width: 1750px) {
+  /* line 28, ../../../Portfolio/scss/_projects.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards {
     grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 3.5rem;
   }
 }
 
-/* line 191, ../../../Portfolio/scss/_projects.scss */
+/* line 192, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 {
   width: 100%;
   height: 50px;
@@ -5092,30 +5088,30 @@ body {
   opacity: 50%;
 }
 
-/* line 199, ../../../Portfolio/scss/_projects.scss */
+/* line 200, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 #prev-page-link-2 {
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   justify-self: center;
 }
 
-/* line 206, ../../../Portfolio/scss/_projects.scss */
+/* line 207, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 #prev-page-link-2 img {
   width: 2.5rem;
 }
 
-/* line 212, ../../../Portfolio/scss/_projects.scss */
+/* line 213, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 #next-page-link-2 {
   grid-column-start: 4;
   grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   justify-self: center;
 }
 
-/* line 219, ../../../Portfolio/scss/_projects.scss */
+/* line 220, ../../../Portfolio/scss/_projects.scss */
 .prj-top .prj-v-wrapper #page-turner-2 #next-page-link-2 img {
   width: 2.5rem;
 }
@@ -5346,7 +5342,7 @@ body {
   /* line 231, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper #cform-sections #cform-content-left #cform-git-details #git-details-mailme {
     font-size: 1.625rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
   }
   /* line 236, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper #cform-sections #cform-content-left #cform-git-details #git-details-mailme a {
@@ -5471,14 +5467,14 @@ body {
   /* line 401, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper #cform-sections #cform-content-left #cform-git-details #git-details-mailme a {
     height: 4rem;
-    top: 0.22rem;
-    right: 20px;
+    top: -1rem;
+    right: 50px;
   }
   /* line 407, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper #cform-sections #cform-content-left #cform-git-details #git-details-mailme a img {
     height: 4rem;
     top: 0.22rem;
-    right: -20px;
+    right: -50px;
   }
   /* line 416, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper #cform-sections #cform-content-left #cform-git-details #git-details-text {

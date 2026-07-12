@@ -2,25 +2,16 @@
     z-index: 0;
     background-color: #{$prj-page-bg};
     
-    height: calc(#{$prj-card-height} * 8);
-    
-    @media (max-width: 831.999px) {
-        height: calc(#{$prj-card-height} * 7.45);
-    }
+    height: fit-content;    
 
     padding: 4rem 0 3rem;
 
     .prj-v-wrapper {                                // Adjust padding at 576px and 1200px to allow for menu and expanded menu
         display: grid;
-
-        height: calc(#{$prj-card-height} * 8);
-
-        @media (max-width: 831.999px) {
-            height: calc(#{$prj-card-height} * 7.45);
-        }
+        height: fit-content;
 
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 50px;
+        grid-template-rows: 1fr 2rem 50px;
         text-align: center;
 
         @media (min-width: 576px) {
@@ -36,6 +27,9 @@
 
             .prj-cards {                                            // Uses a mixin to generate the project card styling with Params: size, colours, font family and font sizes, and border.
                                                                     // The mixin styles each card and flips the image to details on hover.
+
+
+                height: fit-content;
 
                 @media (max-width: 831.999px) {
 
@@ -159,10 +153,14 @@
 
                 display: grid;                              // This section manipulates the GRID and childrens' properties to change the layout across media widths.
                 grid-template-columns: 100%;
-                grid-template-rows: repeat(6, 1fr);
+                grid-template-rows: auto;
+                row-gap: 1.5rem;
 
+                #prj-card-1-top, #prj-card-2-top, #prj-card-3-top, #prj-card-4-top, #prj-card-5-top, #prj-card-6-top {                             // Stripe
 
-                #prj-card-1-top, #prj-card-2-top, #prj-card-3-top, #prj-card-4-top, #prj-card-5-top, #prj-card-6-top {                             // initial state 
+                        background-image: linear-gradient(0deg, #{$prj-page-bg} 0%, #{$prj-page-bg} 19%, #44449988 20%, #44449988 70%, #{$prj-page-bg} 71%, #{$prj-page-bg} 100%);
+                }
+                #prj-card-1-top, #prj-card-2-top, #prj-card-3-top, #prj-card-4-top, #prj-card-5-top, #prj-card-6-top {                             // initial state.
                     padding: 1.25rem 0.625rem 0 0.625rem;
                     justify-self: center;
                 }
@@ -177,12 +175,15 @@
                 @media (min-width: 768px) {
 
                     grid-template-columns: 50% 50%;
-                    grid-template-rows: calc(#{$prj-card-height} * 1.4px);
+                    grid-template-rows: 1fr 1fr 1fr;                    
+                    row-gap: 2.5rem;
 
                 }
 
-                @media (min-width: 1920px) {
+                @media (min-width: 1750px) {
                     grid-template-columns: 33.33% 33.33% 33.33%;
+                    grid-template-rows: 1fr 1fr;
+                    row-gap: 3.5rem;
                 }
 
             }
@@ -199,8 +200,8 @@
             #prev-page-link-2 {
                     grid-column-start: 2;
                     grid-column-end: 3;
-                    grid-row-start: 1;
-                    grid-row-end: 2;
+                    grid-row-start: 2;
+                    grid-row-end: 3;
                     justify-self: center;
             
                 img {
@@ -212,8 +213,8 @@
             #next-page-link-2 {
                     grid-column-start: 4;
                     grid-column-end: 5;
-                    grid-row-start: 1;
-                    grid-row-end: 2;
+                    grid-row-start: 2;
+                    grid-row-end: 3;
                     justify-self: center;
             
                 img {
