@@ -46,9 +46,7 @@
                     @include project-card(6, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-6, $card-bg-colour-alt-6, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
                 }
 
-                @media (min-width: 832px) {                  // Make cards bigger
-                    $prj-card-width: 280px;
-                    $prj-card-height: 229.6px;
+                @media (min-width: 832px) {
 
                     @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
 
@@ -130,10 +128,10 @@
 
                 @media (min-width: 1440px) {                // Make cards 100% bigger
 
-                    $prj-card-width: 420px;
-                    $prj-card-height: 345px;
-                    $prj-font-size-title: 1.75rem;
-                    $prj-font-size-link: 1.5rem;
+                    $prj-card-width: 384px;
+                    $prj-card-height: 315px;
+                    $prj-font-size-title: 1.625rem;
+                    $prj-font-size-link: 1.43rem;
 
                     @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.5rem, $prj-font-size-link);
 
@@ -156,10 +154,11 @@
                 grid-template-rows: auto;
                 row-gap: 1.5rem;
 
-                #prj-card-1-top, #prj-card-2-top, #prj-card-3-top, #prj-card-4-top, #prj-card-5-top, #prj-card-6-top {                             // Stripe
+                // #prj-card-1-top, #prj-card-2-top, #prj-card-3-top, #prj-card-4-top, #prj-card-5-top, #prj-card-6-top {                             // Stripe
 
-                        background-image: linear-gradient(0deg, #{$prj-page-bg} 0%, #{$prj-page-bg} 19%, #44449988 20%, #44449988 70%, #{$prj-page-bg} 71%, #{$prj-page-bg} 100%);
-                }
+                //         background-image: linear-gradient(0deg, transparent 0%, transparent 19%, #22225c 20%, #22225c 70%, transparent 71%, transparent 100%);
+                // }
+
                 #prj-card-1-top, #prj-card-2-top, #prj-card-3-top, #prj-card-4-top, #prj-card-5-top, #prj-card-6-top {                             // initial state.
                     padding: 1.25rem 0.625rem 0 0.625rem;
                     justify-self: center;

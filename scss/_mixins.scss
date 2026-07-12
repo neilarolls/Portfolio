@@ -14,25 +14,71 @@
             padding: 0;
             overflow-x: clip;
             border-radius: 0.5rem;
+            position: relative;
+            top:0;
+            left:0;
+
+            .prj-card-overlay-title {
+
+                position: relative;
+                display: block;
+                width: 100%;
+                height: 2.1rem;
+                bottom: 80%;
+                left: 0;
+                background-color: #555588;
+                color: #fff;
+                font-size: 1.75rem;
+                @media (max-width: 992px) {
+                    font-size: 1.2rem;
+                    height: 1.4rem;
+                }
+                font-weight: 500;
+                padding-top: 0.25rem;
+                text-shadow: 0 0 0.3rem #000000;
+                border-top: 1px solid #88888888;
+                border-bottom: 1px solid #88888888;
+            }
+
+            .prj-card-overlay-builtwith {
+
+                text-shadow: 0 0 0.3rem #000000;
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                height: fit-content;
+                bottom: 75%;
+                left: 5px;
+                background-color: transparent;
+                color: #fff;
+                font-size: 1.5rem;
+                @media (max-width: 992px) {
+                    font-size: 1rem;
+                }
+                padding-top: 0.25rem;
+                list-style-type: none;
+
+                li {
+                    width: fit-content;
+                    transform: skew(-14deg);
+                    margin-bottom: 0.25rem;
+                }
+
+            }
 
             .prj-image-wrapper {                                    // set up images
                 padding: 0;
                 position: relative;
+                top: 0;
+                left: 0;
                 width: #{$card-width};
                 display: flex;
                 flex-direction: row;
-                // justify-content: flex-end;
-                
-                .prj-card-detailsimage {
-                    position: relative;
-                    display: none;
-                }
+
                 .prj-card-coverimage {
+
                     position: relative;
                     display: block;
-                }
-
-                .prj-card-coverimage, .prj-card-detailsimage {
                     width: #{$card-width};
                     padding: 0;
                     height: calc(#{$card-height} * 0.82);
@@ -45,50 +91,41 @@
             }
 
             .prj-card-text {                                        // calculate proportional size of text block
+
                 padding: 0;
+                margin-top: auto;
                 height: calc(#{$card-height} * 0.18);
                 width: #{$card-width};
-                display: grid;
-                grid-template-rows: 1fr;
-                grid-template-columns: 1fr 1fr;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
                 justify-content: space-between;
                 filter: drop-shadow(0 0 1.5rem #00000088);
                 border-radius: 0.5rem;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                z-index: 2;
 
 
-                a:hover {                                           // show gradient on hover
-                    filter: drop-shadow(0 0 0.5rem white);
+                a:hover {                                           // show glow on hover
+
+                    text-shadow: 0 0 0.5rem white;
                     color: white;
-                    // font-weight: 600;
-                    // letter-spacing: -0.35px;
-                }
-
-                div {                                               // title styling
-                    width: 99%;
-                    height: 98%;
-                    padding: 0;
-                    font-weight: 600;
-                    font-size: #{$font-size-title};
-                    display: block;
-                    color: #{$card-text};
-                    align-content: center;
-                    background: linear-gradient(90deg, #000 2%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #000 98%), linear-gradient(0deg, #000 2%, #{$card-bg-alt} 15%, #{$card-bg} 50%, #{$card-bg-alt} 85%, #000 98%);
-                    border: 0.5px solid #ddd;
-                    border-radius: 0.15rem;
-                    box-shadow: 0 -0.3rem 0.5rem #00000033;
-                    text-shadow: 0.04rem 0.04rem 0.01rem #{$card-bg};
                 }
 
                 a {                                                 // anchor styling
                     transition: text-shadow 0.1s linear;
-                    width: 99%;
+                    width: 49.45%;
                     height: 98%;
                     padding: 0;
                     font-weight: 350;
                     font-size: #{$font-size-link};
                     display: block;
                     text-decoration: none;
-                    color: #{$prj-card-border};
+                    color: #eee;
+                    background-color: #55558833;
                     align-content: center;
                     border: 0.5px solid #{$card-bg-alt};
                     border-radius: 0.15rem;
@@ -99,21 +136,21 @@
             }
 
                                                                     // hovering on the card brings the alt image into view
-            &:hover {
-                .prj-image-wrapper {
+            // &:hover {
+            //     .prj-image-wrapper {
 
 
-                    .prj-card-coverimage {
-                        display: none;
-                    }
+            //         .prj-card-coverimage {
+            //             display: none;
+            //         }
 
-                    .prj-card-detailsimage {
-                        display: block;
-                    }
+            //         .prj-card-detailsimage {
+            //             display: block;
+            //         }
 
                     
-                }
-            }
+            //     }
+            // }
             //                                                         // and releases back to the default
             // &:not(:hover) {
             //     .prj-image-wrapper {
