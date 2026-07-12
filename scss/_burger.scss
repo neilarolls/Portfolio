@@ -102,7 +102,7 @@
                     }
                 }
 
-                #bm-avatar-box, #bm-aboutme-box, #bm-portfolio-box, #bm-coding-box, #bm-scs-box {     // set menu item anchor defaults except for contact me element (6th child)
+                #bm-avatar-box, #bm-aboutme-box, #bm-portfolio-box, #bm-coding-box, #bm-scs-box {     // set menu item anchor defaults except for contact me element.
                     a {
                         display: #{$bm-menu-mode};
                         font-family: "roboto", sans-serif;
@@ -113,6 +113,7 @@
                         text-align: center;
                         color:#{$bm-text-main};
                         text-decoration: none;
+                        text-shadow: 0 0 0.3rem #000000;
                     }
                 }
 
@@ -519,6 +520,7 @@
                         height: fit-content;
                         text-align: center;
                         color: #{$bm-text-initials};
+                        text-shadow: 0 0 0.3rem #000000;
 
                         @media (min-width: 1200px) {
                             width: 300px;

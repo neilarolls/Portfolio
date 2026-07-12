@@ -133,9 +133,9 @@
                     $prj-font-size-title: 1.625rem;
                     $prj-font-size-link: 1.43rem;
 
-                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.5rem, $prj-font-size-link);
+                    @include project-card(1, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-1, $card-bg-colour-alt-1, $prj-card-text, $prj-font-family, 1.45rem, $prj-font-size-link);
 
-                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, 1.5rem, $prj-font-size-link);
+                    @include project-card(2, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-2, $card-bg-colour-alt-2, $prj-card-text, $prj-font-family, 1.45rem, $prj-font-size-link);
 
                     @include project-card(3, $prj-card-width, $prj-card-height, $prj-card-border, $card-bg-colour-3, $card-bg-colour-alt-3, $prj-card-text, $prj-font-family, $prj-font-size-title, $prj-font-size-link);
 
