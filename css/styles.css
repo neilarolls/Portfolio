@@ -376,13 +376,18 @@ html {
   scroll-behavior: smooth;
 }
 
-/* line 6, ../../../Portfolio/scss/_base.scss */
+/* line 5, ../../../Portfolio/scss/_base.scss */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 9, ../../../Portfolio/scss/_base.scss */
 body {
   min-width: 280px;
   overflow-x: clip;
 }
 
-/* line 13, ../../../Portfolio/scss/_base.scss */
+/* line 16, ../../../Portfolio/scss/_base.scss */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -6833,13 +6838,13 @@ body {
   .cform-top .cform-v-wrapper .cform-h-wrapper #cform-sections #cform-content-left #cform-git-details #git-details-mailme a {
     height: 4rem;
     top: -1rem;
-    right: 50px;
+    right: 54px;
   }
   /* line 407, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper #cform-sections #cform-content-left #cform-git-details #git-details-mailme a img {
     height: 4rem;
     top: 0.22rem;
-    right: -50px;
+    right: -54px;
   }
   /* line 416, ../../../Portfolio/scss/_contactform.scss */
   .cform-top .cform-v-wrapper .cform-h-wrapper #cform-sections #cform-content-left #cform-git-details #git-details-text {
