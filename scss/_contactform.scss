@@ -94,6 +94,12 @@
                                     right: -15px;
                                 }
                             }
+
+                            &:hover {
+
+                                filter: drop-shadow(#00000044 0 0 0.2rem);
+                                scale: 1.05;
+                            }
                         }
 
                         #git-details-text {
@@ -164,6 +170,7 @@
 
 
                     #cform-button {                                             // Submit button
+
                         width: 8rem;
                         height: 3rem;
                         background-color: #{$bm-btn-glow};
@@ -184,7 +191,7 @@
                         left: 0px;
                         border: 0.05rem solid #ffffff00;
                         font-size: 0.875rem;
-                        font-weight: 300;
+                        font-weight: 450;
                         padding: 9px 15px 7px;
                         border-radius: 0.25rem;
                         background-color: #44444422;
@@ -192,6 +199,7 @@
 
                         &:hover {
                             border: 0.05rem solid #{$form-input-border-colour};
+                            background-color: white;
                         }
                         
                     }

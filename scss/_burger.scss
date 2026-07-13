@@ -535,6 +535,7 @@
                             color: white;
                             text-shadow: 0 0 0.3rem #000000;
                         }
+
                     }
 
                     @media (min-height: 360px) {                                                    // Contact Me text height responsive behaviour
@@ -594,9 +595,14 @@
                             }
                         }
 
+                        #popout-target-2:hover, #popout-target-4:hover {
+
+                            transition: scale 0.75s ease-in;
+                            scale: 1.1;
+                        }
+
                         #popout-target-1 {                                                          // Email Icon defaults and width responsive behaviour
 
-                            // left: calc(50px - 1rem);
                             top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
                         }
 
@@ -606,11 +612,6 @@
                             filter: drop-shadow(#00000088 0.3rem 0.3rem 0.3rem); 
                         }
 
-                            // @media (min-width: 1200px) {
-                            //      left: calc(100px - 0.65rem);
-                            // }
-                        
-
                         @media (min-height: 360px) {                                                // Email Icon height responsive behaviour
 
                             #popout-target-1,  #popout-target-2 {
@@ -618,11 +619,7 @@
                                 top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.2rem);
                                 width: 3rem;
                                 height: 3rem;
-                                // left: calc(50px - 1.85rem);
 
-                                // @media (min-width: 1200px) {
-                                //     left: calc(100px - 1.85rem);
-                                // }
                             }
                         }
 
@@ -633,7 +630,7 @@
                                 top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1rem);
                                 width: 3.5rem;
                                 height: 3.5rem;
-                                // left: calc(50px - 2.3rem);
+
 
                             }
 
@@ -644,7 +641,7 @@
                                     top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 2.5rem);
                                     width: 5rem;
                                     height: 5rem;
-                                    // left: calc(100px - 3rem);
+
                                 }
 
                             }
@@ -656,60 +653,44 @@
                                 top: calc(((100vh / #{$burger-height-factor}) * 6.725));
                                 width: 5rem;
                                 height: 5rem;
-                                // left: calc(75px - 2.5rem);
+
 
                                 @media (min-width: 1200px) {
                                     top: calc(((100vh / #{$burger-height-factor}) * 6.425));
-                                    // left: calc(150px - 3.5rem);
+
                                     width: 7rem;
                                     height: 7rem;
                                 }
                             }
-                            
 
-                        
-                            // #popout-target-1 {
-
-                            //     // left: calc(100px - 1rem);
-                            //     top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
-
-                            //     #popout-target-2 {
-
-                            //         top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
-                            //     }
-
-                            //     @media (min-width: 1200px) {
-                            //         // left: calc(200px - 1.35rem);
-                            //     }
-                            // }
                         }
                         
-                        #popout-target-3 {                                                             // Contact SMS Icon defaults and width responsive behaviour
+                        #popout-target-3 {                                                             // Github Icon defaults and width responsive behaviour
                             
                             top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
 
                             #popout-target-4 {
                                 top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 0.85rem);
                                 filter: drop-shadow(#00000088 0.3rem 0.3rem 0.3rem); 
-                                // left: calc(100px - 1rem);
+
 
                                 @media (min-width: 1200px) {
-                                    // left: calc(200px - 1.35rem);
+
                                 }
                             }
                         }
 
-                        @media (min-height: 360px) {                                                // Contact Me SMS Icon height responsive behaviour
+                        @media (min-height: 360px) {                                                // Github Icon height responsive behaviour
 
                             #popout-target-3 {
                                 #popout-target-4 {
                                     top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1.2rem);
                                     width: 3rem;
                                     height: 3rem;
-                                    // left: calc(100px - 1rem);
+
 
                                     @media (min-width: 1200px) {
-                                        // left: calc(200px - 1.15rem);
+
                                     }
                                 }
                             }
@@ -719,18 +700,18 @@
 
                             #popout-target-3 {
                                     top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1rem);
-                                    // left: calc(100px - 0.75rem);
+
                                 #popout-target-4 {
                                     top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 1rem);
                                     width: 3.5rem;
                                     height: 3.5rem;
-                                    // left: calc(100px - 0.75rem);
+
 
                                     @media (min-width: 1200px) {
                                         top: calc(((100vh / #{$burger-height-factor}) * 7.25) - 2.5rem);
                                         width: 5rem;
                                         height: 5rem;
-                                        // left: calc(200px - 2rem);
+
                                     }
                                 }
                             }
@@ -743,11 +724,11 @@
                                     top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 4.5rem);
                                     width: 5rem;
                                     height: 5rem;
-                                    // left: calc(75px - 2.5rem);
+
 
                                     @media (min-width: 1200px) {
                                         top: calc(((100vh / #{$burger-height-factor}) * 6.8) + 3.1rem);
-                                        // left: calc(150px - 3.5rem);
+
                                         width: 7rem;
                                         height: 7rem;
                                     }
