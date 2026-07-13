@@ -1333,13 +1333,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -1359,7 +1358,7 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -1367,7 +1366,7 @@ body {
 }
 
 @media (max-width: 831.999px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -1385,20 +1384,20 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 831.999px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -1408,7 +1407,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -1420,7 +1419,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -1438,12 +1437,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -1475,13 +1474,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -1501,7 +1499,7 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -1509,7 +1507,7 @@ body {
 }
 
 @media (max-width: 831.999px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -1527,20 +1525,20 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 831.999px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -1550,7 +1548,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -1562,7 +1560,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -1580,12 +1578,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -1617,13 +1615,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -1643,7 +1640,7 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -1651,7 +1648,7 @@ body {
 }
 
 @media (max-width: 831.999px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -1669,20 +1666,20 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 831.999px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -1692,7 +1689,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -1704,7 +1701,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -1722,12 +1719,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -1759,13 +1756,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -1785,7 +1781,7 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -1793,7 +1789,7 @@ body {
 }
 
 @media (max-width: 831.999px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -1811,20 +1807,20 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 831.999px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -1834,7 +1830,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -1846,7 +1842,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -1864,12 +1860,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -1901,13 +1897,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -1927,7 +1922,7 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -1935,7 +1930,7 @@ body {
 }
 
 @media (max-width: 831.999px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -1953,20 +1948,20 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 831.999px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -1976,7 +1971,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -1988,7 +1983,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -2006,12 +2001,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -2043,13 +2038,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -2069,7 +2063,7 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -2077,7 +2071,7 @@ body {
 }
 
 @media (max-width: 831.999px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -2095,20 +2089,20 @@ body {
 }
 
 @media (max-width: 831.999px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 831.999px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -2118,7 +2112,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -2130,7 +2124,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -2148,12 +2142,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -2188,13 +2182,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -2214,7 +2207,7 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -2222,7 +2215,7 @@ body {
 }
 
 @media (min-width: 832px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -2240,20 +2233,20 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 832px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -2263,7 +2256,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -2275,7 +2268,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -2293,12 +2286,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -2330,13 +2323,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -2356,7 +2348,7 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -2364,7 +2356,7 @@ body {
 }
 
 @media (min-width: 832px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -2382,20 +2374,20 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 832px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -2405,7 +2397,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -2417,7 +2409,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -2435,12 +2427,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -2472,13 +2464,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -2498,7 +2489,7 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -2506,7 +2497,7 @@ body {
 }
 
 @media (min-width: 832px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -2524,20 +2515,20 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 832px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -2547,7 +2538,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -2559,7 +2550,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -2577,12 +2568,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -2614,13 +2605,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -2640,7 +2630,7 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -2648,7 +2638,7 @@ body {
 }
 
 @media (min-width: 832px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -2666,20 +2656,20 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 832px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -2689,7 +2679,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -2701,7 +2691,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -2719,12 +2709,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -2756,13 +2746,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -2782,7 +2771,7 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -2790,7 +2779,7 @@ body {
 }
 
 @media (min-width: 832px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -2808,20 +2797,20 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 832px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -2831,7 +2820,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -2843,7 +2832,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -2861,12 +2850,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -2898,13 +2887,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -2924,7 +2912,7 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -2932,7 +2920,7 @@ body {
 }
 
 @media (min-width: 832px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -2950,20 +2938,20 @@ body {
 }
 
 @media (min-width: 832px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 832px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -2973,7 +2961,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -2985,7 +2973,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -3003,12 +2991,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -3043,13 +3031,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -3069,7 +3056,7 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -3077,7 +3064,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -3095,20 +3082,20 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -3118,7 +3105,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -3130,7 +3117,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -3148,12 +3135,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -3185,13 +3172,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -3211,7 +3197,7 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -3219,7 +3205,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -3237,20 +3223,20 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -3260,7 +3246,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -3272,7 +3258,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -3290,12 +3276,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -3327,13 +3313,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -3353,7 +3338,7 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -3361,7 +3346,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -3379,20 +3364,20 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -3402,7 +3387,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -3414,7 +3399,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -3432,12 +3417,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -3469,13 +3454,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -3495,7 +3479,7 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -3503,7 +3487,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -3521,20 +3505,20 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -3544,7 +3528,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -3556,7 +3540,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -3574,12 +3558,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -3611,13 +3595,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -3637,7 +3620,7 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -3645,7 +3628,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -3663,20 +3646,20 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -3686,7 +3669,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -3698,7 +3681,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -3716,12 +3699,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -3753,13 +3736,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -3779,7 +3761,7 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -3787,7 +3769,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -3805,20 +3787,20 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -3828,7 +3810,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -3840,7 +3822,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -3858,12 +3840,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -3898,13 +3880,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -3924,7 +3905,7 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -3932,7 +3913,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -3950,20 +3931,20 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -3973,7 +3954,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -3985,7 +3966,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -4003,12 +3984,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -4040,13 +4021,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -4066,7 +4046,7 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -4074,7 +4054,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -4092,20 +4072,20 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -4115,7 +4095,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -4127,7 +4107,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -4145,12 +4125,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -4182,13 +4162,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -4208,7 +4187,7 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -4216,7 +4195,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -4234,20 +4213,20 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -4257,7 +4236,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -4269,7 +4248,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -4287,12 +4266,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -4324,13 +4303,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -4350,7 +4328,7 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -4358,7 +4336,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -4376,20 +4354,20 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -4399,7 +4377,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -4411,7 +4389,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -4429,12 +4407,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -4466,13 +4444,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -4492,7 +4469,7 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -4500,7 +4477,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -4518,20 +4495,20 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -4541,7 +4518,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -4553,7 +4530,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -4571,12 +4548,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -4608,13 +4585,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -4634,7 +4610,7 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -4642,7 +4618,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -4660,20 +4636,20 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -4683,7 +4659,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -4695,7 +4671,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -4713,12 +4689,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -4753,13 +4729,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -4779,7 +4754,7 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -4787,7 +4762,7 @@ body {
 }
 
 @media (min-width: 1350px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -4805,20 +4780,20 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1350px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -4828,7 +4803,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -4840,7 +4815,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -4858,12 +4833,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -4895,13 +4870,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -4921,7 +4895,7 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -4929,7 +4903,7 @@ body {
 }
 
 @media (min-width: 1350px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -4947,20 +4921,20 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1350px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -4970,7 +4944,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -4982,7 +4956,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -5000,12 +4974,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -5037,13 +5011,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -5063,7 +5036,7 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -5071,7 +5044,7 @@ body {
 }
 
 @media (min-width: 1350px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -5089,20 +5062,20 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1350px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -5112,7 +5085,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -5124,7 +5097,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -5142,12 +5115,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -5179,13 +5152,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -5205,7 +5177,7 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -5213,7 +5185,7 @@ body {
 }
 
 @media (min-width: 1350px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -5231,20 +5203,20 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1350px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -5254,7 +5226,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -5266,7 +5238,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -5284,12 +5256,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -5321,13 +5293,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -5347,7 +5318,7 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -5355,7 +5326,7 @@ body {
 }
 
 @media (min-width: 1350px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -5373,20 +5344,20 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1350px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -5396,7 +5367,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -5408,7 +5379,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -5426,12 +5397,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -5463,13 +5434,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -5489,7 +5459,7 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -5497,7 +5467,7 @@ body {
 }
 
 @media (min-width: 1350px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -5515,20 +5485,20 @@ body {
 }
 
 @media (min-width: 1350px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1350px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -5538,7 +5508,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -5550,7 +5520,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -5568,12 +5538,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -5608,13 +5578,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -5634,7 +5603,7 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -5642,7 +5611,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -5660,20 +5629,20 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -5683,7 +5652,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -5695,7 +5664,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -5713,12 +5682,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(1) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -5750,13 +5719,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -5776,7 +5744,7 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -5784,7 +5752,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -5802,20 +5770,20 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -5825,7 +5793,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -5837,7 +5805,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -5855,12 +5823,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(2) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -5892,13 +5860,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -5918,7 +5885,7 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -5926,7 +5893,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -5944,20 +5911,20 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -5967,7 +5934,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -5979,7 +5946,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -5997,12 +5964,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(3) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -6034,13 +6001,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -6060,7 +6026,7 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -6068,7 +6034,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -6086,20 +6052,20 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -6109,7 +6075,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -6121,7 +6087,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -6139,12 +6105,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(4) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -6176,13 +6142,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -6202,7 +6167,7 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -6210,7 +6175,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -6228,20 +6193,20 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -6251,7 +6216,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -6263,7 +6228,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -6281,12 +6246,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(5) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
@@ -6318,13 +6283,12 @@ body {
     background-color: #0e0e17;
     color: #222255ff;
     padding: 0;
-    overflow-x: clip;
     border-radius: 0.5rem;
     position: relative;
     top: 0;
     left: 0;
   }
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     position: relative;
     display: block;
@@ -6344,7 +6308,7 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 21, ../../../Portfolio/scss/_mixins.scss */
+  /* line 20, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-title {
     font-size: 1.2rem;
     height: 1.4rem;
@@ -6352,7 +6316,7 @@ body {
 }
 
 @media (min-width: 1440px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     text-shadow: 0 0 0.3rem #000000;
     position: relative;
@@ -6370,20 +6334,20 @@ body {
 }
 
 @media (min-width: 1440px) and (max-width: 992px) {
-  /* line 43, ../../../Portfolio/scss/_mixins.scss */
+  /* line 42, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 61, ../../../Portfolio/scss/_mixins.scss */
+  /* line 60, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-overlay-builtwith li {
     width: fit-content;
     transform: skew(-14deg);
     margin-bottom: 0.25rem;
   }
-  /* line 69, ../../../Portfolio/scss/_mixins.scss */
+  /* line 68, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper {
     padding: 0;
     position: relative;
@@ -6393,7 +6357,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-  /* line 78, ../../../Portfolio/scss/_mixins.scss */
+  /* line 77, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-image-wrapper .prj-card-coverimage {
     position: relative;
     display: block;
@@ -6405,7 +6369,7 @@ body {
     left: 0;
     top: 0;
   }
-  /* line 93, ../../../Portfolio/scss/_mixins.scss */
+  /* line 92, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text {
     padding: 0;
     margin-top: auto;
@@ -6423,12 +6387,12 @@ body {
     width: 100%;
     z-index: 2;
   }
-  /* line 112, ../../../Portfolio/scss/_mixins.scss */
+  /* line 111, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a:hover {
     text-shadow: 0 0 0.5rem white;
     color: white;
   }
-  /* line 118, ../../../Portfolio/scss/_mixins.scss */
+  /* line 117, ../../../Portfolio/scss/_mixins.scss */
   .prj-top .prj-v-wrapper .prj-h-wrapper .prj-cards :nth-child(6) .prj-card-data .prj-card-text a {
     transition: text-shadow 0.1s linear;
     width: 49.45%;
