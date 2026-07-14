@@ -7663,7 +7663,7 @@ main {
 }
 
 /* line 1, ../../../Portfolio/scss/_aboutme.scss */
-.aboutme-top {
+#aboutme-top {
   width: 100vw;
   min-height: 100vh;
   height: fit-content;
@@ -7675,7 +7675,7 @@ main {
 }
 
 /* line 16, ../../../Portfolio/scss/_aboutme.scss */
-.aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections {
+#aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections {
   display: grid;
   height: fit-content;
   grid-template-columns: 100%;
@@ -7683,7 +7683,7 @@ main {
 }
 
 /* line 22, ../../../Portfolio/scss/_aboutme.scss */
-.aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-title {
+#aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections #aboutme-title {
   color: #e6e6ef;
   width: fit-content;
   height: fit-content;
@@ -7695,61 +7695,53 @@ main {
 }
 
 /* line 33, ../../../Portfolio/scss/_aboutme.scss */
-.aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
+#aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections #aboutme-intro {
   color: #e6e6ef;
   width: 75%;
   padding: 0.75rem 1.5rem;
   height: fit-content;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   grid-row-start: 4;
   grid-row-end: 5;
   justify-self: center;
-  border: 0.25rem solid #e6e6ef;
-  border-radius: 0.5rem;
-  background-color: #44444444;
+  border: 0.15rem solid #e6e6ef;
+  background-color: #444444;
 }
 
 @media (min-width: 576px) {
   /* line 16, ../../../Portfolio/scss/_aboutme.scss */
-  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections {
+  #aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections {
     padding-left: 150px;
   }
-  /* line 51, ../../../Portfolio/scss/_aboutme.scss */
-  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
+  /* line 50, ../../../Portfolio/scss/_aboutme.scss */
+  #aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections #aboutme-intro {
     width: 300px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 58, ../../../Portfolio/scss/_aboutme.scss */
-  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-title {
+  /* line 57, ../../../Portfolio/scss/_aboutme.scss */
+  #aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections #aboutme-title {
     font-size: 3.5rem;
   }
-  /* line 62, ../../../Portfolio/scss/_aboutme.scss */
-  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
+  /* line 61, ../../../Portfolio/scss/_aboutme.scss */
+  #aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections #aboutme-intro {
     font-size: 1.75rem;
     width: 450px;
   }
 }
 
-@media (min-width: 992px) {
-  /* line 70, ../../../Portfolio/scss/_aboutme.scss */
-  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
-    width: 600px;
-  }
-}
-
 @media (min-width: 1200px) {
   /* line 16, ../../../Portfolio/scss/_aboutme.scss */
-  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections {
+  #aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections {
     padding-left: 300px;
   }
-  /* line 77, ../../../Portfolio/scss/_aboutme.scss */
-  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-title {
+  /* line 76, ../../../Portfolio/scss/_aboutme.scss */
+  #aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections #aboutme-title {
     font-size: 4rem;
   }
-  /* line 81, ../../../Portfolio/scss/_aboutme.scss */
-  .aboutme-top .aboutme-v-wrapper .aboutme-h-wrapper .aboutme-sections .aboutme-intro {
+  /* line 80, ../../../Portfolio/scss/_aboutme.scss */
+  #aboutme-top #aboutme-v-wrapper #aboutme-h-wrapper #aboutme-sections #aboutme-intro {
     font-size: 2rem;
   }
 }

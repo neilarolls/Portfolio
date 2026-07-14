@@ -1,4 +1,4 @@
-.aboutme-top {
+#aboutme-top {
     width: 100vw;
     min-height: 100vh;
     height: fit-content;
@@ -8,18 +8,18 @@
     background-size: cover;
     overflow: clip;
 
-    .aboutme-v-wrapper {
-        .aboutme-h-wrapper {
+    #aboutme-v-wrapper {
+        #aboutme-h-wrapper {
 
 
 
-            .aboutme-sections {
+            #aboutme-sections {
                 display: grid;
                 height: fit-content;
                 grid-template-columns: 100%;
                 grid-template-rows: 6.5rem 4rem 6.5rem auto;
 
-                .aboutme-title {
+                #aboutme-title {
                     color: #{$aboutme-text-main};
                     width: fit-content;
                     height: fit-content;
@@ -30,55 +30,54 @@
                     justify-self: center;
                 }
 
-                .aboutme-intro {
+                #aboutme-intro {
                     color: #{$aboutme-text-main};
                     width: 75%;
                     padding: 0.75rem 1.5rem;
                     height: fit-content;
-                    font-size: 1.5rem;
+                    font-size: 1.25rem;
                     grid-row-start: 4;
                     grid-row-end: 5;
                     justify-self: center;
-                    border: 0.25rem solid #{$aboutme-text-main};
-                    border-radius: 0.5rem;
-                    background-color: #{$bm-item-border};
+                    border: 0.15rem solid #{$aboutme-text-main};
+                    background-color: #{$aboutme-bg};
 
                 }
 
                 @media (min-width: 576px) {
                     padding-left: 150px;
 
-                    .aboutme-intro {
+                    #aboutme-intro {
                         width: 300px;
                     }
                 }
 
                 @media (min-width: 768px) {
 
-                        .aboutme-title {
+                        #aboutme-title {
                             font-size: 3.5rem;
                         }
 
-                        .aboutme-intro {
+                        #aboutme-intro {
                             font-size: 1.75rem;
                             width: 450px;
                         }
                 }
 
-                @media (min-width: 992px) {
+                // @media (min-width: 992px) {
 
-                    .aboutme-intro {
-                        width: 600px;
-                    }
-                }
+                //     #aboutme-intro {
+                //         width: 600px;
+                //     }
+                // }
 
                 @media (min-width: 1200px) {
                     padding-left: 300px;
-                        .aboutme-title {
+                        #aboutme-title {
                             font-size: 4rem;
                         }
 
-                        .aboutme-intro {
+                        #aboutme-intro {
                             font-size: 2rem;
                         }
                 }
