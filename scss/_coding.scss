@@ -38,8 +38,8 @@ main {
             width: 100%;
             height: 8rem;
             color: #000;
-            background-color: #ffdd80;
-            border-bottom: 1px solid #000;
+            background-color: transparent;
+            border-bottom: 1px solid #ffd06c;
             text-shadow: 0.2rem 0.2rem 0.2rem #00000033;
             z-index: 1;
 
@@ -53,7 +53,7 @@ main {
                 grid-column-end: 3;
                 align-self: center;
                 text-align: center;
-                font-size: 2.2rem;
+                font-size: 3rem;
                 font-weight: 600;
             }
             
@@ -147,6 +147,7 @@ main {
 
         #coding-h-wrapper {
 
+            border-top: 1px solid #ffd06c;
             overflow: visible;
             margin-top: 6rem;
             height: fit-content;
@@ -186,7 +187,7 @@ main {
 
             .code-example-top {
 
-                background-image: linear-gradient(90deg, transparent 0%, #ffffff88 25%, #ffffff88 75%, transparent 100%);
+                background-image: linear-gradient(90deg, transparent 0%, transparent 44%, #ffffff66 45%, #ffffff66 55%, transparent 56%, transparent 100%);
                 height: fit-content;
                 position: relative;
                 padding-top: 37rem;

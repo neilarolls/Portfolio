@@ -7008,8 +7008,8 @@ main {
   width: 100%;
   height: 8rem;
   color: #000;
-  background-color: #ffdd80;
-  border-bottom: 1px solid #000;
+  background-color: transparent;
+  border-bottom: 1px solid #ffd06c;
   text-shadow: 0.2rem 0.2rem 0.2rem #00000033;
   z-index: 1;
   display: grid;
@@ -7023,7 +7023,7 @@ main {
   grid-column-end: 3;
   align-self: center;
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 
@@ -7103,6 +7103,7 @@ main {
 
 /* line 148, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper {
+  border-top: 1px solid #ffd06c;
   overflow: visible;
   margin-top: 6rem;
   height: fit-content;
@@ -7120,7 +7121,7 @@ main {
   }
 }
 
-/* line 163, ../../../Portfolio/scss/_coding.scss */
+/* line 164, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper #code-top-1 #code-transporter-header {
   background-image: url("../img/Designed-by-starline-Freepik8620.png");
   border-radius: 1rem;
@@ -7128,14 +7129,14 @@ main {
 }
 
 @media (max-width: 767.999px) {
-  /* line 163, ../../../Portfolio/scss/_coding.scss */
+  /* line 164, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper #code-top-1 #code-transporter-header {
     background-image: none;
     grid-template-columns: 1fr;
   }
 }
 
-/* line 175, ../../../Portfolio/scss/_coding.scss */
+/* line 176, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper #code-top-2 #code-jsarray-header {
   background-image: url("../img/magnific_abstract-cartoon-style-gr_xgb1xJTjfW.png");
   border-radius: 1rem;
@@ -7143,16 +7144,16 @@ main {
 }
 
 @media (max-width: 767.999px) {
-  /* line 175, ../../../Portfolio/scss/_coding.scss */
+  /* line 176, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper #code-top-2 #code-jsarray-header {
     background-image: none;
     grid-template-columns: 1fr;
   }
 }
 
-/* line 187, ../../../Portfolio/scss/_coding.scss */
+/* line 188, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top {
-  background-image: linear-gradient(90deg, transparent 0%, #ffffff88 25%, #ffffff88 75%, transparent 100%);
+  background-image: linear-gradient(90deg, transparent 0%, transparent 44%, #ffffff66 45%, #ffffff66 55%, transparent 56%, transparent 100%);
   height: fit-content;
   position: relative;
   padding-top: 37rem;
@@ -7161,7 +7162,7 @@ main {
   z-index: 3;
 }
 
-/* line 197, ../../../Portfolio/scss/_coding.scss */
+/* line 198, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top::before {
   content: "";
   position: absolute;
@@ -7174,7 +7175,7 @@ main {
   z-index: -1;
 }
 
-/* line 212, ../../../Portfolio/scss/_coding.scss */
+/* line 213, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header {
   position: absolute;
   top: 80px;
@@ -7197,46 +7198,46 @@ main {
 }
 
 @media (max-width: 319.999px) {
-  /* line 212, ../../../Portfolio/scss/_coding.scss */
+  /* line 213, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header {
     width: 240px;
   }
 }
 
 @media (min-width: 320px) {
-  /* line 212, ../../../Portfolio/scss/_coding.scss */
+  /* line 213, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header {
     width: 250px;
   }
 }
 
 @media (min-width: 576px) {
-  /* line 212, ../../../Portfolio/scss/_coding.scss */
+  /* line 213, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header {
     width: 300px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 212, ../../../Portfolio/scss/_coding.scss */
+  /* line 213, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header {
     width: 400px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 212, ../../../Portfolio/scss/_coding.scss */
+  /* line 213, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header {
     width: 500px;
   }
 }
 
-/* line 258, ../../../Portfolio/scss/_coding.scss */
+/* line 259, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header div {
   display: block;
 }
 
-/* line 262, ../../../Portfolio/scss/_coding.scss */
+/* line 263, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header .code-example-header-title {
   z-index: 4;
   align-self: center;
@@ -7251,14 +7252,14 @@ main {
 }
 
 @media (min-width: 768px) {
-  /* line 262, ../../../Portfolio/scss/_coding.scss */
+  /* line 263, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header .code-example-header-title {
     grid-column-start: 2;
     grid-column-end: 3;
   }
 }
 
-/* line 283, ../../../Portfolio/scss/_coding.scss */
+/* line 284, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header .code-example-header-badge {
   align-self: center;
   grid-row-start: 2;
@@ -7271,14 +7272,14 @@ main {
 }
 
 @media (min-width: 768px) {
-  /* line 283, ../../../Portfolio/scss/_coding.scss */
+  /* line 284, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header .code-example-header-badge {
     grid-column-start: 2;
     grid-column-end: 3;
   }
 }
 
-/* line 304, ../../../Portfolio/scss/_coding.scss */
+/* line 305, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header .code-example-header-subtitle {
   z-index: 4;
   grid-row-start: 3;
@@ -7297,20 +7298,20 @@ main {
 }
 
 @media (min-width: 768px) {
-  /* line 304, ../../../Portfolio/scss/_coding.scss */
+  /* line 305, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header .code-example-header-subtitle {
     grid-column-start: 1;
     grid-column-end: 3;
   }
 }
 
-/* line 328, ../../../Portfolio/scss/_coding.scss */
+/* line 329, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-header .code-example-header-subtitle span {
   align-self: center;
   margin: 0 auto;
 }
 
-/* line 336, ../../../Portfolio/scss/_coding.scss */
+/* line 337, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content {
   position: relative;
   align-items: center;
@@ -7325,7 +7326,7 @@ main {
   width: 100%;
 }
 
-/* line 350, ../../../Portfolio/scss/_coding.scss */
+/* line 351, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-video {
   display: block;
   align-self: center;
@@ -7339,7 +7340,7 @@ main {
 }
 
 @media (max-width: 319.999px) {
-  /* line 350, ../../../Portfolio/scss/_coding.scss */
+  /* line 351, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-video {
     width: 252px;
     height: 138px;
@@ -7348,13 +7349,13 @@ main {
 }
 
 @media (min-width: 1200px) {
-  /* line 350, ../../../Portfolio/scss/_coding.scss */
+  /* line 351, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-video {
     max-width: 1000px;
   }
 }
 
-/* line 378, ../../../Portfolio/scss/_coding.scss */
+/* line 379, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-textblock {
   box-shadow: 0.5rem 0.5rem 0.5rem #60606066;
   text-align: center;
@@ -7371,7 +7372,7 @@ main {
 }
 
 @media (max-width: 319.999px) {
-  /* line 378, ../../../Portfolio/scss/_coding.scss */
+  /* line 379, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-textblock {
     width: 100vw;
     left: calc((100vw / 2) - 126px);
@@ -7381,21 +7382,21 @@ main {
 }
 
 @media (min-width: 576px) {
-  /* line 378, ../../../Portfolio/scss/_coding.scss */
+  /* line 379, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-textblock {
     font-size: 1.35rem;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 378, ../../../Portfolio/scss/_coding.scss */
+  /* line 379, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-textblock {
     font-size: 1.5rem;
     max-width: 1000px;
   }
 }
 
-/* line 412, ../../../Portfolio/scss/_coding.scss */
+/* line 413, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image {
   display: block;
   align-self: center;
@@ -7406,7 +7407,7 @@ main {
 }
 
 @media (max-width: 319.999px) {
-  /* line 412, ../../../Portfolio/scss/_coding.scss */
+  /* line 413, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image {
     width: 252px;
     left: calc((100vw / 2) - 126px);
@@ -7414,12 +7415,12 @@ main {
 }
 
 @media (max-width: 767.999px) {
-  /* line 412, ../../../Portfolio/scss/_coding.scss */
+  /* line 413, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image {
     transition: scale 0.2s ease-in;
     scale: 1;
   }
-  /* line 433, ../../../Portfolio/scss/_coding.scss */
+  /* line 434, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image:hover {
     transition: scale 0.2s ease-in;
     scale: 1.1;
@@ -7427,13 +7428,13 @@ main {
 }
 
 @media (min-width: 1200px) {
-  /* line 412, ../../../Portfolio/scss/_coding.scss */
+  /* line 413, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image {
     max-width: 1000px;
   }
 }
 
-/* line 447, ../../../Portfolio/scss/_coding.scss */
+/* line 448, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image-L {
   display: block;
   align-self: center;
@@ -7444,7 +7445,7 @@ main {
 }
 
 @media (max-width: 319.999px) {
-  /* line 447, ../../../Portfolio/scss/_coding.scss */
+  /* line 448, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image-L {
     width: 252px;
     left: calc((100vw / 2) - 126px);
@@ -7452,12 +7453,12 @@ main {
 }
 
 @media (max-width: 3199.999px) {
-  /* line 447, ../../../Portfolio/scss/_coding.scss */
+  /* line 448, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image-L {
     transition: scale 0.2s ease-in;
     scale: 1;
   }
-  /* line 468, ../../../Portfolio/scss/_coding.scss */
+  /* line 469, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image-L:hover {
     transition: scale 0.2s ease-in;
     scale: 1.15;
@@ -7465,7 +7466,7 @@ main {
 }
 
 @media (min-width: 1200px) {
-  /* line 447, ../../../Portfolio/scss/_coding.scss */
+  /* line 448, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper .code-example-top .code-example-content .code-content-image-L {
     max-width: 1000px;
   }
