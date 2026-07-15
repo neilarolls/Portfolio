@@ -7037,7 +7037,7 @@ main {
   padding-top: 2rem;
 }
 
-/* line 72, ../../../Portfolio/scss/_coding.scss */
+/* line 71, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-button-wrapper .coding-prev-arrow-container {
   z-index: 4;
   grid-column-start: 2;
@@ -7049,7 +7049,7 @@ main {
   padding: 0;
 }
 
-/* line 83, ../../../Portfolio/scss/_coding.scss */
+/* line 82, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-button-wrapper .coding-prev-arrow-container #coding-prev-arrow-image {
   width: 60px;
   height: 60px;
@@ -7059,7 +7059,7 @@ main {
   scale: 1;
 }
 
-/* line 93, ../../../Portfolio/scss/_coding.scss */
+/* line 92, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-button-wrapper .coding-prev-arrow-container #coding-prev-arrow-image:hover {
   transition-property: scale, filter;
   transition-duration: 0.1s;
@@ -7069,7 +7069,7 @@ main {
   overflow: visible;
 }
 
-/* line 106, ../../../Portfolio/scss/_coding.scss */
+/* line 105, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-button-wrapper .coding-next-arrow-container {
   z-index: 4;
   grid-column-start: 4;
@@ -7081,7 +7081,7 @@ main {
   padding: 0;
 }
 
-/* line 117, ../../../Portfolio/scss/_coding.scss */
+/* line 116, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-button-wrapper .coding-next-arrow-container #coding-next-arrow-image {
   width: 60px;
   height: 60px;
@@ -7091,7 +7091,7 @@ main {
   scale: 1;
 }
 
-/* line 127, ../../../Portfolio/scss/_coding.scss */
+/* line 126, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-button-wrapper .coding-next-arrow-container #coding-next-arrow-image:hover {
   transition-property: scale, filter;
   transition-duration: 0.1s;
@@ -7101,17 +7101,18 @@ main {
   overflow: visible;
 }
 
-/* line 148, ../../../Portfolio/scss/_coding.scss */
+/* line 147, ../../../Portfolio/scss/_coding.scss */
 #coding-top #coding-v-wrapper #coding-h-wrapper {
   border-top: 1px solid #ffd06c;
   overflow: visible;
   margin-top: 6rem;
   height: fit-content;
   z-index: 0;
+  box-shadow: inset 0 1.5rem 1.5rem #00000022;
 }
 
 @media (min-width: 1700px) {
-  /* line 148, ../../../Portfolio/scss/_coding.scss */
+  /* line 147, ../../../Portfolio/scss/_coding.scss */
   #coding-top #coding-v-wrapper #coding-h-wrapper {
     display: grid;
     grid-template-columns: 45% 45%;
@@ -7156,7 +7157,7 @@ main {
   background-image: linear-gradient(90deg, transparent 0%, transparent 44%, #ffffff66 45%, #ffffff66 55%, transparent 56%, transparent 100%);
   height: fit-content;
   position: relative;
-  padding-top: 37rem;
+  padding-top: 33rem;
   justify-self: center;
   overflow: visible;
   z-index: 3;

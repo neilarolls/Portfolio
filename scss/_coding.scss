@@ -66,7 +66,6 @@ main {
             grid-template-rows: 100%;
             height: 0;
             width: 100%;
-
             padding-top: 2rem;
 
             .coding-prev-arrow-container {
@@ -152,6 +151,7 @@ main {
             margin-top: 6rem;
             height: fit-content;
             z-index: 0;
+                box-shadow: inset 0 1.5rem 1.5rem #00000022;
 
             @media (min-width: 1700px) {
                 display: grid;
@@ -190,7 +190,7 @@ main {
                 background-image: linear-gradient(90deg, transparent 0%, transparent 44%, #ffffff66 45%, #ffffff66 55%, transparent 56%, transparent 100%);
                 height: fit-content;
                 position: relative;
-                padding-top: 37rem;
+                padding-top: 33rem;
                 justify-self: center;
                 overflow: visible;
                 z-index: 3;
